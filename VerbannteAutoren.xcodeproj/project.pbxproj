@@ -21,6 +21,14 @@
 		048CE9761954A614005EA60E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048CE9581954A614005EA60E /* UIKit.framework */; };
 		048CE97E1954A614005EA60E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 048CE97C1954A614005EA60E /* InfoPlist.strings */; };
 		048CE9801954A614005EA60E /* VerbannteAutorenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE97F1954A614005EA60E /* VerbannteAutorenTests.m */; };
+		048CE98A1954AD12005EA60E /* verbannte-buecher.json in Resources */ = {isa = PBXBuildFile; fileRef = 048CE9891954AD12005EA60E /* verbannte-buecher.json */; };
+		048CE98B1954AD12005EA60E /* verbannte-buecher.json in Resources */ = {isa = PBXBuildFile; fileRef = 048CE9891954AD12005EA60E /* verbannte-buecher.json */; };
+		048CE98E1954AD7E005EA60E /* VAUAuthorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE98D1954AD7E005EA60E /* VAUAuthorsViewController.m */; };
+		048CE98F1954AD7E005EA60E /* VAUAuthorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE98D1954AD7E005EA60E /* VAUAuthorsViewController.m */; };
+		04BC97F919559B19001803FC /* VAUAuthorDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BC97F819559B19001803FC /* VAUAuthorDetailViewController.m */; };
+		04BC97FA19559B19001803FC /* VAUAuthorDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BC97F819559B19001803FC /* VAUAuthorDetailViewController.m */; };
+		04CC1EF319571F60000816C1 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04CC1EF219571F60000816C1 /* data.plist */; };
+		04CC1EF419571F60000816C1 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04CC1EF219571F60000816C1 /* data.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,12 @@
 		048CE97B1954A614005EA60E /* VerbannteAutorenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VerbannteAutorenTests-Info.plist"; sourceTree = "<group>"; };
 		048CE97D1954A614005EA60E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		048CE97F1954A614005EA60E /* VerbannteAutorenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerbannteAutorenTests.m; sourceTree = "<group>"; };
+		048CE9891954AD12005EA60E /* verbannte-buecher.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "verbannte-buecher.json"; sourceTree = "<group>"; };
+		048CE98C1954AD7E005EA60E /* VAUAuthorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAUAuthorsViewController.h; sourceTree = "<group>"; };
+		048CE98D1954AD7E005EA60E /* VAUAuthorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAUAuthorsViewController.m; sourceTree = "<group>"; };
+		04BC97F719559B19001803FC /* VAUAuthorDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAUAuthorDetailViewController.h; sourceTree = "<group>"; };
+		04BC97F819559B19001803FC /* VAUAuthorDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAUAuthorDetailViewController.m; sourceTree = "<group>"; };
+		04CC1EF219571F60000816C1 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +131,10 @@
 				048CE9661954A614005EA60E /* Main.storyboard */,
 				048CE9691954A614005EA60E /* VAUViewController.h */,
 				048CE96A1954A614005EA60E /* VAUViewController.m */,
+				048CE98C1954AD7E005EA60E /* VAUAuthorsViewController.h */,
+				048CE98D1954AD7E005EA60E /* VAUAuthorsViewController.m */,
+				04BC97F719559B19001803FC /* VAUAuthorDetailViewController.h */,
+				04BC97F819559B19001803FC /* VAUAuthorDetailViewController.m */,
 				048CE96C1954A614005EA60E /* Images.xcassets */,
 				048CE95B1954A614005EA60E /* Supporting Files */,
 			);
@@ -126,7 +144,9 @@
 		048CE95B1954A614005EA60E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04CC1EF219571F60000816C1 /* data.plist */,
 				048CE95C1954A614005EA60E /* VerbannteAutoren-Info.plist */,
+				048CE9891954AD12005EA60E /* verbannte-buecher.json */,
 				048CE95D1954A614005EA60E /* InfoPlist.strings */,
 				048CE9601954A614005EA60E /* main.m */,
 				048CE9621954A614005EA60E /* VerbannteAutoren-Prefix.pch */,
@@ -231,6 +251,8 @@
 			files = (
 				048CE96D1954A614005EA60E /* Images.xcassets in Resources */,
 				048CE95F1954A614005EA60E /* InfoPlist.strings in Resources */,
+				048CE98A1954AD12005EA60E /* verbannte-buecher.json in Resources */,
+				04CC1EF319571F60000816C1 /* data.plist in Resources */,
 				048CE9681954A614005EA60E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +261,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CC1EF419571F60000816C1 /* data.plist in Resources */,
+				048CE98B1954AD12005EA60E /* verbannte-buecher.json in Resources */,
 				048CE97E1954A614005EA60E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,7 +276,9 @@
 			files = (
 				048CE9611954A614005EA60E /* main.m in Sources */,
 				048CE96B1954A614005EA60E /* VAUViewController.m in Sources */,
+				048CE98E1954AD7E005EA60E /* VAUAuthorsViewController.m in Sources */,
 				048CE9651954A614005EA60E /* VAUAppDelegate.m in Sources */,
+				04BC97F919559B19001803FC /* VAUAuthorDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048CE98F1954AD7E005EA60E /* VAUAuthorsViewController.m in Sources */,
 				048CE9801954A614005EA60E /* VerbannteAutorenTests.m in Sources */,
+				04BC97FA19559B19001803FC /* VAUAuthorDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +485,7 @@
 				048CE9851954A614005EA60E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		048CE9861954A614005EA60E /* Build configuration list for PBXNativeTarget "VerbannteAutorenTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +494,7 @@
 				048CE9881954A614005EA60E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
