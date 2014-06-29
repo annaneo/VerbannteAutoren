@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045DDDB7195F195700779702 /* testWiki.json in Resources */ = {isa = PBXBuildFile; fileRef = 045DDDB6195F195700779702 /* testWiki.json */; };
+		045DDDB8195F195700779702 /* testWiki.json in Resources */ = {isa = PBXBuildFile; fileRef = 045DDDB6195F195700779702 /* testWiki.json */; };
+		045DDDBB195F3BD000779702 /* VAUMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045DDDBA195F3BD000779702 /* VAUMapViewController.m */; };
+		045DDDBC195F3BD000779702 /* VAUMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045DDDBA195F3BD000779702 /* VAUMapViewController.m */; };
+		045DDDBE195F3C5300779702 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045DDDBD195F3C5300779702 /* MapKit.framework */; };
 		048CE9551954A614005EA60E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048CE9541954A614005EA60E /* Foundation.framework */; };
 		048CE9571954A614005EA60E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048CE9561954A614005EA60E /* CoreGraphics.framework */; };
 		048CE9591954A614005EA60E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048CE9581954A614005EA60E /* UIKit.framework */; };
@@ -27,6 +32,14 @@
 		048CE98F1954AD7E005EA60E /* VAUAuthorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE98D1954AD7E005EA60E /* VAUAuthorsViewController.m */; };
 		04BC97F919559B19001803FC /* VAUAuthorDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BC97F819559B19001803FC /* VAUAuthorDetailViewController.m */; };
 		04BC97FA19559B19001803FC /* VAUAuthorDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BC97F819559B19001803FC /* VAUAuthorDetailViewController.m */; };
+		04C651E619600D36006D89FA /* VAU_Logo_29.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C651DE19600D36006D89FA /* VAU_Logo_29.png */; };
+		04C651E719600D36006D89FA /* VAU_Logo_40.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C651DF19600D36006D89FA /* VAU_Logo_40.png */; };
+		04C651E819600D36006D89FA /* VAU_Logo_58.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C651E019600D36006D89FA /* VAU_Logo_58.png */; };
+		04C651E919600D36006D89FA /* VAU_Logo_60.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C651E119600D36006D89FA /* VAU_Logo_60.png */; };
+		04C651EA19600D36006D89FA /* VAU_Logo_80.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C651E219600D36006D89FA /* VAU_Logo_80.png */; };
+		04C651EB19600D36006D89FA /* VAU_Logo_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C651E319600D36006D89FA /* VAU_Logo_120.png */; };
+		04C651EC19600D36006D89FA /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C651E419600D36006D89FA /* iTunesArtwork.png */; };
+		04C651ED19600D36006D89FA /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C651E519600D36006D89FA /* iTunesArtwork@2x.png */; };
 		04CC1EF319571F60000816C1 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04CC1EF219571F60000816C1 /* data.plist */; };
 		04CC1EF419571F60000816C1 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04CC1EF219571F60000816C1 /* data.plist */; };
 /* End PBXBuildFile section */
@@ -42,6 +55,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		045DDDB6195F195700779702 /* testWiki.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testWiki.json; sourceTree = "<group>"; };
+		045DDDB9195F3BD000779702 /* VAUMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAUMapViewController.h; sourceTree = "<group>"; };
+		045DDDBA195F3BD000779702 /* VAUMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAUMapViewController.m; sourceTree = "<group>"; };
+		045DDDBD195F3C5300779702 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		048CE9511954A614005EA60E /* VerbannteAutoren.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerbannteAutoren.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048CE9541954A614005EA60E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		048CE9561954A614005EA60E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,6 +83,14 @@
 		048CE98D1954AD7E005EA60E /* VAUAuthorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAUAuthorsViewController.m; sourceTree = "<group>"; };
 		04BC97F719559B19001803FC /* VAUAuthorDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAUAuthorDetailViewController.h; sourceTree = "<group>"; };
 		04BC97F819559B19001803FC /* VAUAuthorDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAUAuthorDetailViewController.m; sourceTree = "<group>"; };
+		04C651DE19600D36006D89FA /* VAU_Logo_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VAU_Logo_29.png; sourceTree = "<group>"; };
+		04C651DF19600D36006D89FA /* VAU_Logo_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VAU_Logo_40.png; sourceTree = "<group>"; };
+		04C651E019600D36006D89FA /* VAU_Logo_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VAU_Logo_58.png; sourceTree = "<group>"; };
+		04C651E119600D36006D89FA /* VAU_Logo_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VAU_Logo_60.png; sourceTree = "<group>"; };
+		04C651E219600D36006D89FA /* VAU_Logo_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VAU_Logo_80.png; sourceTree = "<group>"; };
+		04C651E319600D36006D89FA /* VAU_Logo_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VAU_Logo_120.png; sourceTree = "<group>"; };
+		04C651E419600D36006D89FA /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		04C651E519600D36006D89FA /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 		04CC1EF219571F60000816C1 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045DDDBE195F3C5300779702 /* MapKit.framework in Frameworks */,
 				048CE9571954A614005EA60E /* CoreGraphics.framework in Frameworks */,
 				048CE9591954A614005EA60E /* UIKit.framework in Frameworks */,
 				048CE9551954A614005EA60E /* Foundation.framework in Frameworks */,
@@ -115,6 +141,7 @@
 		048CE9531954A614005EA60E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				045DDDBD195F3C5300779702 /* MapKit.framework */,
 				048CE9541954A614005EA60E /* Foundation.framework */,
 				048CE9561954A614005EA60E /* CoreGraphics.framework */,
 				048CE9581954A614005EA60E /* UIKit.framework */,
@@ -135,6 +162,8 @@
 				048CE98D1954AD7E005EA60E /* VAUAuthorsViewController.m */,
 				04BC97F719559B19001803FC /* VAUAuthorDetailViewController.h */,
 				04BC97F819559B19001803FC /* VAUAuthorDetailViewController.m */,
+				045DDDB9195F3BD000779702 /* VAUMapViewController.h */,
+				045DDDBA195F3BD000779702 /* VAUMapViewController.m */,
 				048CE96C1954A614005EA60E /* Images.xcassets */,
 				048CE95B1954A614005EA60E /* Supporting Files */,
 			);
@@ -144,6 +173,8 @@
 		048CE95B1954A614005EA60E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04C651DD19600D24006D89FA /* AppIcon */,
+				045DDDB6195F195700779702 /* testWiki.json */,
 				04CC1EF219571F60000816C1 /* data.plist */,
 				048CE95C1954A614005EA60E /* VerbannteAutoren-Info.plist */,
 				048CE9891954AD12005EA60E /* verbannte-buecher.json */,
@@ -170,6 +201,21 @@
 				048CE97C1954A614005EA60E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04C651DD19600D24006D89FA /* AppIcon */ = {
+			isa = PBXGroup;
+			children = (
+				04C651DE19600D36006D89FA /* VAU_Logo_29.png */,
+				04C651DF19600D36006D89FA /* VAU_Logo_40.png */,
+				04C651E019600D36006D89FA /* VAU_Logo_58.png */,
+				04C651E119600D36006D89FA /* VAU_Logo_60.png */,
+				04C651E219600D36006D89FA /* VAU_Logo_80.png */,
+				04C651E319600D36006D89FA /* VAU_Logo_120.png */,
+				04C651E419600D36006D89FA /* iTunesArtwork.png */,
+				04C651E519600D36006D89FA /* iTunesArtwork@2x.png */,
+			);
+			name = AppIcon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,11 +295,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C651EC19600D36006D89FA /* iTunesArtwork.png in Resources */,
 				048CE96D1954A614005EA60E /* Images.xcassets in Resources */,
+				04C651EB19600D36006D89FA /* VAU_Logo_120.png in Resources */,
+				04C651E719600D36006D89FA /* VAU_Logo_40.png in Resources */,
+				04C651E619600D36006D89FA /* VAU_Logo_29.png in Resources */,
 				048CE95F1954A614005EA60E /* InfoPlist.strings in Resources */,
 				048CE98A1954AD12005EA60E /* verbannte-buecher.json in Resources */,
+				045DDDB7195F195700779702 /* testWiki.json in Resources */,
 				04CC1EF319571F60000816C1 /* data.plist in Resources */,
 				048CE9681954A614005EA60E /* Main.storyboard in Resources */,
+				04C651ED19600D36006D89FA /* iTunesArtwork@2x.png in Resources */,
+				04C651E819600D36006D89FA /* VAU_Logo_58.png in Resources */,
+				04C651E919600D36006D89FA /* VAU_Logo_60.png in Resources */,
+				04C651EA19600D36006D89FA /* VAU_Logo_80.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04CC1EF419571F60000816C1 /* data.plist in Resources */,
+				045DDDB8195F195700779702 /* testWiki.json in Resources */,
 				048CE98B1954AD12005EA60E /* verbannte-buecher.json in Resources */,
 				048CE97E1954A614005EA60E /* InfoPlist.strings in Resources */,
 			);
@@ -276,6 +332,7 @@
 			files = (
 				048CE9611954A614005EA60E /* main.m in Sources */,
 				048CE96B1954A614005EA60E /* VAUViewController.m in Sources */,
+				045DDDBB195F3BD000779702 /* VAUMapViewController.m in Sources */,
 				048CE98E1954AD7E005EA60E /* VAUAuthorsViewController.m in Sources */,
 				048CE9651954A614005EA60E /* VAUAppDelegate.m in Sources */,
 				04BC97F919559B19001803FC /* VAUAuthorDetailViewController.m in Sources */,
@@ -288,6 +345,7 @@
 			files = (
 				048CE98F1954AD7E005EA60E /* VAUAuthorsViewController.m in Sources */,
 				048CE9801954A614005EA60E /* VerbannteAutorenTests.m in Sources */,
+				045DDDBC195F3BD000779702 /* VAUMapViewController.m in Sources */,
 				04BC97FA19559B19001803FC /* VAUAuthorDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

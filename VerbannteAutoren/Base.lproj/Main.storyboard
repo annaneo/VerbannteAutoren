@@ -49,10 +49,66 @@
             </objects>
             <point key="canvasLocation" x="50" y="98"/>
         </scene>
-        <!--View Controller - Item-->
+        <!--View Controller-->
+        <scene sceneID="QXj-im-FHj">
+            <objects>
+                <viewController id="caj-Nr-zbE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SqZ-PR-tIm"/>
+                        <viewControllerLayoutGuide type="bottom" id="g6y-Sk-FTs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Th0-Tg-enq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Über die Liste" translatesAutoresizingMaskIntoConstraints="NO" id="Scx-dB-heu">
+                                <rect key="frame" x="0.0" y="64" width="320" height="366"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="91j-Zu-maC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z29-bh-a7J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1718" y="1654"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="DIH-w4-s8P">
+            <objects>
+                <viewController id="wdD-eg-TZe" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="83x-Y9-utt"/>
+                        <viewControllerLayoutGuide type="bottom" id="At1-DL-TYe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eZh-aF-PgX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Impressum" translatesAutoresizingMaskIntoConstraints="NO" id="L91-6a-PMO">
+                                <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="w6E-ar-HI2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MpK-5b-0eL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1718" y="2257"/>
+        </scene>
+        <!--Map View Controller - Karte-->
         <scene sceneID="q6j-IB-INx">
             <objects>
-                <viewController id="Rso-dV-ErU" sceneMemberID="viewController">
+                <viewController id="Rso-dV-ErU" customClass="VAUMapViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UE7-8p-fbc"/>
                         <viewControllerLayoutGuide type="bottom" id="vGP-Qk-pND"/>
@@ -60,19 +116,28 @@
                     <view key="view" contentMode="scaleToFill" id="jV8-gy-9Hy">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="yyb-xp-hYH">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="432"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="hMf-lT-F2K"/>
+                    <tabBarItem key="tabBarItem" title="Karte" id="hMf-lT-F2K"/>
+                    <connections>
+                        <outlet property="mapView" destination="yyb-xp-hYH" id="EYu-jH-bZB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gUN-ah-Xya" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1192" y="1067"/>
         </scene>
-        <!--Navigation Controller - Item-->
+        <!--Navigation Controller - Autoren-->
         <scene sceneID="rgc-8a-741">
             <objects>
                 <navigationController definesPresentationContext="YES" id="iWV-jO-EMZ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="8Bp-t3-6E0"/>
+                    <tabBarItem key="tabBarItem" title="Autoren" id="8Bp-t3-6E0"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="pau-Z2-IYL">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -96,7 +161,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vJP-yd-wTH">
+                            <searchBar contentMode="redraw" fixedFrame="YES" showsCancelButton="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vJP-yd-wTH">
                                 <rect key="frame" x="0.0" y="65" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -191,13 +256,15 @@
                         <segue destination="iWV-jO-EMZ" kind="relationship" relationship="viewControllers" id="1Rz-U8-vUY"/>
                         <segue destination="a4d-oi-ZA6" kind="relationship" relationship="viewControllers" id="EUg-FH-hVj"/>
                         <segue destination="Rso-dV-ErU" kind="relationship" relationship="viewControllers" id="9yR-l6-VXs"/>
+                        <segue destination="b8X-U5-7ZK" kind="relationship" relationship="viewControllers" id="6fm-8f-8Bg"/>
+                        <segue destination="88O-4V-eI4" kind="relationship" relationship="viewControllers" id="VrY-o1-pqg"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zFh-V5-hs5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="552" y="98"/>
         </scene>
-        <!--View Controller - Item 2-->
+        <!--View Controller - Zufälliger Autor-->
         <scene sceneID="L1r-lZ-1oh">
             <objects>
                 <viewController id="a4d-oi-ZA6" sceneMemberID="viewController">
@@ -210,11 +277,49 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="U6m-Ls-oJI"/>
+                    <tabBarItem key="tabBarItem" title="Zufälliger Autor" id="U6m-Ls-oJI"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Eq-qB-ewi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1192" y="477"/>
+        </scene>
+        <!--Navigation Controller - Impressum-->
+        <scene sceneID="ySj-aq-zuf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="88O-4V-eI4" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Impressum" id="e0D-3x-fxP"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cqO-Ym-7dx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="wdD-eg-TZe" kind="relationship" relationship="rootViewController" id="ZdJ-h0-dHE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CKm-xV-zV2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1192" y="2257"/>
+        </scene>
+        <!--Navigation Controller - Über die Liste-->
+        <scene sceneID="VCS-k5-aSk">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="b8X-U5-7ZK" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Über die Liste" id="4JS-iI-0py"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="VM2-Vn-yWz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="caj-Nr-zbE" kind="relationship" relationship="rootViewController" id="MgZ-m8-RsP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nte-DO-6yZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1192" y="1654"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

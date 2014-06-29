@@ -18,26 +18,25 @@
     _authorsTable.delegate = self;
     _authorsTable.dataSource = self;
     [_authorsTable reloadData];
-    
-    
+    _searchbar.delegate = self;
 }
 
 
 #pragma mark - Table Delegate
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return [_authorNames count];
+    return [_tableData count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString* CellIdentifier = @"authorCell";
     UITableViewCell* cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-    NSInteger row = [indexPath row];
-    // gets Array at row [firstName, lastName]
-    NSArray* namesArray = [_authorNames objectAtIndex:row];
-    // puts objects from Array into String
-    NSString* namesString = [NSString stringWithFormat:@"%@ %@", [namesArray firstObject], [namesArray lastObject]];
-    cell.textLabel.text = namesString;
+    NSInteger row = [indexPath row];    
+    cell.textLabel.text = [_tableData objectAtIndex:row];;
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [_searchbar resignFirstResponder];
 }
 
 #pragma mark - JSON Parsing
@@ -46,21 +45,18 @@
 - (void)loadData {
     /* load json
     NSString* path = [[NSBundle mainBundle] pathForResource:@"verbannte-buecher" ofType:@"json"];
-
     
     NSData* content = [[NSFileManager defaultManager] contentsAtPath:path];
     _data = [NSJSONSerialization JSONObjectWithData:content options:NSJSONReadingMutableContainers error:nil];
     NSMutableArray* array = [NSJSONSerialization JSONObjectWithData:content options:NSJSONReadingMutableContainers error:nil];
     [self createDataDictionary:array];
      */
-    
-    NSString* path = [[NSBundle mainBundle] pathForResource:@"data" ofType:@"plist"];
+     NSString* path = [[NSBundle mainBundle] pathForResource:@"data" ofType:@"plist"];
     _data = [NSDictionary dictionaryWithContentsOfFile:path];
     [self sortAuthors];
+    // table Data contains all author names
+    _tableData = [NSMutableArray arrayWithArray:_authorNames];
 }
-
-
-
 
 // sorts Authors alphabetically by lastName
 - (void)sortAuthors {
@@ -73,7 +69,7 @@
     }
     
     NSOrderedSet* authorSet = [NSOrderedSet orderedSetWithArray:authorNames];
-    _authorNames = [NSMutableArray arrayWithArray:[authorSet sortedArrayUsingComparator:^(id obj1, id obj2) {
+    NSMutableArray* sortedNames = [NSMutableArray arrayWithArray:[authorSet sortedArrayUsingComparator:^(id obj1, id obj2) {
         NSString* lastName1 = [obj1 lastObject];
         NSString* lastName2 = [obj2 lastObject];
         NSComparisonResult result = [lastName1 compare:lastName2];
@@ -84,6 +80,50 @@
         }
         return result;
     }]];
+    _authorNames = [NSMutableArray arrayWithCapacity:4096];
+    for (NSArray* names in sortedNames) {
+        NSString* namesString = [NSString stringWithFormat:@"%@ %@", [names firstObject], [names lastObject]];
+        namesString = [namesString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+        [_authorNames addObject:namesString];
+    }
+    
+}
+
+
+#pragma mark Search Bar Delegate
+
+// searchbar & search
+- (void)searchBar:(UISearchBar* )searchBar textDidChange:(NSString *)searchText {
+    if (searchText.length == 0) {
+        _tableData = [NSMutableArray arrayWithArray:_authorNames];
+    }
+    else {
+        [_tableData removeAllObjects];
+        for (NSString* authorName in _authorNames) {
+            // if searchterm is substring of authorname => insert into dataList
+            if (!NSEqualRanges([[authorName lowercaseString] rangeOfString:[searchText lowercaseString]], NSMakeRange(NSNotFound, 0))){
+                [_tableData addObject:authorName];
+            }
+        }
+    }
+    [_authorsTable reloadData];
+}
+
+// cancel button
+- (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar {
+    searchBar.text = @"";
+    [self searchBar:searchBar textDidChange:@""];
+    [searchBar resignFirstResponder];
+}
+
+#pragma Data Source Delegate
+
+- (NSArray* )sectionIndexTitlesForTableView:(UITableView *)tableView {
+    return @[UITableViewIndexSearch, @"A", @"B", @"C", @"D", @"E", @"F", @"G", @"H", @"I", @"J", @"K", @"L", @"M", @"N", @"O", @"P", @"Q", @"R", @"S", @"T", @"U", @"V", @"W", @"Y", @"Z"];
+}
+
+- (NSInteger)tableView:(UITableView *)tableView sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index {
+    return 500;
 }
 
 

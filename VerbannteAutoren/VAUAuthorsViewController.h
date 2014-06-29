@@ -8,12 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VAUAuthorsViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+@interface VAUAuthorsViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate>
 
 @property (weak, nonatomic) IBOutlet UISearchBar* searchbar;
 @property (weak, nonatomic) IBOutlet UITableView* authorsTable;
 @property (strong, nonatomic) NSMutableArray* authorNames;
 @property (strong, nonatomic) NSMutableDictionary* data;
+@property (strong, nonatomic) NSMutableArray* tableData;
 
 
 @end
