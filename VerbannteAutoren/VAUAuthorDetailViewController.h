@@ -10,7 +10,8 @@
 
 @interface VAUAuthorDetailViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextView* worksTextView;
+@property (weak, nonatomic) IBOutlet UIImageView* authorImageView;
 @property (strong, nonatomic) NSArray* works;
-@property (weak, nonatomic) UIImageView* authorImageView;
+
 
 @end

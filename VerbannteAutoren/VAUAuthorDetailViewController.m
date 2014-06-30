@@ -18,6 +18,7 @@
     [super viewDidLoad];
     self.automaticallyAdjustsScrollViewInsets = NO;
     [self showDetails];
+    _worksTextView.frame = [self contentSizeRectForTextView:_worksTextView];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -58,26 +59,27 @@
 }
 
 - (void)fetchDataFromWikipedia {
-    //    NSString* baseUrl = @"http://de.wikipedia.org/w/api.php?";
-    //    NSString* properties = @"format=json&action=query&prop=revisions&rvprop=content&rvsection=0&rvparse&redirects=true";
-    //    NSString* title = self.navigationItem.title;
-    
-    //    NSString* urlString = [NSString stringWithFormat:@"%@%@&titles=%@", baseUrl, properties, title];
-    //    urlString = [urlString stringByReplacingOccurrencesOfString:@" " withString:@"_"];
-    //    NSURL* url = [NSURL URLWithString:urlString];
-    //    NSMutableURLRequest* request = [[NSMutableURLRequest alloc] initWithURL:url];
-    //    [request setHTTPMethod:@"GET"];
-    //    NSData* data = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
-    
+//    NSString* baseUrl = @"http://de.wikipedia.org/w/api.php?";
+//    NSString* properties = @"format=json&action=query&prop=revisions&rvprop=content&rvparse&redirects=true";
+//    NSString* title = self.navigationItem.title;
+    NSError *error = NULL;
+
+//    NSString* urlString = [NSString stringWithFormat:@"%@%@&titles=%@", baseUrl, properties, title];
+//    urlString = [urlString stringByReplacingOccurrencesOfString:@" " withString:@"_"];
+//    NSURL* url = [NSURL URLWithString:urlString];
+//    NSMutableURLRequest* request = [[NSMutableURLRequest alloc] initWithURL:url];
+//    [request setHTTPMethod:@"GET"];
+//    NSData* data = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
+//    NSDictionary* wikiDict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:&error];
     //normally this would use the data recieved from wikipedia
     
     
     // getting gnd number
-    NSError *error = NULL;
+
     
     NSString* file = [[NSBundle mainBundle] pathForResource:@"testWiki" ofType:@"json"];
     NSDictionary* wikiDict = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:file options:NSDataReadingUncached error:&error] options:NSJSONReadingMutableContainers error:&error];
-    //weird stuff is happening here :)
+
     NSString* content = [[[wikiDict objectForKey:@"parse"] objectForKey:@"text"] objectForKey:@"*"];
     
     // find stuff like http://d-nb.info/gnd/118781278
@@ -105,19 +107,33 @@
     if (!NSEqualRanges(rangeOfFirstMatch, NSMakeRange(NSNotFound, 0))) {
         NSString* substringForFirstMatch = [content substringWithRange:rangeOfFirstMatch];
         NSLog(@"first match image: %@", substringForFirstMatch);
-        
-        NSURL* url = [NSURL URLWithString:substringForFirstMatch];
-        NSMutableURLRequest* request = [[NSMutableURLRequest alloc] initWithURL:url];
-        [request setHTTPMethod:@"GET"];
+        if (![substringForFirstMatch hasPrefix:@"http://"]) {
+            substringForFirstMatch = [NSString stringWithFormat:@"http://%@", substringForFirstMatch];
+        }
+
+        NSURL* imageUrl = [NSURL URLWithString:substringForFirstMatch];
+        NSLog(@"%@", imageUrl);
+        NSData* imageData = [[NSData alloc] initWithContentsOfURL:imageUrl];
         //TODO: does this work
-        NSData* imageData = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
         UIImage* authorImage = [UIImage imageWithData:imageData];
         [_authorImageView setImage:authorImage];
+        _authorImageView.hidden = NO;
+    } else {
+        _authorImageView.hidden = YES;
     }
     
 }
 
 
+#pragma mark - Helpers
+
+- (CGRect)contentSizeRectForTextView:(UITextView *)textView {
+    [textView.layoutManager ensureLayoutForTextContainer:textView.textContainer];
+    CGRect textBounds = [textView.layoutManager usedRectForTextContainer:textView.textContainer];
+    CGFloat width = (CGFloat)ceil(textBounds.size.width + textView.textContainerInset.left + textView.textContainerInset.right);
+    CGFloat height = (CGFloat)ceil(textBounds.size.height + textView.textContainerInset.top + textView.textContainerInset.bottom);
+    return CGRectMake(0, 0, width, height);
+}
 
 
 /*
