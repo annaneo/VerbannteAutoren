@@ -49,8 +49,8 @@
 
 - (void)loadData {
     NSString* path = [[NSBundle mainBundle] pathForResource:@"data" ofType:@"plist"];
-    NSDictionary* data = [NSDictionary dictionaryWithContentsOfFile:path];
-    [self sortAuthors:data];
+    _rawData = [NSMutableDictionary dictionaryWithContentsOfFile:path];
+    [self sortAuthors:_rawData];
 }
 
 // sorts Authors alphabetically by lastName

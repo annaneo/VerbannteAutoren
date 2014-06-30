@@ -15,7 +15,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     _authorNames = [NSMutableArray arrayWithArray:[(VAUAppDelegate*)[UIApplication sharedApplication].delegate authorNames]];
-    _tableData = [_authorNames copy];
+    _tableData = [_authorNames mutableCopy];
     _authorsTable.delegate = self;
     _authorsTable.dataSource = self;
     [_authorsTable reloadData];
@@ -52,8 +52,8 @@
     NSMutableArray* array = [NSJSONSerialization JSONObjectWithData:content options:NSJSONReadingMutableContainers error:nil];
     [self createDataDictionary:array];
      */
-     NSString* path = [[NSBundle mainBundle] pathForResource:@"data" ofType:@"plist"];
-    _data = [NSDictionary dictionaryWithContentsOfFile:path];
+//     NSString* path = [[NSBundle mainBundle] pathForResource:@"data" ofType:@"plist"];
+    //_data = [NSDictionary dictionaryWithContentsOfFile:path];
     [self sortAuthors];
     // table Data contains all author names
     _tableData = [NSMutableArray arrayWithArray:_authorNames];
@@ -62,13 +62,13 @@
 // sorts Authors alphabetically by lastName
 - (void)sortAuthors {
     NSMutableArray *authorNames = [NSMutableArray arrayWithCapacity:512];
-    NSDictionary* tempDict;
-    for (NSArray* entry in _data) {
-        tempDict = [[_data objectForKey:entry] firstObject];
-        [authorNames addObject:@[[tempDict objectForKey:@"authorFirstname"],
-                                 [tempDict objectForKey:@"authorLastname"]]];
-    }
-    
+//    NSDictionary* tempDict;
+//    for (NSArray* entry in _data) {
+//        tempDict = [[_data objectForKey:entry] firstObject];
+//        [authorNames addObject:@[[tempDict objectForKey:@"authorFirstname"],
+//                                 [tempDict objectForKey:@"authorLastname"]]];
+//    }
+
     NSOrderedSet* authorSet = [NSOrderedSet orderedSetWithArray:authorNames];
     NSMutableArray* sortedNames = [NSMutableArray arrayWithArray:[authorSet sortedArrayUsingComparator:^(id obj1, id obj2) {
         NSString* lastName1 = [obj1 lastObject];
@@ -133,7 +133,9 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([[segue identifier] isEqualToString:@"authorDetailSegue"]) {
         VAUAuthorDetailViewController* detailViewController = [segue destinationViewController];
-        detailViewController.works = [_data objectForKey:[(UITableViewCell*)sender textLabel].text];
+        NSString* name = [(UITableViewCell*)sender textLabel].text;
+        NSArray* works = [[(VAUAppDelegate*)[UIApplication sharedApplication].delegate rawData] objectForKey:name];
+        detailViewController.works = works;
         detailViewController.navigationItem.title = [(UITableViewCell*)sender textLabel].text;
     }
 }

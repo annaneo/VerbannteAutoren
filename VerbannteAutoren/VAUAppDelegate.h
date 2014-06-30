@@ -13,5 +13,6 @@
 @property (strong, nonatomic) UIWindow *window;
 
 @property (strong, nonatomic) NSMutableArray* authorNames;
+@property (strong, nonatomic) NSMutableDictionary* rawData;
 
 @end
