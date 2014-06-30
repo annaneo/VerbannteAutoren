@@ -40,6 +40,7 @@
 		04C651EB19600D36006D89FA /* VAU_Logo_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C651E319600D36006D89FA /* VAU_Logo_120.png */; };
 		04C651EC19600D36006D89FA /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C651E419600D36006D89FA /* iTunesArtwork.png */; };
 		04C651ED19600D36006D89FA /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C651E519600D36006D89FA /* iTunesArtwork@2x.png */; };
+		04C651F3196012AC006D89FA /* Collage_iPhone4.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C651F2196012AC006D89FA /* Collage_iPhone4.png */; };
 		04CC1EF319571F60000816C1 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04CC1EF219571F60000816C1 /* data.plist */; };
 		04CC1EF419571F60000816C1 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04CC1EF219571F60000816C1 /* data.plist */; };
 /* End PBXBuildFile section */
@@ -91,6 +92,7 @@
 		04C651E319600D36006D89FA /* VAU_Logo_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VAU_Logo_120.png; sourceTree = "<group>"; };
 		04C651E419600D36006D89FA /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
 		04C651E519600D36006D89FA /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		04C651F2196012AC006D89FA /* Collage_iPhone4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Collage_iPhone4.png; sourceTree = "<group>"; };
 		04CC1EF219571F60000816C1 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -173,6 +175,7 @@
 		048CE95B1954A614005EA60E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04C651F2196012AC006D89FA /* Collage_iPhone4.png */,
 				04C651DD19600D24006D89FA /* AppIcon */,
 				045DDDB6195F195700779702 /* testWiki.json */,
 				04CC1EF219571F60000816C1 /* data.plist */,
@@ -305,6 +308,7 @@
 				045DDDB7195F195700779702 /* testWiki.json in Resources */,
 				04CC1EF319571F60000816C1 /* data.plist in Resources */,
 				048CE9681954A614005EA60E /* Main.storyboard in Resources */,
+				04C651F3196012AC006D89FA /* Collage_iPhone4.png in Resources */,
 				04C651ED19600D36006D89FA /* iTunesArtwork@2x.png in Resources */,
 				04C651E819600D36006D89FA /* VAU_Logo_58.png in Resources */,
 				04C651E919600D36006D89FA /* VAU_Logo_60.png in Resources */,
