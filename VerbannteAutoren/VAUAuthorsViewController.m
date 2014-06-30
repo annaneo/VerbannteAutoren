@@ -8,13 +8,14 @@
 
 #import "VAUAuthorsViewController.h"
 #import "VAUAuthorDetailViewController.h"
+#import "VAUAppDelegate.h"
 
 @implementation VAUAuthorsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _authorNames = [[NSMutableArray alloc] initWithCapacity:512];
-    [self loadData];
+    _authorNames = [NSMutableArray arrayWithArray:[(VAUAppDelegate*)[UIApplication sharedApplication].delegate authorNames]];
+    _tableData = [_authorNames copy];
     _authorsTable.delegate = self;
     _authorsTable.dataSource = self;
     [_authorsTable reloadData];

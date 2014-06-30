@@ -12,7 +12,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    _authorNames = [NSMutableArray arrayWithCapacity:4096];
+    [self loadData];
     return YES;
 }
 							
@@ -41,6 +42,45 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+
+#pragma mark - Preparing Data
+
+- (void)loadData {
+    NSString* path = [[NSBundle mainBundle] pathForResource:@"data" ofType:@"plist"];
+    NSDictionary* data = [NSDictionary dictionaryWithContentsOfFile:path];
+    [self sortAuthors:data];
+}
+
+// sorts Authors alphabetically by lastName
+- (void)sortAuthors:(NSDictionary*)authorsDict {
+    NSMutableArray *authorNames = [NSMutableArray arrayWithCapacity:512];
+    NSDictionary* tempDict;
+    for (NSArray* entry in authorsDict) {
+        tempDict = [[authorsDict objectForKey:entry] firstObject];
+        [authorNames addObject:@[[tempDict objectForKey:@"authorFirstname"],
+                                 [tempDict objectForKey:@"authorLastname"]]];
+    }
+
+    NSOrderedSet* authorSet = [NSOrderedSet orderedSetWithArray:authorNames];
+    NSMutableArray* sortedNames = [NSMutableArray arrayWithArray:[authorSet sortedArrayUsingComparator:^(id obj1, id obj2) {
+        NSString* lastName1 = [obj1 lastObject];
+        NSString* lastName2 = [obj2 lastObject];
+        NSComparisonResult result = [lastName1 compare:lastName2];
+        if (result == NSOrderedSame) {
+            NSString* firstName1 = [obj1 firstObject];
+            NSString* firstName2 = [obj2 firstObject];
+            return [firstName1 compare:firstName2];
+        }
+        return result;
+    }]];
+    _authorNames = [NSMutableArray arrayWithCapacity:4096];
+    for (NSArray* names in sortedNames) {
+        NSString* namesString = [NSString stringWithFormat:@"%@ %@", [names firstObject], [names lastObject]];
+        namesString = [namesString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+        [_authorNames addObject:namesString];
+    }
 }
 
 @end
