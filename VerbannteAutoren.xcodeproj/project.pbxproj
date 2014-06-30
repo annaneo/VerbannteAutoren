@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041D560D1961FF43007856D7 /* VAUAboutListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041D560C1961FF43007856D7 /* VAUAboutListViewController.m */; };
+		041D560E1961FF43007856D7 /* VAUAboutListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041D560C1961FF43007856D7 /* VAUAboutListViewController.m */; };
 		045DDDB7195F195700779702 /* testWiki.json in Resources */ = {isa = PBXBuildFile; fileRef = 045DDDB6195F195700779702 /* testWiki.json */; };
 		045DDDB8195F195700779702 /* testWiki.json in Resources */ = {isa = PBXBuildFile; fileRef = 045DDDB6195F195700779702 /* testWiki.json */; };
 		045DDDBB195F3BD000779702 /* VAUMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045DDDBA195F3BD000779702 /* VAUMapViewController.m */; };
@@ -55,6 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041D560B1961FF43007856D7 /* VAUAboutListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VAUAboutListViewController.h; path = ../VAUAboutListViewController.h; sourceTree = "<group>"; };
+		041D560C1961FF43007856D7 /* VAUAboutListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VAUAboutListViewController.m; path = ../VAUAboutListViewController.m; sourceTree = "<group>"; };
 		045DDDB6195F195700779702 /* testWiki.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testWiki.json; sourceTree = "<group>"; };
 		045DDDB9195F3BD000779702 /* VAUMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAUMapViewController.h; sourceTree = "<group>"; };
 		045DDDBA195F3BD000779702 /* VAUMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAUMapViewController.m; sourceTree = "<group>"; };
@@ -152,6 +156,8 @@
 		048CE95A1954A614005EA60E /* VerbannteAutoren */ = {
 			isa = PBXGroup;
 			children = (
+				041D560B1961FF43007856D7 /* VAUAboutListViewController.h */,
+				041D560C1961FF43007856D7 /* VAUAboutListViewController.m */,
 				048CE9631954A614005EA60E /* VAUAppDelegate.h */,
 				048CE9641954A614005EA60E /* VAUAppDelegate.m */,
 				048CE9661954A614005EA60E /* Main.storyboard */,
@@ -333,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				048CE9611954A614005EA60E /* main.m in Sources */,
+				041D560D1961FF43007856D7 /* VAUAboutListViewController.m in Sources */,
 				045DDDBB195F3BD000779702 /* VAUMapViewController.m in Sources */,
 				048CE98E1954AD7E005EA60E /* VAUAuthorsViewController.m in Sources */,
 				048CE9651954A614005EA60E /* VAUAppDelegate.m in Sources */,
@@ -345,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				048CE98F1954AD7E005EA60E /* VAUAuthorsViewController.m in Sources */,
+				041D560E1961FF43007856D7 /* VAUAboutListViewController.m in Sources */,
 				048CE9801954A614005EA60E /* VerbannteAutorenTests.m in Sources */,
 				045DDDBC195F3BD000779702 /* VAUMapViewController.m in Sources */,
 				04BC97FA19559B19001803FC /* VAUAuthorDetailViewController.m in Sources */,

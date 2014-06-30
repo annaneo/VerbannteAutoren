@@ -9,6 +9,7 @@
 #import "VAUAboutListViewController.h"
 
 @interface VAUAboutListViewController ()
+@property (weak, nonatomic) IBOutlet UIWebView *contentWebView;
 
 @end
 
@@ -26,7 +27,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // hier html datei laden
 }
 
 - (void)didReceiveMemoryWarning
