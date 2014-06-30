@@ -19,7 +19,6 @@
 		048CE9611954A614005EA60E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE9601954A614005EA60E /* main.m */; };
 		048CE9651954A614005EA60E /* VAUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE9641954A614005EA60E /* VAUAppDelegate.m */; };
 		048CE9681954A614005EA60E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048CE9661954A614005EA60E /* Main.storyboard */; };
-		048CE96B1954A614005EA60E /* VAUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE96A1954A614005EA60E /* VAUViewController.m */; };
 		048CE96D1954A614005EA60E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048CE96C1954A614005EA60E /* Images.xcassets */; };
 		048CE9741954A614005EA60E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048CE9731954A614005EA60E /* XCTest.framework */; };
 		048CE9751954A614005EA60E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048CE9541954A614005EA60E /* Foundation.framework */; };
@@ -71,8 +70,6 @@
 		048CE9631954A614005EA60E /* VAUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VAUAppDelegate.h; sourceTree = "<group>"; };
 		048CE9641954A614005EA60E /* VAUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VAUAppDelegate.m; sourceTree = "<group>"; };
 		048CE9671954A614005EA60E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		048CE9691954A614005EA60E /* VAUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VAUViewController.h; sourceTree = "<group>"; };
-		048CE96A1954A614005EA60E /* VAUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VAUViewController.m; sourceTree = "<group>"; };
 		048CE96C1954A614005EA60E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		048CE9721954A614005EA60E /* VerbannteAutorenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerbannteAutorenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		048CE9731954A614005EA60E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -158,8 +155,6 @@
 				048CE9631954A614005EA60E /* VAUAppDelegate.h */,
 				048CE9641954A614005EA60E /* VAUAppDelegate.m */,
 				048CE9661954A614005EA60E /* Main.storyboard */,
-				048CE9691954A614005EA60E /* VAUViewController.h */,
-				048CE96A1954A614005EA60E /* VAUViewController.m */,
 				048CE98C1954AD7E005EA60E /* VAUAuthorsViewController.h */,
 				048CE98D1954AD7E005EA60E /* VAUAuthorsViewController.m */,
 				04BC97F719559B19001803FC /* VAUAuthorDetailViewController.h */,
@@ -269,6 +264,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Mr Fridge Software & Digitale Akademie";
 				TargetAttributes = {
+					048CE9501954A614005EA60E = {
+						DevelopmentTeam = 3UAW763979;
+					};
 					048CE9711954A614005EA60E = {
 						TestTargetID = 048CE9501954A614005EA60E;
 					};
@@ -335,7 +333,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				048CE9611954A614005EA60E /* main.m in Sources */,
-				048CE96B1954A614005EA60E /* VAUViewController.m in Sources */,
 				045DDDBB195F3BD000779702 /* VAUMapViewController.m in Sources */,
 				048CE98E1954AD7E005EA60E /* VAUAuthorsViewController.m in Sources */,
 				048CE9651954A614005EA60E /* VAUAppDelegate.m in Sources */,
@@ -467,6 +464,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VerbannteAutoren/VerbannteAutoren-Prefix.pch";
 				INFOPLIST_FILE = "VerbannteAutoren/VerbannteAutoren-Info.plist";
@@ -480,6 +478,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VerbannteAutoren/VerbannteAutoren-Prefix.pch";
 				INFOPLIST_FILE = "VerbannteAutoren/VerbannteAutoren-Info.plist";
