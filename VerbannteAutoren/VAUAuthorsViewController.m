@@ -15,7 +15,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     _authorNames = [NSMutableArray arrayWithArray:[(VAUAppDelegate*)[UIApplication sharedApplication].delegate authorNames]];
-    _tableData = [_authorNames copy];
+    _tableData = [_authorNames mutableCopy];
     _authorsTable.delegate = self;
     _authorsTable.dataSource = self;
     [_authorsTable reloadData];
@@ -133,6 +133,7 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([[segue identifier] isEqualToString:@"authorDetailSegue"]) {
         VAUAuthorDetailViewController* detailViewController = [segue destinationViewController];
+        NSArray* works = [_data objectForKey:[(UITableViewCell*)sender textLabel].text];
         detailViewController.works = [_data objectForKey:[(UITableViewCell*)sender textLabel].text];
         detailViewController.navigationItem.title = [(UITableViewCell*)sender textLabel].text;
     }

@@ -80,7 +80,7 @@
     //weird stuff is happening here :)
     NSString* content = [[[wikiDict objectForKey:@"parse"] objectForKey:@"text"] objectForKey:@"*"];
     
-    // find stuf like http://d-nb.info/gnd/118781278
+    // find stuff like http://d-nb.info/gnd/118781278
     
     NSRegularExpression* gndRegex = [NSRegularExpression regularExpressionWithPattern:@"\\http://d-nb.info/gnd/([0-9]+)" options:NSRegularExpressionCaseInsensitive error:&error];
     if (error) {
