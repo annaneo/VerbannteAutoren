@@ -59,28 +59,41 @@
 }
 
 - (void)fetchDataFromWikipedia {
-//    NSString* baseUrl = @"http://de.wikipedia.org/w/api.php?";
-//    NSString* properties = @"format=json&action=query&prop=revisions&rvprop=content&rvparse&redirects=true";
-//    NSString* title = self.navigationItem.title;
+    NSString* baseUrl = @"http://de.wikipedia.org/w/api.php?";
+    NSString* properties = @"format=json&action=query&prop=revisions&indexpageids&rvprop=content&rvparse&redirects";
+    NSString* title = self.navigationItem.title;
     NSError *error = NULL;
 
-//    NSString* urlString = [NSString stringWithFormat:@"%@%@&titles=%@", baseUrl, properties, title];
-//    urlString = [urlString stringByReplacingOccurrencesOfString:@" " withString:@"_"];
-//    NSURL* url = [NSURL URLWithString:urlString];
-//    NSMutableURLRequest* request = [[NSMutableURLRequest alloc] initWithURL:url];
-//    [request setHTTPMethod:@"GET"];
-//    NSData* data = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
-//    NSDictionary* wikiDict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:&error];
-    //normally this would use the data recieved from wikipedia
-    
-    
+    NSString* urlString = [NSString stringWithFormat:@"%@%@&titles=%@", baseUrl, properties, title];
+    urlString = [urlString stringByReplacingOccurrencesOfString:@" " withString:@"_"];
+    NSURL* url = [NSURL URLWithString:urlString];
+    NSMutableURLRequest* request = [[NSMutableURLRequest alloc] initWithURL:url];
+    [request setHTTPMethod:@"GET"];
+    NSData* data = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
+    NSDictionary* wikiDict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:&error];
+
+    NSDictionary* queryDict = [wikiDict objectForKey:@"query"];
+    NSArray* pageIds = [queryDict objectForKey:@"pageids"];
+    NSString* pageId = [pageIds firstObject];
+    if (pageId == nil || pageId.integerValue < 0) {
+        // if no page available, pageId is negative
+        return;
+    }
+    NSDictionary* pagesDict = [queryDict objectForKey:@"pages"];
+    NSDictionary* pageDict = [pagesDict objectForKey:pageId];
+    NSArray* revisions = [pageDict objectForKey:@"revisions"];
+    NSDictionary* contentDict = [revisions firstObject];
+    if (contentDict == nil) {
+        return;
+    }
+    NSString* content = [contentDict objectForKey:@"*"];
     // getting gnd number
 
     
-    NSString* file = [[NSBundle mainBundle] pathForResource:@"testWiki" ofType:@"json"];
-    NSDictionary* wikiDict = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:file options:NSDataReadingUncached error:&error] options:NSJSONReadingMutableContainers error:&error];
+//    NSString* file = [[NSBundle mainBundle] pathForResource:@"testWiki" ofType:@"json"];
+//    NSDictionary* wikiDict = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:file options:NSDataReadingUncached error:&error] options:NSJSONReadingMutableContainers error:&error];
 
-    NSString* content = [[[wikiDict objectForKey:@"parse"] objectForKey:@"text"] objectForKey:@"*"];
+    //NSString* content = [[[wikiDict objectForKey:@"parse"] objectForKey:@"text"] objectForKey:@"*"];
     
     // find stuff like http://d-nb.info/gnd/118781278
     
@@ -121,7 +134,66 @@
     } else {
         _authorImageView.hidden = YES;
     }
+
+
+    // getting first section
+    [self fetchFirstSection];
+
     
+}
+
+- (NSString*)fetchFirstSection {
+
+    NSString* baseUrl = @"http://de.wikipedia.org/w/api.php?";
+    NSString* properties = @"format=json&action=query&prop=revisions&rvsection=0&indexpageids&rvprop=content&rvparse&redirects";
+    NSString* title = self.navigationItem.title;
+    NSError *error = NULL;
+
+    NSString* urlString = [NSString stringWithFormat:@"%@%@&titles=%@", baseUrl, properties, title];
+    urlString = [urlString stringByReplacingOccurrencesOfString:@" " withString:@"_"];
+    NSURL* url = [NSURL URLWithString:urlString];
+    NSMutableURLRequest* request = [[NSMutableURLRequest alloc] initWithURL:url];
+    [request setHTTPMethod:@"GET"];
+    NSData* data = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
+    NSDictionary* wikiDict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:&error];
+
+    NSDictionary* queryDict = [wikiDict objectForKey:@"query"];
+    NSArray* pageIds = [queryDict objectForKey:@"pageids"];
+    NSString* pageId = [pageIds firstObject];
+    if (pageId == nil || pageId.integerValue < 0) {
+        // if no page available, pageId is negative
+        return nil;
+    }
+    NSDictionary* pagesDict = [queryDict objectForKey:@"pages"];
+    NSDictionary* pageDict = [pagesDict objectForKey:pageId];
+    NSArray* revisions = [pageDict objectForKey:@"revisions"];
+    NSDictionary* contentDict = [revisions firstObject];
+    if (contentDict == nil) {
+        return nil;
+    }
+    NSString* content = [contentDict objectForKey:@"*"];
+    NSRange brTagRange = [content rangeOfString:@"<br"];
+    if (brTagRange.location != NSNotFound) {
+        content = [content substringToIndex:[content rangeOfString:@"<br"].location];
+    }
+    NSRange r;
+    // remove divs
+    
+
+
+
+    // remove html
+    while ((r = [content rangeOfString:@"<[^>]+>" options:NSRegularExpressionSearch]).location != NSNotFound) {
+        content = [content stringByReplacingCharactersInRange:r withString:@""];
+    }
+    // remove numbers in brackets
+    while ((r = [content rangeOfString:@"\\[.\\]" options:NSRegularExpressionSearch]).location != NSNotFound) {
+        content = [content stringByReplacingCharactersInRange:r withString:@""];
+    }
+
+    NSLog(@"content: %@", content);
+    return content;
+
 }
 
 
