@@ -48,6 +48,7 @@
 		04C651F3196012AC006D89FA /* Collage_iPhone4.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C651F2196012AC006D89FA /* Collage_iPhone4.png */; };
 		04CC1EF319571F60000816C1 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04CC1EF219571F60000816C1 /* data.plist */; };
 		04CC1EF419571F60000816C1 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04CC1EF219571F60000816C1 /* data.plist */; };
+		C618F8481963620D00AEF209 /* VAUIndexedListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C618F8471963620D00AEF209 /* VAUIndexedListItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +104,8 @@
 		04C651E519600D36006D89FA /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 		04C651F2196012AC006D89FA /* Collage_iPhone4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Collage_iPhone4.png; sourceTree = "<group>"; };
 		04CC1EF219571F60000816C1 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		C618F8461963620D00AEF209 /* VAUIndexedListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAUIndexedListItem.h; sourceTree = "<group>"; };
+		C618F8471963620D00AEF209 /* VAUIndexedListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAUIndexedListItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +182,8 @@
 				045DDDBA195F3BD000779702 /* VAUMapViewController.m */,
 				048CE96C1954A614005EA60E /* Images.xcassets */,
 				048CE95B1954A614005EA60E /* Supporting Files */,
+				C618F8461963620D00AEF209 /* VAUIndexedListItem.h */,
+				C618F8471963620D00AEF209 /* VAUIndexedListItem.m */,
 			);
 			path = VerbannteAutoren;
 			sourceTree = "<group>";
@@ -359,6 +364,7 @@
 				048CE9651954A614005EA60E /* VAUAppDelegate.m in Sources */,
 				04BC97F919559B19001803FC /* VAUAuthorDetailViewController.m in Sources */,
 				043B4A0F196306CF00576B7C /* VAURandomAuthorViewController.m in Sources */,
+				C618F8481963620D00AEF209 /* VAUIndexedListItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

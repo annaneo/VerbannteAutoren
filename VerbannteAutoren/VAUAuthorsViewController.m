@@ -9,12 +9,14 @@
 #import "VAUAuthorsViewController.h"
 #import "VAUAuthorDetailViewController.h"
 #import "VAUAppDelegate.h"
+#import "VAUIndexedListItem.h"
 
 @implementation VAUAuthorsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     _authorNames = [NSMutableArray arrayWithArray:[(VAUAppDelegate*)[UIApplication sharedApplication].delegate authorNames]];
+    _indexedList = [NSMutableArray arrayWithArray:[(VAUAppDelegate*)[UIApplication sharedApplication].delegate indexedList]];
     _tableData = [_authorNames mutableCopy];
     _authorsTable.delegate = self;
     _authorsTable.dataSource = self;
@@ -24,6 +26,49 @@
 
 
 #pragma mark - Table Delegate
+
+- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView {
+    return [[UILocalizedIndexedCollation currentCollation] sectionIndexTitles];
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    if ([[self.indexedList objectAtIndex:section] count] > 0) {
+        return [[[UILocalizedIndexedCollation currentCollation] sectionTitles] objectAtIndex:section];
+    }
+    return nil;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index
+{
+    return [[UILocalizedIndexedCollation currentCollation] sectionForSectionIndexTitleAtIndex:index];
+}
+
+
+
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return [self.indexedList count];
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return [[self.indexedList objectAtIndex:section] count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    static NSString *CellIdentifier = @"AuthorCell";
+    UITableViewCell *cell;
+    cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    }
+    VAUIndexedListItem* item = [[self.indexedList objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
+    cell.textLabel.text = item.fullname;
+    return cell;
+}
+
+
+/*
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return [_tableData count];
 }
@@ -35,6 +80,7 @@
     cell.textLabel.text = [_tableData objectAtIndex:row];;
     return cell;
 }
+ */
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [_searchbar resignFirstResponder];
@@ -117,6 +163,7 @@
     [searchBar resignFirstResponder];
 }
 
+/*
 #pragma Data Source Delegate
 
 - (NSArray* )sectionIndexTitlesForTableView:(UITableView *)tableView {
@@ -127,7 +174,7 @@
     return 500;
 }
 
-
+*/
 #pragma mark Segue
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {

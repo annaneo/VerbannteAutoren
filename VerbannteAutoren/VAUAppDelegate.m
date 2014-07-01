@@ -7,12 +7,14 @@
 //
 
 #import "VAUAppDelegate.h"
+#import "VAUIndexedListItem.h"
 
 @implementation VAUAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    _authorNames = [NSMutableArray arrayWithCapacity:4096];
+    _authorNames = [NSMutableArray arrayWithCapacity:1];
+    _indexedList = [NSMutableArray arrayWithCapacity:1];
     [self loadData];
     self.window.tintColor = [UIColor colorWithRed:0.7921568627451 green:0.24705882352941 blue:0 alpha:1]; //or whatever color you want
     return YES;
@@ -64,6 +66,43 @@
                                  [tempDict objectForKey:@"authorLastname"]]];
     }
 
+    NSMutableArray* tempItems = [NSMutableArray arrayWithCapacity:1];
+
+    for (NSArray* entry in authorNames) {
+        VAUIndexedListItem* tempItem = [[VAUIndexedListItem alloc] init];
+        tempItem.prename = [entry firstObject];
+        tempItem.surname = [entry lastObject];
+        tempItem.fullname = [[NSString stringWithFormat:@"%@ %@", [entry firstObject], [entry lastObject]]stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+        tempItem.sortingName = [[NSString stringWithFormat:@"%@ %@", [entry lastObject], [entry firstObject]]stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+        [tempItems addObject:tempItem];
+    }
+
+    UILocalizedIndexedCollation *theCollation = [UILocalizedIndexedCollation currentCollation];
+
+    for (VAUIndexedListItem *item in tempItems) {
+        NSInteger sect = [theCollation sectionForObject:item collationStringSelector:@selector(surname)];
+        item.sectionNumber = sect;
+    }
+
+    NSInteger highSection = [[theCollation sectionTitles] count];
+    NSMutableArray *sectionArrays = [NSMutableArray arrayWithCapacity:highSection];
+    for (int i = 0; i < highSection; i++) {
+        NSMutableArray *sectionArray = [NSMutableArray arrayWithCapacity:1];
+        [sectionArrays addObject:sectionArray];
+    }
+
+    for (VAUIndexedListItem *item in tempItems) {
+        [(NSMutableArray *)[sectionArrays objectAtIndex:item.sectionNumber] addObject:item];
+    }
+
+    for (NSMutableArray *sectionArray in sectionArrays) {
+        NSArray *sortedSection = [theCollation sortedArrayFromArray:sectionArray collationStringSelector:@selector(sortingName)];
+        [self.indexedList addObject:sortedSection];
+    }
+
+
+/*
+
     NSOrderedSet* authorSet = [NSOrderedSet orderedSetWithArray:authorNames];
     NSMutableArray* sortedNames = [NSMutableArray arrayWithArray:[authorSet sortedArrayUsingComparator:^(id obj1, id obj2) {
         NSString* lastName1 = [obj1 lastObject];
@@ -82,6 +121,7 @@
         namesString = [namesString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
         [_authorNames addObject:namesString];
     }
+*/
 }
 
 @end

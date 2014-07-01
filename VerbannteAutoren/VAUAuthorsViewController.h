@@ -14,6 +14,7 @@
 @property (weak, nonatomic) IBOutlet UITableView* authorsTable;
 @property (strong, nonatomic) NSMutableArray* authorNames;
 @property (strong, nonatomic) NSMutableArray* tableData;
+@property (strong, nonatomic) NSMutableArray* indexedList;
 
 
 @end

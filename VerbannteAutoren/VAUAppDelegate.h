@@ -14,5 +14,6 @@
 
 @property (strong, nonatomic) NSMutableArray* authorNames;
 @property (strong, nonatomic) NSMutableDictionary* rawData;
+@property (strong, nonatomic) NSMutableArray* indexedList;
 
 @end
