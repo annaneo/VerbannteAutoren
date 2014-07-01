@@ -67,6 +67,9 @@
     NSString* urlString = [NSString stringWithFormat:@"%@%@&titles=%@", baseUrl, properties, title];
     urlString = [urlString stringByReplacingOccurrencesOfString:@" " withString:@"_"];
     NSURL* url = [NSURL URLWithString:urlString];
+    if (url == nil) {
+        return;
+    }
     NSMutableURLRequest* request = [[NSMutableURLRequest alloc] initWithURL:url];
     [request setHTTPMethod:@"GET"];
     NSData* data = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
@@ -178,7 +181,7 @@
     }
     NSRange r;
     // remove divs
-    
+
 
 
 
