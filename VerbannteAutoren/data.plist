@@ -36,11 +36,11 @@
 			<string>Sämtliche Schriften</string>
 		</dict>
 	</array>
-	<key>A. A. Shdanow</key>
+	<key>Andrei Alexandrowitsch Shdanow</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>A. A.</string>
+			<string>Andrei Alexandrowitsch</string>
 			<key>authorLastname</key>
 			<string>Shdanow</string>
 			<key>firstEditionPublicationPlace</key>
@@ -54,7 +54,7 @@
 		</dict>
 		<dict>
 			<key>authorFirstname</key>
-			<string>A. A.</string>
+			<string>Andrei Alexandrowitsch</string>
 			<key>authorLastname</key>
 			<string>Shdanow</string>
 			<key>firstEditionPublicationPlace</key>
@@ -68,7 +68,7 @@
 		</dict>
 		<dict>
 			<key>authorFirstname</key>
-			<string>A. A.</string>
+			<string>Andrei Alexandrowitsch</string>
 			<key>authorLastname</key>
 			<string>Shdanow</string>
 			<key>firstEditionPublicationPlace</key>
@@ -79,6 +79,20 @@
 			<string>Verlagsgen. ausländ. Arbeiter</string>
 			<key>title</key>
 			<string>Die Ergebnisse des Novemberplenums des ZK der KPdSU</string>
+		</dict>
+		<dict>
+			<key>authorFirstname</key>
+			<string>Andrei Alexandrowitsch</string>
+			<key>authorLastname</key>
+			<string>Shdanow</string>
+			<key>firstEditionPublicationPlace</key>
+			<string>Moskau</string>
+			<key>firstEditionPublicationYear</key>
+			<string>1939</string>
+			<key>firstEditionPublisher</key>
+			<string>Verl. f. fremdsprachige Literatur</string>
+			<key>title</key>
+			<string>Abänderungen am Statut der KPdSU (B)</string>
 		</dict>
 	</array>
 	<key>A. Afonin</key>
@@ -602,23 +616,6 @@
 			<string>Unsere russischen Angelegenheiten</string>
 		</dict>
 	</array>
-	<key>A. Shdanow [Ždanov]</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string>A.</string>
-			<key>authorLastname</key>
-			<string>Shdanow [Ždanov]</string>
-			<key>firstEditionPublicationPlace</key>
-			<string>Moskau</string>
-			<key>firstEditionPublicationYear</key>
-			<string>1939</string>
-			<key>firstEditionPublisher</key>
-			<string>Verl. f. fremdsprachige Literatur</string>
-			<key>title</key>
-			<string>Abänderungen am Statut der KPdSU (B)</string>
-		</dict>
-	</array>
 	<key>A. Stanislawska</key>
 	<array>
 		<dict>
@@ -766,13 +763,13 @@
 			<string>Rosa Luxemburgs Stellung zu den taktischen Problemen der Revolution</string>
 		</dict>
 	</array>
-	<key>A. Wtorow [Vtorov]</key>
+	<key>A. Wtorow</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
 			<string>A.</string>
 			<key>authorLastname</key>
-			<string>Wtorow [Vtorov]</string>
+			<string>Wtorow</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Engels</string>
 			<key>firstEditionPublicationYear</key>
@@ -783,13 +780,13 @@
 			<string>Die Gelehrten. Lustsp.</string>
 		</dict>
 	</array>
-	<key>A. [Andrei Januarievič] Wyschinski [Vyišnskij]</key>
+	<key>Andrei Januarjewitsch Wyschinski</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>A. [Andrei Januarievič]</string>
+			<string>Andrei Januarjewitsch</string>
 			<key>authorLastname</key>
-			<string>Wyschinski [Vyišnskij]</string>
+			<string>Wyschinski</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Moskau</string>
 			<key>firstEditionPublicationYear</key>
@@ -2459,7 +2456,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Dent &amp; Sons</string>
 			<key>title</key>
-			<string>Germany's war machine</string>
+			<string>Germany&apos;s war machine</string>
 		</dict>
 	</array>
 	<key>Albert Niedermeyer</key>
@@ -2493,7 +2490,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Berger-Levrault</string>
 			<key>title</key>
-			<string>Securité d'abord</string>
+			<string>Securité d&apos;abord</string>
 		</dict>
 	</array>
 	<key>Albert Rhys Williams</key>
@@ -2527,7 +2524,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Ed. A. Colin</string>
 			<key>title</key>
-			<string>Le Relèvement de l'Allemagne 1918-1938</string>
+			<string>Le Relèvement de l&apos;Allemagne 1918-1938</string>
 		</dict>
 	</array>
 	<key>Albert Rudolph</key>
@@ -3208,7 +3205,7 @@
 			<key>firstEditionPublisher</key>
 			<string>H. Hamilton</string>
 			<key>title</key>
-			<string>Freedom's crooked scars</string>
+			<string>Freedom&apos;s crooked scars</string>
 		</dict>
 	</array>
 	<key>Alexander Herzen</key>
@@ -4528,7 +4525,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Thiébaud</string>
 			<key>title</key>
-			<string>La Crise morale du temps présent et l'éducation humaine</string>
+			<string>La Crise morale du temps présent et l&apos;éducation humaine</string>
 		</dict>
 	</array>
 	<key>Alfred Lowitsch</key>
@@ -6290,23 +6287,6 @@
 			<string>Wenn dein Kind dich fragt</string>
 		</dict>
 	</array>
-	<key>Annie sämtliche Schriften</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string>Annie</string>
-			<key>authorLastname</key>
-			<string>sämtliche Schriften</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string>Reich</string>
-		</dict>
-	</array>
 	<key>Annie von Brabenetz</key>
 	<array>
 		<dict>
@@ -6324,30 +6304,13 @@
 			<string>Brettlfliegen</string>
 		</dict>
 	</array>
-	<key>Anquetil, Georges- s. Georges-Anquetil.</key>
+	<key>Georges Anquetil</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string></string>
+			<string>Georges</string>
 			<key>authorLastname</key>
-			<string>Anquetil, Georges- s. Georges-Anquetil.</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
-		</dict>
-	</array>
-	<key>Anquetil, Georges- ~</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Anquetil, Georges- ~</string>
+			<string>Anquetil</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Berlin</string>
 			<key>firstEditionPublicationYear</key>
@@ -8766,13 +8729,13 @@
 			<string>Schwurzeugen des Antisemitismus?</string>
 		</dict>
 	</array>
-	<key>Auguste de Villiers de l'Isle-Adam</key>
+	<key>Auguste de Villiers de l&apos;Isle-Adam</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
 			<string>Auguste de</string>
 			<key>authorLastname</key>
-			<string>Villiers de l'Isle-Adam</string>
+			<string>Villiers de l&apos;Isle-Adam</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Wien</string>
 			<key>firstEditionPublicationYear</key>
@@ -12854,13 +12817,13 @@
 			<string>Die kleinen Verbündeten</string>
 		</dict>
 	</array>
-	<key>Claude Godard d'Aucourt</key>
+	<key>Claude Godard d&apos;Aucourt</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
 			<string>Claude</string>
 			<key>authorLastname</key>
-			<string>Godard d'Aucourt</string>
+			<string>Godard d&apos;Aucourt</string>
 			<key>firstEditionPublicationPlace</key>
 			<string></string>
 			<key>firstEditionPublicationYear</key>
@@ -13137,7 +13100,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Berger-Levrault o. J</string>
 			<key>title</key>
-			<string>La flagellation dans l'histoire</string>
+			<string>La flagellation dans l&apos;histoire</string>
 		</dict>
 	</array>
 	<key>Curt Carl Adolf Lehning</key>
@@ -14616,7 +14579,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Lucien Vogel</string>
 			<key>title</key>
-			<string>Le vrai combat d'Hitler</string>
+			<string>Le vrai combat d&apos;Hitler</string>
 		</dict>
 	</array>
 	<key>Eberhard Koebel</key>
@@ -17319,7 +17282,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Impr. Union</string>
 			<key>title</key>
-			<string>Assassins! Une documentation sur l'avènement de Hitler</string>
+			<string>Assassins! Une documentation sur l&apos;avènement de Hitler</string>
 		</dict>
 	</array>
 	<key>Emile Laurent</key>
@@ -25120,7 +25083,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Dutton</string>
 			<key>title</key>
-			<string>Hitler's drive to the east</string>
+			<string>Hitler&apos;s drive to the east</string>
 		</dict>
 	</array>
 	<key>Frederick L. Schuman</key>
@@ -30876,7 +30839,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Spohr</string>
 			<key>title</key>
-			<string>Ein Traum von Hellas' Gestaden</string>
+			<string>Ein Traum von Hellas&apos; Gestaden</string>
 		</dict>
 	</array>
 	<key>Gonzague de Reynold</key>
@@ -32394,7 +32357,7 @@
 			<key>authorLastname</key>
 			<string>Marchant</string>
 			<key>firstEditionPublicationPlace</key>
-			<string>s'Hertogenbosch</string>
+			<string>s&apos;Hertogenbosch</string>
 			<key>firstEditionPublicationYear</key>
 			<string>1936</string>
 			<key>firstEditionPublisher</key>
@@ -33773,7 +33736,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Flammarion</string>
 			<key>title</key>
-			<string>Vie et mort de Dollfuss, chancelier d'Autriche</string>
+			<string>Vie et mort de Dollfuss, chancelier d&apos;Autriche</string>
 		</dict>
 		<dict>
 			<key>authorFirstname</key>
@@ -34196,7 +34159,7 @@
 			<key>firstEditionPublisher</key>
 			<string>»Renaissance«</string>
 			<key>title</key>
-			<string>Victor Margueritte's La Garconne</string>
+			<string>Victor Margueritte&apos;s La Garconne</string>
 		</dict>
 		<dict>
 			<key>authorFirstname</key>
@@ -35251,13 +35214,13 @@
 			<string>Arbeiterverrat der Emigranten</string>
 		</dict>
 	</array>
-	<key>Harcourt, Robert d'</key>
+	<key>Harcourt, Robert d&apos;</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
 			<string></string>
 			<key>authorLastname</key>
-			<string>Harcourt, Robert d'</string>
+			<string>Harcourt, Robert d&apos;</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Paris</string>
 			<key>firstEditionPublicationYear</key>
@@ -35265,7 +35228,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Plon</string>
 			<key>title</key>
-			<string>L'évangile de la force</string>
+			<string>L&apos;évangile de la force</string>
 		</dict>
 	</array>
 	<key>Harnisch, Wolfgang Hoffmann - s. Hoffmann -Harnisch.</key>
@@ -38175,7 +38138,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Gallimard</string>
 			<key>title</key>
-			<string>L'opéra politique</string>
+			<string>L&apos;opéra politique</string>
 		</dict>
 	</array>
 	<key>Henri Schuetz</key>
@@ -40827,7 +40790,7 @@
 			<key>firstEditionPublicationYear</key>
 			<string>1939 </string>
 			<key>firstEditionPublisher</key>
-			<string>Hartmann = Centre d'études de politique étrangère. Sect. d'information. Publ. 14.</string>
+			<string>Hartmann = Centre d&apos;études de politique étrangère. Sect. d&apos;information. Publ. 14.</string>
 			<key>title</key>
 			<string>Vers la plus grande Allemagne</string>
 		</dict>
@@ -43342,14 +43305,11 @@
 			<key>title</key>
 			<string>Narodowc a wotrodźenc. [Patriot und Renegat]</string>
 		</dict>
-	</array>
-	<key>Jakub Bart-Cišinsky</key>
-	<array>
 		<dict>
 			<key>authorFirstname</key>
 			<string>Jakub</string>
 			<key>authorLastname</key>
-			<string>Bart-Cišinsky</string>
+			<string>Bart-Cišinski</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Bautzen</string>
 			<key>firstEditionPublicationYear</key>
@@ -43363,7 +43323,7 @@
 			<key>authorFirstname</key>
 			<string>Jakub</string>
 			<key>authorLastname</key>
-			<string>Bart-Cišinsky</string>
+			<string>Bart-Cišinski</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Bautzen</string>
 			<key>firstEditionPublicationYear</key>
@@ -43575,7 +43535,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Gallimard</string>
 			<key>title</key>
-			<string>L'affaire Röhm-Hitler</string>
+			<string>L&apos;affaire Röhm-Hitler</string>
 		</dict>
 	</array>
 	<key>Jean Giono</key>
@@ -43680,13 +43640,13 @@
 			<string>Die Kirche und die soziale Frage</string>
 		</dict>
 	</array>
-	<key>Jean de L'Ill</key>
+	<key>Jean de L&apos;Ill</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
 			<string>Jean de</string>
 			<key>authorLastname</key>
-			<string>L'Ill</string>
+			<string>L&apos;Ill</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Colmar</string>
 			<key>firstEditionPublicationYear</key>
@@ -43694,7 +43654,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Huffel</string>
 			<key>title</key>
-			<string>Le fléau de l'Europe</string>
+			<string>Le fléau de l&apos;Europe</string>
 		</dict>
 	</array>
 	<key>Jean de Virgans</key>
@@ -45984,7 +45944,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Bonici </string>
 			<key>title</key>
-			<string>Ce qu'il faut savoir. Idées principales de Hitler's Mein Kampf</string>
+			<string>Ce qu&apos;il faut savoir. Idées principales de Hitler&apos;s Mein Kampf</string>
 		</dict>
 	</array>
 	<key>Josef Anton Schneiderfranken</key>
@@ -47401,13 +47361,13 @@
 			<string>Die Arbeiterwohlfahrt</string>
 		</dict>
 	</array>
-	<key>Jules A. Barbey d'Aurevilly</key>
+	<key>Jules A. Barbey d&apos;Aurevilly</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
 			<string>Jules A.</string>
 			<key>authorLastname</key>
-			<string>Barbey d'Aurevilly</string>
+			<string>Barbey d&apos;Aurevilly</string>
 			<key>firstEditionPublicationPlace</key>
 			<string></string>
 			<key>firstEditionPublicationYear</key>
@@ -51982,7 +51942,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Oprecht</string>
 			<key>title</key>
-			<string>Marx' philosophische Entwicklung, sein Verhältnis zu Hegel</string>
+			<string>Marx&apos; philosophische Entwicklung, sein Verhältnis zu Hegel</string>
 		</dict>
 	</array>
 	<key>Konrad Giesecke</key>
@@ -53264,7 +53224,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Schultz</string>
 			<key>title</key>
-			<string>Von der Liebe sing' ich</string>
+			<string>Von der Liebe sing&apos; ich</string>
 		</dict>
 	</array>
 	<key>Kurt Loewenstein</key>
@@ -53807,11 +53767,11 @@
 			<string>Waffenstarrendes Mittelmeer</string>
 		</dict>
 	</array>
-	<key>L' Amie des Femmes</key>
+	<key>L&apos; Amie des Femmes</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>L'</string>
+			<string>L&apos;</string>
 			<key>authorLastname</key>
 			<string>Amie des Femmes</string>
 			<key>firstEditionPublicationPlace</key>
@@ -54506,7 +54466,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Scherz in Komm.</string>
 			<key>title</key>
-			<string>Ich hab' dich überall gesucht. Roman</string>
+			<string>Ich hab&apos; dich überall gesucht. Roman</string>
 		</dict>
 		<dict>
 			<key>authorFirstname</key>
@@ -55216,13 +55176,13 @@
 			<string>Held der Sowjetunion Michail Wassiljewitsch Wodopjanow</string>
 		</dict>
 	</array>
-	<key>Liam O'Flaherty</key>
+	<key>Liam O&apos;Flaherty</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
 			<string>Liam</string>
 			<key>authorLastname</key>
-			<string>O'Flaherty</string>
+			<string>O&apos;Flaherty</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Berlin</string>
 			<key>firstEditionPublicationYear</key>
@@ -55236,7 +55196,7 @@
 			<key>authorFirstname</key>
 			<string>Liam</string>
 			<key>authorLastname</key>
-			<string>O'Flaherty</string>
+			<string>O&apos;Flaherty</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Berlin</string>
 			<key>firstEditionPublicationYear</key>
@@ -55250,7 +55210,7 @@
 			<key>authorFirstname</key>
 			<string>Liam</string>
 			<key>authorLastname</key>
-			<string>O'Flaherty</string>
+			<string>O&apos;Flaherty</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Berlin</string>
 			<key>firstEditionPublicationYear</key>
@@ -55264,7 +55224,7 @@
 			<key>authorFirstname</key>
 			<string>Liam</string>
 			<key>authorLastname</key>
-			<string>O'Flaherty</string>
+			<string>O&apos;Flaherty</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Berlin</string>
 			<key>firstEditionPublicationYear</key>
@@ -55278,7 +55238,7 @@
 			<key>authorFirstname</key>
 			<string>Liam</string>
 			<key>authorLastname</key>
-			<string>O'Flaherty</string>
+			<string>O&apos;Flaherty</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Berlin</string>
 			<key>firstEditionPublicationYear</key>
@@ -55320,7 +55280,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Heinemann</string>
 			<key>title</key>
-			<string>Journalist's wife</string>
+			<string>Journalist&apos;s wife</string>
 		</dict>
 	</array>
 	<key>Lilli Koerber</key>
@@ -55914,13 +55874,13 @@
 			<string>Tod auf Borg. M</string>
 		</dict>
 	</array>
-	<key>Louis Dupré d'Aulnay</key>
+	<key>Louis Dupré d&apos;Aulnay</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
 			<string>Louis</string>
 			<key>authorLastname</key>
-			<string>Dupré d'Aulnay</string>
+			<string>Dupré d&apos;Aulnay</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>München</string>
 			<key>firstEditionPublicationYear</key>
@@ -56038,7 +55998,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Flammarion</string>
 			<key>title</key>
-			<string>Rayons et ombres d'Allemagne</string>
+			<string>Rayons et ombres d&apos;Allemagne</string>
 		</dict>
 	</array>
 	<key>Louis Golding</key>
@@ -58923,7 +58883,7 @@
 			<key>authorLastname</key>
 			<string>Niemoeller</string>
 			<key>firstEditionPublicationPlace</key>
-			<string>s'-Gravenhage</string>
+			<string>s&apos;-Gravenhage</string>
 			<key>firstEditionPublicationYear</key>
 			<string>1939</string>
 			<key>firstEditionPublisher</key>
@@ -59638,7 +59598,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Hachette</string>
 			<key>title</key>
-			<string>L'Allemagne de Hitler</string>
+			<string>L&apos;Allemagne de Hitler</string>
 		</dict>
 	</array>
 	<key>Maurice Reinhold von Stern</key>
@@ -60135,7 +60095,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Kaden</string>
 			<key>title</key>
-			<string>Zur Einführung in Marx' Kapital</string>
+			<string>Zur Einführung in Marx&apos; Kapital</string>
 		</dict>
 	</array>
 	<key>Max Herb</key>
@@ -61907,7 +61867,7 @@
 			<key>firstEditionPublicationYear</key>
 			<string> 1936</string>
 			<key>firstEditionPublisher</key>
-			<string>Société d'éditions européennes</string>
+			<string>Société d&apos;éditions européennes</string>
 			<key>title</key>
 			<string>Hitler gegen Christus</string>
 		</dict>
@@ -63552,13 +63512,13 @@
 			<string>Der Kaiser wieder in Deutschland</string>
 		</dict>
 	</array>
-	<key>Ormesson, Wladimir d'</key>
+	<key>Ormesson, Wladimir d&apos;</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
 			<string></string>
 			<key>authorLastname</key>
-			<string>Ormesson, Wladimir d'</string>
+			<string>Ormesson, Wladimir d&apos;</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Paris</string>
 			<key>firstEditionPublicationYear</key>
@@ -66430,7 +66390,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Macmillan</string>
 			<key>title</key>
-			<string>Germany's default</string>
+			<string>Germany&apos;s default</string>
 		</dict>
 		<dict>
 			<key>authorFirstname</key>
@@ -67917,7 +67877,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Hachette</string>
 			<key>title</key>
-			<string>L'Allemagne fera-t-elle sombrer l'Europe?</string>
+			<string>L&apos;Allemagne fera-t-elle sombrer l&apos;Europe?</string>
 		</dict>
 	</array>
 	<key>Paul Wagler</key>
@@ -68870,7 +68830,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Hogarth Press</string>
 			<key>title</key>
-			<string>The secret of Hitler's victory</string>
+			<string>The secret of Hitler&apos;s victory</string>
 		</dict>
 	</array>
 	<key>Peter von Heydebreck</key>
@@ -69949,9 +69909,9 @@
 			<key>firstEditionPublicationYear</key>
 			<string>1935</string>
 			<key>firstEditionPublisher</key>
-			<string>La nouvelle Société d'édition</string>
+			<string>La nouvelle Société d&apos;édition</string>
 			<key>title</key>
-			<string>En l'an III de la croix gammée</string>
+			<string>En l&apos;an III de la croix gammée</string>
 		</dict>
 	</array>
 	<key>Raymonde Machard</key>
@@ -71534,7 +71494,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Bücherkreis</string>
 			<key>title</key>
-			<string>Kehr' um</string>
+			<string>Kehr&apos; um</string>
 		</dict>
 	</array>
 	<key>Robert Carr</key>
@@ -75041,23 +75001,6 @@
 			<string>Erbhofrecht und Entschuldung</string>
 		</dict>
 	</array>
-	<key>Shdanow, A. [dt.Namensform] s. Ždanov</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Shdanow, A. [dt.Namensform] s. Ždanov</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
-		</dict>
-	</array>
 	<key>Sidney Fowler-Wright</key>
 	<array>
 		<dict>
@@ -76069,7 +76012,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Gollancz</string>
 			<key>title</key>
-			<string>I was Hitler's prisoner</string>
+			<string>I was Hitler&apos;s prisoner</string>
 		</dict>
 	</array>
 	<key>Stefan Malinowski</key>
@@ -78678,7 +78621,7 @@
 			<key>firstEditionPublicationYear</key>
 			<string> 1935</string>
 			<key>firstEditionPublisher</key>
-			<string>Ed. d'Art graphique</string>
+			<string>Ed. d&apos;Art graphique</string>
 			<key>title</key>
 			<string>Formes nues</string>
 		</dict>
@@ -78722,7 +78665,7 @@
 			<key>firstEditionPublisher</key>
 			<string>De Arbeiderspers</string>
 			<key>title</key>
-			<string>Mussert's veertien punten</string>
+			<string>Mussert&apos;s veertien punten</string>
 		</dict>
 		<dict>
 			<key>authorFirstname</key>
@@ -78958,7 +78901,7 @@
 			<key>firstEditionPublicationYear</key>
 			<string>1939</string>
 			<key>firstEditionPublisher</key>
-			<string>Nouvelles d'Autriche</string>
+			<string>Nouvelles d&apos;Autriche</string>
 			<key>title</key>
 			<string>Oesterreich unter dem Reichskommissar</string>
 		</dict>
@@ -79030,7 +78973,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Pestalozzi-Fellenberg-Haus</string>
 			<key>title</key>
-			<string>Wir bleiben's die Alten ...! Kantonale Selbsthülfe oder zunehmende Krise?</string>
+			<string>Wir bleiben&apos;s die Alten ...! Kantonale Selbsthülfe oder zunehmende Krise?</string>
 		</dict>
 		<dict>
 			<key>authorFirstname</key>
@@ -79394,7 +79337,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Schmidt</string>
 			<key>title</key>
-			<string>Deutschland glaub' ans Glück! Liederbuch</string>
+			<string>Deutschland glaub&apos; ans Glück! Liederbuch</string>
 		</dict>
 		<dict>
 			<key>authorFirstname</key>
@@ -79436,7 +79379,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Orbis-Verl.</string>
 			<key>title</key>
-			<string>Education, L'~ musicale — trait d'union entre les peuples</string>
+			<string>Education, L&apos;~ musicale — trait d&apos;union entre les peuples</string>
 		</dict>
 		<dict>
 			<key>authorFirstname</key>
@@ -79674,7 +79617,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Baumgartner</string>
 			<key>title</key>
-			<string>Dollfuss, Engelbert. — So sprach der Kanzler. Dollfuss' Vermächtnis</string>
+			<string>Dollfuss, Engelbert. — So sprach der Kanzler. Dollfuss&apos; Vermächtnis</string>
 		</dict>
 		<dict>
 			<key>authorFirstname</key>
@@ -81354,7 +81297,7 @@
 			<key>firstEditionPublisher</key>
 			<string>H. Pudor</string>
 			<key>title</key>
-			<string>Beihefte zu Dr. Heinrich Pudor's »Entstehung der Sprache« und »Neue Helgoland-Forschungen«. 18.  </string>
+			<string>Beihefte zu Dr. Heinrich Pudor&apos;s »Entstehung der Sprache« und »Neue Helgoland-Forschungen«. 18.  </string>
 		</dict>
 		<dict>
 			<key>authorFirstname</key>
@@ -81648,7 +81591,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Mopr-Verl.</string>
 			<key>title</key>
-			<string>Wer ist's</string>
+			<string>Wer ist&apos;s</string>
 		</dict>
 		<dict>
 			<key>authorFirstname</key>
@@ -82096,7 +82039,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Eros-Verl.</string>
 			<key>title</key>
-			<string>Abenteuer, Rosy's ~</string>
+			<string>Abenteuer, Rosy&apos;s ~</string>
 		</dict>
 		<dict>
 			<key>authorFirstname</key>
@@ -82248,7 +82191,7 @@
 			<key>firstEditionPublicationYear</key>
 			<string> 1935</string>
 			<key>firstEditionPublisher</key>
-			<string>Ed. de l'Ere nouvelle</string>
+			<string>Ed. de l&apos;Ere nouvelle</string>
 			<key>title</key>
 			<string>Hitler et sa doctrine</string>
 		</dict>
@@ -82852,7 +82795,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Evang. Verl. </string>
 			<key>title</key>
-			<string>Sinn und Wesen der Verkündigung. Vorträge ... geh. v. R[oland] de Pury, Wilhelm Vischer, Emil Brunner, Henri d'Espine.</string>
+			<string>Sinn und Wesen der Verkündigung. Vorträge ... geh. v. R[oland] de Pury, Wilhelm Vischer, Emil Brunner, Henri d&apos;Espine.</string>
 		</dict>
 		<dict>
 			<key>authorFirstname</key>
@@ -84350,7 +84293,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Paillard</string>
 			<key>title</key>
-			<string>Allemagne, L' ~ parle. Que veut-elle?</string>
+			<string>Allemagne, L&apos; ~ parle. Que veut-elle?</string>
 		</dict>
 		<dict>
 			<key>authorFirstname</key>
@@ -90008,7 +89951,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Reinhardt</string>
 			<key>title</key>
-			<string>Dies ist's, was der Prophet Amos gesehen hat</string>
+			<string>Dies ist&apos;s, was der Prophet Amos gesehen hat</string>
 		</dict>
 	</array>
 	<key>Walter Lustig</key>
@@ -92929,7 +92872,7 @@
 			<key>firstEditionPublisher</key>
 			<string>Hoock</string>
 			<key>title</key>
-			<string>Chiron's Taschen-Lexikon der Astrologie</string>
+			<string>Chiron&apos;s Taschen-Lexikon der Astrologie</string>
 		</dict>
 	</array>
 	<key>Wilhelm Vischer</key>
@@ -94765,11 +94708,11 @@
 			<string>Sämtliche Schriften</string>
 		</dict>
 	</array>
-	<key>h. Weber u. C. Wel</key>
+	<key>H. Weber u. C. Wel</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>h.</string>
+			<string>H.</string>
 			<key>authorLastname</key>
 			<string>Weber u. C. Wel</string>
 			<key>firstEditionPublicationPlace</key>
@@ -94780,91 +94723,6 @@
 			<string>Witte</string>
 			<key>title</key>
 			<string>Menschen, die nach Liebe hungern</string>
-		</dict>
-	</array>
-	<key>s. Burkhard, William [Verf.]</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>s. Burkhard, William [Verf.]</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string>Geheimnisse des Weltalls</string>
-		</dict>
-	</array>
-	<key>s. Kaehr, Friedrich [Verf.]</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>s. Kaehr, Friedrich [Verf.]</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string>Der Locarnoplan</string>
-		</dict>
-	</array>
-	<key>s. Michel, E. L.</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>s. Michel, E. L.</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string>Extraits de Mein Kampf</string>
-		</dict>
-	</array>
-	<key>s. Mueller, Nikolaus [Verf.]</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>s. Mueller, Nikolaus [Verf.]</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string>Anatomisches Frauenbuch</string>
-		</dict>
-	</array>
-	<key>s. Schwarzmann, Karl [Verf.]</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>s. Schwarzmann, Karl [Verf.]</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string>Pius XI. zum Gedächtnis, Pius XII. zum Gruss</string>
 		</dict>
 	</array>
 	<key>Ákos Balázs</key>
@@ -94884,23 +94742,6 @@
 			<string>Palmen, Neger und Araber. Lose Blätter aus d. Notizbuch e. Weltenbummlers.</string>
 		</dict>
 	</array>
-	<key>Ödön von Horvath</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string>Ödön von</string>
-			<key>authorLastname</key>
-			<string>Horvath</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string>sämtliche Schriften</string>
-		</dict>
-	</array>
 	<key>Ödön von Horváth</key>
 	<array>
 		<dict>
@@ -94909,27 +94750,13 @@
 			<key>authorLastname</key>
 			<string>Horváth</string>
 			<key>firstEditionPublicationPlace</key>
-			<string>Amsterdam</string>
+			<string></string>
 			<key>firstEditionPublicationYear</key>
-			<string>1937</string>
+			<string></string>
 			<key>firstEditionPublisher</key>
-			<string>A. de Lange</string>
+			<string></string>
 			<key>title</key>
-			<string>Jugend ohne Gott</string>
-		</dict>
-		<dict>
-			<key>authorFirstname</key>
-			<string>Ödön von</string>
-			<key>authorLastname</key>
-			<string>Horváth</string>
-			<key>firstEditionPublicationPlace</key>
-			<string>Amsterdam</string>
-			<key>firstEditionPublicationYear</key>
-			<string>1938</string>
-			<key>firstEditionPublisher</key>
-			<string>A. de Lange</string>
-			<key>title</key>
-			<string>Ein Kind unserer Zeit</string>
+			<string>sämtliche Schriften</string>
 		</dict>
 	</array>
 </dict>
