@@ -57,7 +57,7 @@
             </objects>
             <point key="canvasLocation" x="50" y="98"/>
         </scene>
-        <!--About List View Controller-->
+        <!--About List View Controller - Liste verbotener Autoren -->
         <scene sceneID="QXj-im-FHj">
             <objects>
                 <viewController id="caj-Nr-zbE" customClass="VAUAboutListViewController" sceneMemberID="viewController">
@@ -77,7 +77,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="91j-Zu-maC"/>
+                    <navigationItem key="navigationItem" title="Liste verbotener Autoren " id="91j-Zu-maC"/>
                     <connections>
                         <outlet property="contentWebView" destination="Kl3-8l-AAO" id="whT-6U-ReV"/>
                     </connections>
@@ -86,7 +86,7 @@
             </objects>
             <point key="canvasLocation" x="1718" y="1654"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - Impressum-->
         <scene sceneID="DIH-w4-s8P">
             <objects>
                 <viewController id="wdD-eg-TZe" sceneMemberID="viewController">
@@ -106,7 +106,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="w6E-ar-HI2"/>
+                    <navigationItem key="navigationItem" title="Impressum" id="w6E-ar-HI2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MpK-5b-0eL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -284,6 +284,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Zufälliger Autor" id="U6m-Ls-oJI"/>
+                    <connections>
+                        <segue destination="nlU-JU-rH1" kind="push" id="cCH-mC-aT2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Eq-qB-ewi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -331,9 +334,13 @@
     <resources>
         <image name="Collage_iPhone4.png" width="640" height="1009"/>
     </resources>
+    <color key="tintColor" red="0.81960784313725488" green="0.23137254901960785" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="cCH-mC-aT2"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -9,14 +9,13 @@
 #import "VAUAboutListViewController.h"
 
 @interface VAUAboutListViewController ()
-@property (weak, nonatomic) IBOutlet UIWebView *contentWebView;
+@property (weak, nonatomic) IBOutlet UIWebView* contentWebView;
 
 @end
 
 @implementation VAUAboutListViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
@@ -24,14 +23,19 @@
     return self;
 }
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-    // hier html datei laden
+    // load WebView
+    [_contentWebView setDelegate:self];
+    NSURL *url = [NSURL URLWithString:[[NSBundle mainBundle] pathForResource:@"about" ofType:@"html"]];
+    NSURLRequest* request = [NSURLRequest requestWithURL:url cachePolicy:NSURLRequestReloadIgnoringLocalAndRemoteCacheData timeoutInterval:30];
+    
+    _contentWebView.scrollView.scrollEnabled = NO;
+    _contentWebView.scrollView.bounces = NO;
+    [_contentWebView loadRequest:request];
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
