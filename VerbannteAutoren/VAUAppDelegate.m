@@ -14,6 +14,7 @@
 {
     _authorNames = [NSMutableArray arrayWithCapacity:4096];
     [self loadData];
+    self.window.tintColor = [UIColor redColor]; //or whatever color you want
     return YES;
 }
 							
