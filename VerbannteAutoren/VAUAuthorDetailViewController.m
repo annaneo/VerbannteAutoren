@@ -7,6 +7,7 @@
 //
 
 #import "VAUAuthorDetailViewController.h"
+#import "VAUDetailTableViewCell.h"
 
 @interface VAUAuthorDetailViewController ()
 
@@ -17,8 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.automaticallyAdjustsScrollViewInsets = NO;
-    [self showDetails];
-//    _worksTextView.frame = [self contentSizeRectForTextView:_worksTextView];
+    _table.delegate = self;
+    _table.dataSource = self;
+    [self fetchAddtionalData];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -26,11 +28,11 @@
     // Dispose of any resources that can be recreated.
 }
 
-// loads all detail information
-- (void)showDetails {
-    [self showWorks];
+- (void)fetchAddtionalData {
     [self fetchDataFromWikipedia];
+    _wikiLink = [self generateWikipediaLink];
 }
+
 
 // set all forbidden works
 - (void)showWorks {
@@ -92,14 +94,8 @@
         return;
     }
     NSString* content = [contentDict objectForKey:@"*"];
+
     // getting gnd number
-
-    
-//    NSString* file = [[NSBundle mainBundle] pathForResource:@"testWiki" ofType:@"json"];
-//    NSDictionary* wikiDict = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:file options:NSDataReadingUncached error:&error] options:NSJSONReadingMutableContainers error:&error];
-
-    //NSString* content = [[[wikiDict objectForKey:@"parse"] objectForKey:@"text"] objectForKey:@"*"];
-    
     // find stuff like http://d-nb.info/gnd/118781278
     
     NSRegularExpression* gndRegex = [NSRegularExpression regularExpressionWithPattern:@"\\http://d-nb.info/gnd/([0-9]+)" options:NSRegularExpressionCaseInsensitive error:&error];
@@ -108,14 +104,11 @@
     }
     NSRange rangeOfFirstMatch = [gndRegex rangeOfFirstMatchInString:content options:0 range:NSMakeRange(0, [content length])];
     if (!NSEqualRanges(rangeOfFirstMatch, NSMakeRange(NSNotFound, 0))) {
-        NSString* substringForFirstMatch = [content substringWithRange:rangeOfFirstMatch];
-        NSLog(@"first match gnd: %@", substringForFirstMatch);
+        _gndLink = [content substringWithRange:rangeOfFirstMatch];
+        NSLog(@"first match gnd: %@", _gndLink);
     }
-    
-    
-    
+
     // getting image
-    
     //stuff like: upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Artur_Mahraun%2C_1928.JPG/220px-Artur_Mahraun%2C_1928.JPG
     NSRegularExpression* imageRegex = [NSRegularExpression regularExpressionWithPattern:@"upload.wikimedia.org/wikipedia/commons/thumb/(\\S+)jpg/(\\S+)jpg" options:NSRegularExpressionCaseInsensitive error:&error];
     if (error) {
@@ -133,22 +126,20 @@
         NSLog(@"%@", imageUrl);
         NSData* imageData = [[NSData alloc] initWithContentsOfURL:imageUrl];
         //TODO: does this work
-        UIImage* authorImage = [UIImage imageWithData:imageData];
+        _image = [UIImage imageWithData:imageData];
 //        [_authorImageView setImage:authorImage];
 //        _authorImageView.hidden = NO;
     } else {
+        _image = nil;
 //        _authorImageView.hidden = YES;
     }
 
-
     // getting first section
-    [self fetchFirstSection];
+    _biography = [self fetchBiography];
 
-    
 }
 
-- (NSString*)fetchFirstSection {
-
+- (NSString*)fetchBiography {
     NSString* baseUrl = @"http://de.wikipedia.org/w/api.php?";
     NSString* properties = @"format=json&action=query&prop=revisions&rvsection=0&indexpageids&rvprop=content&rvparse&redirects";
     NSString* title = self.navigationItem.title;
@@ -182,10 +173,7 @@
         content = [content substringToIndex:[content rangeOfString:@"<br"].location];
     }
     NSRange r;
-    // remove divs
-
-
-
+    //TODO: remove divs
 
     // remove html
     while ((r = [content rangeOfString:@"<[^>]+>" options:NSRegularExpressionSearch]).location != NSNotFound) {
@@ -195,10 +183,39 @@
     while ((r = [content rangeOfString:@"\\[.\\]" options:NSRegularExpressionSearch]).location != NSNotFound) {
         content = [content stringByReplacingCharactersInRange:r withString:@""];
     }
-
     NSLog(@"content: %@", content);
     return content;
+}
 
+- (NSString*)generateWikipediaLink {
+    //TODO: no wikilink when page not existing!!!
+    NSString* title = self.navigationItem.title;
+    NSString* urlString = [NSString stringWithFormat:@"http://de.wikipedia.org/wiki/%@", title];
+    return [urlString stringByReplacingOccurrencesOfString:@" " withString:@"_"];
+}
+
+
+#pragma mark - TableViewDelegat/TableViewSource
+
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 5;
+}
+
+- (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    VAUDetailTableViewCell* cell = [tableView dequeueReusableCellWithIdentifier:@"DetailCell"];
+    [cell reset];
+    NSInteger row = indexPath.row;
+
+    if (row == 0) {
+        cell.title.text = @"Biographie";
+        cell.content.text = _biography;
+    }
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    // open link if needed
 }
 
 

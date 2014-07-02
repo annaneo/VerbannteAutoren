@@ -20,5 +20,10 @@ typedef NS_ENUM(NSInteger, VAUDetailCellStyle) {
 
 @property (nonatomic) VAUDetailCellStyle cellStyle;
 
+@property (weak, nonatomic) IBOutlet UILabel *title;
+@property (weak, nonatomic) IBOutlet UILabel *content;
+@property (weak, nonatomic) IBOutlet UIImageView *image;
+
+- (void)reset;
 
 @end

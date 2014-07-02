@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VAUAuthorDetailViewController : UIViewController
+@interface VAUAuthorDetailViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UITableView *table;
+
+@property (nonatomic) NSString* biography;
+@property (nonatomic) UIImage* image;
+@property (nonatomic) NSArray* works;
+@property (nonatomic) NSString* wikiLink;
+@property (nonatomic) NSString* gndLink;
 
 @end

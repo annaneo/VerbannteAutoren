@@ -14,7 +14,7 @@
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-        
+
     }
     return self;
 }
@@ -31,6 +31,12 @@
     // Configure the view for the selected state
 }
 
+
+- (void)reset {
+    _title.text = @"";
+    _content.text = @"";
+    _image.hidden = YES;
+}
 
 
 
