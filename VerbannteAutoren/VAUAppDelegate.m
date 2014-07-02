@@ -8,6 +8,7 @@
 
 #import "VAUAppDelegate.h"
 #import "VAUIndexedListItem.h"
+#import "LRIndexedCollationWithSearch.h"
 
 @implementation VAUAppDelegate
 
@@ -77,7 +78,7 @@
         [tempItems addObject:tempItem];
     }
 
-    UILocalizedIndexedCollation *theCollation = [UILocalizedIndexedCollation currentCollation];
+    LRIndexedCollationWithSearch *theCollation = [LRIndexedCollationWithSearch currentCollation];
 
     for (VAUIndexedListItem *item in tempItems) {
         NSInteger sect = [theCollation sectionForObject:item collationStringSelector:@selector(surname)];

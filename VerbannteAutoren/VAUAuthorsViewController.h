@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VAUAuthorsViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate>
+@interface VAUAuthorsViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate> {
+}
 
 @property (weak, nonatomic) IBOutlet UISearchBar* searchbar;
 @property (weak, nonatomic) IBOutlet UITableView* authorsTable;
