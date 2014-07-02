@@ -112,17 +112,17 @@
 			<string>Komsomol</string>
 		</dict>
 	</array>
-	<key>A. Bubnow</key>
+	<key>Andrei Sergejwitsch Bubnow</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>A.</string>
+			<string>Andrei Sergejwitsch</string>
 			<key>authorLastname</key>
 			<string>Bubnow</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Moskau</string>
 			<key>firstEditionPublicationYear</key>
-			<string>1932</string>
+			<string>1932 </string>
 			<key>firstEditionPublisher</key>
 			<string>Verlagsgen. ausländ. Arbeiter</string>
 			<key>title</key>
@@ -214,11 +214,11 @@
 			<string>Vom Februar zum Oktober. Erinnerungen an 1917</string>
 		</dict>
 	</array>
-	<key>A. J. B. Parent-Duchatelet</key>
+	<key>Alexandre Jean-Baptiste Parent-Duchatelet</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>A. J. B.</string>
+			<string>Alexandre Jean-Baptiste</string>
 			<key>authorLastname</key>
 			<string>Parent-Duchatelet</string>
 			<key>firstEditionPublicationPlace</key>
@@ -248,11 +248,11 @@
 			<string>Der Diesseitsmensch</string>
 		</dict>
 	</array>
-	<key>A. J. Mikojan</key>
+	<key>Anastas Iwanowitsch Mikojan</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>A. J.</string>
+			<string>Anastas Iwanowitsch</string>
 			<key>authorLastname</key>
 			<string>Mikojan</string>
 			<key>firstEditionPublicationPlace</key>
@@ -266,7 +266,7 @@
 		</dict>
 		<dict>
 			<key>authorFirstname</key>
-			<string>A. J.</string>
+			<string>Anastas Iwanowitsch</string>
 			<key>authorLastname</key>
 			<string>Mikojan</string>
 			<key>firstEditionPublicationPlace</key>
@@ -432,11 +432,11 @@
 			<string>Brigade auf Chosrastochot</string>
 		</dict>
 	</array>
-	<key>A. Otto-Walster</key>
+	<key>Ausgust Otto-Walster</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>A.</string>
+			<string>August</string>
 			<key>authorLastname</key>
 			<string>Otto-Walster</string>
 			<key>firstEditionPublicationPlace</key>
@@ -483,13 +483,13 @@
 			<string>Moskau heute und morgen</string>
 		</dict>
 	</array>
-	<key>A. Rudolf</key>
+	<key>Richard Lengyel</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>A.</string>
+			<string>Richard</string>
 			<key>authorLastname</key>
-			<string>Rudolf</string>
+			<string>Lengyel</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Zürich</string>
 			<key>firstEditionPublicationYear</key>
@@ -501,9 +501,9 @@
 		</dict>
 		<dict>
 			<key>authorFirstname</key>
-			<string>A.</string>
+			<string>Richard</string>
 			<key>authorLastname</key>
-			<string>Rudolf</string>
+			<string>Lengyel</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Moskau</string>
 			<key>firstEditionPublicationYear</key>
@@ -565,11 +565,11 @@
 			<string>Im Namen der Arbeiteröffentlichkeit! Das kameradschaftliche Betriebsgericht ...</string>
 		</dict>
 	</array>
-	<key>A. Schotman</key>
+	<key>Alexander Wassiljewitsch Schotman</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>A.</string>
+			<string>Alexander Wassiljewitsch</string>
 			<key>authorLastname</key>
 			<string>Schotman</string>
 			<key>firstEditionPublicationPlace</key>
@@ -746,11 +746,11 @@
 			<string>Onderwijs en nationaal-socialisme</string>
 		</dict>
 	</array>
-	<key>A. Warski</key>
+	<key>Adolf Warski</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>A.</string>
+			<string>Adolf</string>
 			<key>authorLastname</key>
 			<string>Warski</string>
 			<key>firstEditionPublicationPlace</key>
@@ -797,11 +797,11 @@
 			<string>Über die Sowjetjustiz</string>
 		</dict>
 	</array>
-	<key>A. de Kom</key>
+	<key>Anton de Kom</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>A. de</string>
+			<string>Anton de</string>
 			<key>authorLastname</key>
 			<string>Kom</string>
 			<key>firstEditionPublicationPlace</key>
@@ -8930,13 +8930,13 @@
 			<string>Lebenslauf einer Bolschewikin</string>
 		</dict>
 	</array>
-	<key>B. Ponomarew</key>
+	<key>Boris Nikolajewitsch Ponomarjow</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>B.</string>
+			<string>Boris Nikolajewitsch</string>
 			<key>authorLastname</key>
-			<string>Ponomarew</string>
+			<string>Ponomarjow</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Moskau</string>
 			<key>firstEditionPublicationYear</key>
@@ -8948,9 +8948,9 @@
 		</dict>
 		<dict>
 			<key>authorFirstname</key>
-			<string>B.</string>
+			<string>Boris Nikolajewitsch</string>
 			<key>authorLastname</key>
-			<string>Ponomarew</string>
+			<string>Ponomarjow</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Moskau</string>
 			<key>firstEditionPublicationYear</key>
@@ -11069,74 +11069,74 @@
 			<string>Sämtliche Werke</string>
 		</dict>
 	</array>
-	<key>C Redo</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string>C</string>
-			<key>authorLastname</key>
-			<string>Redo</string>
-			<key>firstEditionPublicationPlace</key>
-			<string>Arbon</string>
-			<key>firstEditionPublicationYear</key>
-			<string>1936</string>
-			<key>firstEditionPublisher</key>
-			<string>Eichen-Verl.</string>
-			<key>title</key>
-			<string>Zwei Deutsche. Goethe und Hitler</string>
-		</dict>
-	</array>
-	<key>C Spindler</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string>C</string>
-			<key>authorLastname</key>
-			<string>Spindler</string>
-			<key>firstEditionPublicationPlace</key>
-			<string>Magdeburg</string>
-			<key>firstEditionPublicationYear</key>
-			<string>1908</string>
-			<key>firstEditionPublisher</key>
-			<string>Magdeburger Verl.-Anst.</string>
-			<key>title</key>
-			<string>Die Nonne von Gnadenzell</string>
-		</dict>
-	</array>
-	<key>C. A. Kruckow</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string>C. A.</string>
-			<key>authorLastname</key>
-			<string>Kruckow</string>
-			<key>firstEditionPublicationPlace</key>
-			<string>Berlin</string>
-			<key>firstEditionPublicationYear</key>
-			<string>1938</string>
-			<key>firstEditionPublisher</key>
-			<string>Selbstverl.</string>
-			<key>title</key>
-			<string>Der Fernsprech-Selbstanschlussbetrieb — wie ich ihn erlebte</string>
-		</dict>
-	</array>
-	<key>C. A. Schramm</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string>C. A.</string>
-			<key>authorLastname</key>
-			<string>Schramm</string>
-			<key>firstEditionPublicationPlace</key>
-			<string>Leipzig</string>
-			<key>firstEditionPublicationYear</key>
-			<string>1876</string>
-			<key>firstEditionPublisher</key>
-			<string>Genossenschaftsbuchdruck</string>
-			<key>title</key>
-			<string>Grundzüge der Nationalökonomie</string>
-		</dict>
-	</array>
+	<key>Walther Victor</key>
+		<array>
+			<dict>
+				<key>authorFirstname</key>
+				<string>Walther</string>
+				<key>authorLastname</key>
+				<string>Victor</string>
+				<key>firstEditionPublicationPlace</key>
+				<string>Arbon</string>
+				<key>firstEditionPublicationYear</key>
+				<string>1936</string>
+				<key>firstEditionPublisher</key>
+				<string>Eichen-Verl.</string>
+				<key>title</key>
+				<string>Zwei Deutsche. Goethe und Hitler</string>
+			</dict>
+		</array>
+		<key>Karl Spindler</key>
+		<array>
+			<dict>
+				<key>authorFirstname</key>
+				<string>Karl</string>
+				<key>authorLastname</key>
+				<string>Spindler</string>
+				<key>firstEditionPublicationPlace</key>
+				<string>Magdeburg</string>
+				<key>firstEditionPublicationYear</key>
+				<string>1908</string>
+				<key>firstEditionPublisher</key>
+				<string>Magdeburger Verl.-Anst.</string>
+				<key>title</key>
+				<string>Die Nonne von Gnadenzell</string>
+			</dict>
+		</array>
+		<key>August Carl Kruckow</key>
+		<array>
+			<dict>
+				<key>authorFirstname</key>
+				<string>August Carl</string>
+				<key>authorLastname</key>
+				<string>Kruckow</string>
+				<key>firstEditionPublicationPlace</key>
+				<string>Berlin</string>
+				<key>firstEditionPublicationYear</key>
+				<string>1938</string>
+				<key>firstEditionPublisher</key>
+				<string>Selbstverl.</string>
+				<key>title</key>
+				<string>Der Fernsprech-Selbstanschlussbetrieb — wie ich ihn erlebte</string>
+			</dict>
+		</array>
+		<key>Carl August Schramm</key>
+		<array>
+			<dict>
+				<key>authorFirstname</key>
+				<string>Carl August</string>
+				<key>authorLastname</key>
+				<string>Schramm</string>
+				<key>firstEditionPublicationPlace</key>
+				<string>Leipzig</string>
+				<key>firstEditionPublicationYear</key>
+				<string>1876</string>
+				<key>firstEditionPublisher</key>
+				<string>Genossenschaftsbuchdruck</string>
+				<key>title</key>
+				<string>Grundzüge der Nationalökonomie</string>
+			</dict>
+		</array>
 	<key>C. Az. Bottema</key>
 	<array>
 		<dict>
@@ -11321,11 +11321,11 @@
 			<string>Schlagworte für Inserate, Prospekte u. Plakate</string>
 		</dict>
 	</array>
-	<key>C.A. Loosli</key>
+	<key>Carl Albert Loosli</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>C.A.</string>
+			<string>Carl Albert</string>
 			<key>authorLastname</key>
 			<string>Loosli</string>
 			<key>firstEditionPublicationPlace</key>
@@ -14395,11 +14395,11 @@
 			<string>Brüder in Fesseln. Drama in 4 Aufz. </string>
 		</dict>
 	</array>
-	<key>E. Hirschberg</key>
+	<key>Ernst Hirschberg</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>E.</string>
+			<string>Ernst</string>
 			<key>authorLastname</key>
 			<string>Hirschberg</string>
 			<key>firstEditionPublicationPlace</key>
@@ -21936,13 +21936,13 @@
 			<string>Urgeschichte im Lichte der katholischen Wahrheit</string>
 		</dict>
 	</array>
-	<key>F. Karsch-Haack</key>
+	<key>Ferdinand Karsch</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>F.</string>
+			<string>Ferdinand</string>
 			<key>authorLastname</key>
-			<string>Karsch-Haack</string>
+			<string>Karsch</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Berlin</string>
 			<key>firstEditionPublicationYear</key>
@@ -21953,11 +21953,11 @@
 			<string>Erotische Grosstadtbilder als Kulturphänomene</string>
 		</dict>
 	</array>
-	<key>F. Kubka</key>
+		<key>František Kubka</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>F.</string>
+			<string>František</string>
 			<key>authorLastname</key>
 			<string>Kubka</string>
 			<key>firstEditionPublicationPlace</key>
@@ -28275,11 +28275,11 @@
 			<string>Dussja Winogradowa</string>
 		</dict>
 	</array>
-	<key>G. G. L. Alexander</key>
+	<key>Gertrud Alexander</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>G. G. L.</string>
+			<string>Gertrud</string>
 			<key>authorLastname</key>
 			<string>Alexander</string>
 			<key>firstEditionPublicationPlace</key>
@@ -28374,13 +28374,13 @@
 			<string>Wer zerstört die Familie?</string>
 		</dict>
 	</array>
-	<key>G. M. Krshishanowski</key>
+	<key>Gleb Maximilianowitsch Krschischanowski</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>G. M.</string>
+			<string>Gleb Maximilianowitsch</string>
 			<key>authorLastname</key>
-			<string>Krshishanowski</string>
+			<string>Krschischanowski</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Moskau</string>
 			<key>firstEditionPublicationYear</key>
@@ -28408,11 +28408,11 @@
 			<string>Menschen im Aufbau</string>
 		</dict>
 	</array>
-	<key>G. V. Tschitscherin</key>
+	<key>Georgi Wassiljewitsch Tschitscherin</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>G. V.</string>
+			<string>Georgi Wassiljewitsch</string>
 			<key>authorLastname</key>
 			<string>Tschitscherin</string>
 			<key>firstEditionPublicationPlace</key>
@@ -28425,13 +28425,13 @@
 			<string>Sämtliche Schriften</string>
 		</dict>
 	</array>
-	<key>G. W.  [Georgij Valentinovič] Plechanow [Plechanov]</key>
+	<key>Georgi Walentinowitsch Plechanow</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>G. W.  [Georgij Valentinovič]</string>
+			<string>Georgi Walentinowitsch</string>
 			<key>authorLastname</key>
-			<string>Plechanow [Plechanov]</string>
+			<string>Plechanow</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Moskau</string>
 			<key>firstEditionPublicationYear</key>
@@ -28441,14 +28441,11 @@
 			<key>title</key>
 			<string>Beiträge zur Geschichte des Materialismus</string>
 		</dict>
-	</array>
-	<key>G. W. [Georgij Valentinovič] Plechanow [Plechanov]</key>
-	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>G. W. [Georgij Valentinovič]</string>
+			<string>Georgi Walentinowitsch</string>
 			<key>authorLastname</key>
-			<string>Plechanow [Plechanov]</string>
+			<string>Plechanow</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Moskau</string>
 			<key>firstEditionPublicationYear</key>
@@ -28458,14 +28455,11 @@
 			<key>title</key>
 			<string>Über die Rolle der Persönlichkeit in der Geschichte</string>
 		</dict>
-	</array>
-	<key>G[eorgij] W. [Valentinovič] Plechanow [Plechanov]</key>
-	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>G[eorgij] W. [Valentinovič]</string>
+			<string>Georgi Walentinowitsch</string>
 			<key>authorLastname</key>
-			<string>Plechanow [Plechanov]</string>
+			<string>Plechanow</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Moskau</string>
 			<key>firstEditionPublicationYear</key>
