@@ -16,9 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    _isSearchActive = NO;
     self.automaticallyAdjustsScrollViewInsets = NO;
     //_authorNames = [NSMutableArray arrayWithArray:[(VAUAppDelegate*)[UIApplication sharedApplication].delegate authorNames]];
-    _indexedList = [NSMutableArray arrayWithArray:[(VAUAppDelegate*)[UIApplication sharedApplication].delegate indexedList]];
+    _indexedList = [[NSMutableArray arrayWithArray:[(VAUAppDelegate*)[UIApplication sharedApplication].delegate indexedList]] mutableCopy];
+    _indexedListFull = [[NSMutableArray arrayWithArray:[(VAUAppDelegate*)[UIApplication sharedApplication].delegate indexedList]] mutableCopy];
     //_tableData = [_authorNames mutableCopy];
     _authorsTable.delegate = self;
     _authorsTable.dataSource = self;
@@ -27,7 +29,9 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated {
-    [_authorsTable setContentOffset:CGPointMake(0, 44)];
+    if (!_isSearchActive) {
+        [_authorsTable setContentOffset:CGPointMake(0, 44)];
+    }
 }
 
 
@@ -77,13 +81,80 @@
     [_searchbar resignFirstResponder];
 }
 
+
+
+#pragma mark Search Bar Delegate
+
+- (void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar {
+    if (searchBar.text.length == 0) {
+        searchBar.showsCancelButton = YES;
+    }
+}
+
+
+// searchbar & search
+- (void)searchBar:(UISearchBar* )searchBar textDidChange:(NSString *)searchText {
+    if (searchText.length == 0) {
+        _isSearchActive = NO;
+        searchBar.showsCancelButton = YES;
+        _indexedList = [_indexedListFull mutableCopy];
+    }
+    else {
+        _isSearchActive = YES;
+        searchBar.showsCancelButton = NO;
+        [_indexedList removeAllObjects];
+        for (NSArray* section in _indexedListFull) {
+            NSMutableArray* searchedSection = [NSMutableArray array];
+
+            for (VAUIndexedListItem *item in section) {
+                if (!NSEqualRanges([[item.fullname lowercaseString] rangeOfString:[searchText lowercaseString]], NSMakeRange(NSNotFound, 0))) {
+                    [searchedSection addObject:item];
+                }
+            }
+            [_indexedList addObject:searchedSection];
+        }
+    }
+    [_authorsTable reloadData];
+}
+
+// cancel button
+- (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar {
+    searchBar.text = @"";
+    [self searchBar:searchBar textDidChange:@""];
+    searchBar.showsCancelButton = NO;
+    [searchBar resignFirstResponder];
+}
+
+
+- (void)searchBarSearchButtonClicked:(UISearchBar*)searchBar {
+    [searchBar resignFirstResponder];
+}
+
+- (void)searchBarTextDidEndEditing:(UISearchBar *)searchBar {
+    [searchBar resignFirstResponder];
+}
+
+
+#pragma mark Segue
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([[segue identifier] isEqualToString:@"authorDetailSegue"]) {
+        VAUAuthorDetailViewController* detailViewController = [segue destinationViewController];
+        NSString* name = [(UITableViewCell*)sender textLabel].text;
+        NSArray* works = [[(VAUAppDelegate*)[UIApplication sharedApplication].delegate rawData] objectForKey:name];
+        detailViewController.works = works;
+        detailViewController.navigationItem.title = [(UITableViewCell*)sender textLabel].text;
+    }
+}
+
+
 #pragma mark - JSON Parsing
 
 ////  get load data from plist
 //- (void)loadData {
 //    /* load json
 //    NSString* path = [[NSBundle mainBundle] pathForResource:@"verbannte-buecher" ofType:@"json"];
-//    
+//
 //    NSData* content = [[NSFileManager defaultManager] contentsAtPath:path];
 //    _data = [NSJSONSerialization JSONObjectWithData:content options:NSJSONReadingMutableContainers error:nil];
 //    NSMutableArray* array = [NSJSONSerialization JSONObjectWithData:content options:NSJSONReadingMutableContainers error:nil];
@@ -124,58 +195,8 @@
 //        namesString = [namesString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 //        [_authorNames addObject:namesString];
 //    }
-//    
+//
 //}
-
-
-#pragma mark Search Bar Delegate
-
-// searchbar & search
-- (void)searchBar:(UISearchBar* )searchBar textDidChange:(NSString *)searchText {
-    if (searchText.length == 0) {
-        _tableData = [NSMutableArray arrayWithArray:_authorNames];
-    }
-    else {
-        [_tableData removeAllObjects];
-        for (NSString* authorName in _authorNames) {
-            // if searchterm is substring of authorname => insert into dataList
-            if (!NSEqualRanges([[authorName lowercaseString] rangeOfString:[searchText lowercaseString]], NSMakeRange(NSNotFound, 0))){
-                [_tableData addObject:authorName];
-            }
-        }
-    }
-    [_authorsTable reloadData];
-}
-
-// cancel button
-- (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar {
-    searchBar.text = @"";
-    [self searchBar:searchBar textDidChange:@""];
-    [searchBar resignFirstResponder];
-}
-
-
-- (void)searchBarSearchButtonClicked:(UISearchBar*)searchBar {
-    [searchBar resignFirstResponder];
-}
-
-- (void)searchBarTextDidEndEditing:(UISearchBar *)searchBar {
-    [searchBar resignFirstResponder];
-}
-
-
-#pragma mark Segue
-
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if ([[segue identifier] isEqualToString:@"authorDetailSegue"]) {
-        VAUAuthorDetailViewController* detailViewController = [segue destinationViewController];
-        NSString* name = [(UITableViewCell*)sender textLabel].text;
-        NSArray* works = [[(VAUAppDelegate*)[UIApplication sharedApplication].delegate rawData] objectForKey:name];
-        detailViewController.works = works;
-        detailViewController.navigationItem.title = [(UITableViewCell*)sender textLabel].text;
-    }
-}
-
 
 
 #pragma mark Helper

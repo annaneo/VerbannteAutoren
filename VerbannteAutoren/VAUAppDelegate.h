@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VAUAppDelegate : UIResponder <UIApplicationDelegate>
+@interface VAUAppDelegate : UIResponder <UIApplicationDelegate> {
+}
 
 @property (strong, nonatomic) UIWindow *window;
 

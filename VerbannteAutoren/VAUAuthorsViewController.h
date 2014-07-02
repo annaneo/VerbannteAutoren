@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface VAUAuthorsViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate> {
+    BOOL _isSearchActive;
 }
 
 @property (weak, nonatomic) IBOutlet UISearchBar* searchbar;
@@ -16,6 +17,8 @@
 @property (strong, nonatomic) NSMutableArray* authorNames;
 @property (strong, nonatomic) NSMutableArray* tableData;
 @property (strong, nonatomic) NSMutableArray* indexedList;
+@property (strong, nonatomic) NSMutableArray* indexedListFull;
+
 
 
 @end
