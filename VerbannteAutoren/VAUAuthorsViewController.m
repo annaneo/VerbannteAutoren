@@ -142,7 +142,7 @@
         VAUAuthorDetailViewController* detailViewController = [segue destinationViewController];
         NSString* name = [(UITableViewCell*)sender textLabel].text;
         NSArray* works = [[(VAUAppDelegate*)[UIApplication sharedApplication].delegate rawData] objectForKey:name];
-        detailViewController.works = works;
+        //detailViewController.works = works;
         detailViewController.navigationItem.title = [(UITableViewCell*)sender textLabel].text;
     }
 }

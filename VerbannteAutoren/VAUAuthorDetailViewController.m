@@ -18,7 +18,7 @@
     [super viewDidLoad];
     self.automaticallyAdjustsScrollViewInsets = NO;
     [self showDetails];
-    _worksTextView.frame = [self contentSizeRectForTextView:_worksTextView];
+//    _worksTextView.frame = [self contentSizeRectForTextView:_worksTextView];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,6 +34,7 @@
 
 // set all forbidden works
 - (void)showWorks {
+    /*
     NSMutableString* singleWork;
     for (NSDictionary* item in _works) {
         NSString* title = [item objectForKey:@"title"];
@@ -56,6 +57,7 @@
         //print text
         _worksTextView.text = [_worksTextView.text stringByAppendingString:singleWork];
     }
+     */
 }
 
 - (void)fetchDataFromWikipedia {
@@ -132,10 +134,10 @@
         NSData* imageData = [[NSData alloc] initWithContentsOfURL:imageUrl];
         //TODO: does this work
         UIImage* authorImage = [UIImage imageWithData:imageData];
-        [_authorImageView setImage:authorImage];
-        _authorImageView.hidden = NO;
+//        [_authorImageView setImage:authorImage];
+//        _authorImageView.hidden = NO;
     } else {
-        _authorImageView.hidden = YES;
+//        _authorImageView.hidden = YES;
     }
 
 
