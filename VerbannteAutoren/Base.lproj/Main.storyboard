@@ -57,7 +57,7 @@
             </objects>
             <point key="canvasLocation" x="50" y="98"/>
         </scene>
-        <!--About List View Controller - Liste verbotener Autoren -->
+        <!--About List View Controller - Liste verbotener Autoren und Werke -->
         <scene sceneID="QXj-im-FHj">
             <objects>
                 <viewController id="caj-Nr-zbE" customClass="VAUAboutListViewController" sceneMemberID="viewController">
@@ -77,7 +77,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Liste verbotener Autoren " id="91j-Zu-maC"/>
+                    <navigationItem key="navigationItem" title="Liste verbotener Autoren und Werke " id="91j-Zu-maC"/>
                     <connections>
                         <outlet property="contentWebView" destination="Kl3-8l-AAO" id="whT-6U-ReV"/>
                     </connections>
@@ -86,7 +86,7 @@
             </objects>
             <point key="canvasLocation" x="1718" y="1654"/>
         </scene>
-        <!--View Controller - Impressum-->
+        <!--View Controller - Informationen zur App-->
         <scene sceneID="DIH-w4-s8P">
             <objects>
                 <viewController id="wdD-eg-TZe" sceneMemberID="viewController">
@@ -106,7 +106,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Impressum" id="w6E-ar-HI2"/>
+                    <navigationItem key="navigationItem" title="Informationen zur App" id="w6E-ar-HI2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MpK-5b-0eL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
