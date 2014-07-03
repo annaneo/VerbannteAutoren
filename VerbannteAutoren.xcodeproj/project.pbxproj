@@ -18,6 +18,10 @@
 		045DDDBB195F3BD000779702 /* VAUMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045DDDBA195F3BD000779702 /* VAUMapViewController.m */; };
 		045DDDBC195F3BD000779702 /* VAUMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045DDDBA195F3BD000779702 /* VAUMapViewController.m */; };
 		045DDDBE195F3C5300779702 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045DDDBD195F3C5300779702 /* MapKit.framework */; };
+		047005BE196593A200DABFC0 /* VAUImpressumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047005BD196593A200DABFC0 /* VAUImpressumViewController.m */; };
+		047005BF196593A200DABFC0 /* VAUImpressumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047005BD196593A200DABFC0 /* VAUImpressumViewController.m */; };
+		047005C1196599D200DABFC0 /* impressum.html in Resources */ = {isa = PBXBuildFile; fileRef = 047005C0196599D200DABFC0 /* impressum.html */; };
+		047005C2196599D200DABFC0 /* impressum.html in Resources */ = {isa = PBXBuildFile; fileRef = 047005C0196599D200DABFC0 /* impressum.html */; };
 		048CE9551954A614005EA60E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048CE9541954A614005EA60E /* Foundation.framework */; };
 		048CE9571954A614005EA60E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048CE9561954A614005EA60E /* CoreGraphics.framework */; };
 		048CE9591954A614005EA60E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048CE9581954A614005EA60E /* UIKit.framework */; };
@@ -72,6 +76,9 @@
 		045DDDB9195F3BD000779702 /* VAUMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAUMapViewController.h; sourceTree = "<group>"; };
 		045DDDBA195F3BD000779702 /* VAUMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAUMapViewController.m; sourceTree = "<group>"; };
 		045DDDBD195F3C5300779702 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		047005BC196593A200DABFC0 /* VAUImpressumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VAUImpressumViewController.h; path = ../VAUImpressumViewController.h; sourceTree = "<group>"; };
+		047005BD196593A200DABFC0 /* VAUImpressumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VAUImpressumViewController.m; path = ../VAUImpressumViewController.m; sourceTree = "<group>"; };
+		047005C0196599D200DABFC0 /* impressum.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = impressum.html; sourceTree = "<group>"; };
 		048CE9511954A614005EA60E /* VerbannteAutoren.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerbannteAutoren.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048CE9541954A614005EA60E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		048CE9561954A614005EA60E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -167,6 +174,8 @@
 		048CE95A1954A614005EA60E /* VerbannteAutoren */ = {
 			isa = PBXGroup;
 			children = (
+				047005BC196593A200DABFC0 /* VAUImpressumViewController.h */,
+				047005BD196593A200DABFC0 /* VAUImpressumViewController.m */,
 				043B4A0D196306CF00576B7C /* VAURandomAuthorViewController.h */,
 				043B4A0E196306CF00576B7C /* VAURandomAuthorViewController.m */,
 				041D560B1961FF43007856D7 /* VAUAboutListViewController.h */,
@@ -191,6 +200,7 @@
 		048CE95B1954A614005EA60E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				047005C0196599D200DABFC0 /* impressum.html */,
 				043B4A091963039000576B7C /* about.html */,
 				043B4A0A1963039000576B7C /* buecherverbrennung.jpg */,
 				04C651F2196012AC006D89FA /* Collage_iPhone4.png */,
@@ -319,6 +329,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047005C1196599D200DABFC0 /* impressum.html in Resources */,
 				04C651EC19600D36006D89FA /* iTunesArtwork.png in Resources */,
 				048CE96D1954A614005EA60E /* Images.xcassets in Resources */,
 				04C651EB19600D36006D89FA /* VAU_Logo_120.png in Resources */,
@@ -344,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04CC1EF419571F60000816C1 /* data.plist in Resources */,
+				047005C2196599D200DABFC0 /* impressum.html in Resources */,
 				045DDDB8195F195700779702 /* testWiki.json in Resources */,
 				048CE98B1954AD12005EA60E /* verbannte-buecher.json in Resources */,
 				048CE97E1954A614005EA60E /* InfoPlist.strings in Resources */,
@@ -358,6 +370,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				048CE9611954A614005EA60E /* main.m in Sources */,
+				047005BE196593A200DABFC0 /* VAUImpressumViewController.m in Sources */,
 				041D560D1961FF43007856D7 /* VAUAboutListViewController.m in Sources */,
 				045DDDBB195F3BD000779702 /* VAUMapViewController.m in Sources */,
 				048CE98E1954AD7E005EA60E /* VAUAuthorsViewController.m in Sources */,
@@ -372,6 +385,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047005BF196593A200DABFC0 /* VAUImpressumViewController.m in Sources */,
 				048CE98F1954AD7E005EA60E /* VAUAuthorsViewController.m in Sources */,
 				043B4A10196306CF00576B7C /* VAURandomAuthorViewController.m in Sources */,
 				041D560E1961FF43007856D7 /* VAUAboutListViewController.m in Sources */,
