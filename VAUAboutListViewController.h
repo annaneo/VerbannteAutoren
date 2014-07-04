@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VAUAboutListViewController : UIViewController
+@interface VAUAboutListViewController : UIViewController <UIWebViewDelegate>
 
 @end
