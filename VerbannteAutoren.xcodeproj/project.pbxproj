@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		041D560D1961FF43007856D7 /* VAUAboutListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041D560C1961FF43007856D7 /* VAUAboutListViewController.m */; };
 		041D560E1961FF43007856D7 /* VAUAboutListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041D560C1961FF43007856D7 /* VAUAboutListViewController.m */; };
+		04299FD819671FBD00C4EC35 /* buecherverbrennung.png in Resources */ = {isa = PBXBuildFile; fileRef = 04299FD719671FBD00C4EC35 /* buecherverbrennung.png */; };
 		043B4A0B1963039000576B7C /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = 043B4A091963039000576B7C /* about.html */; };
-		043B4A0C1963039000576B7C /* buecherverbrennung.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 043B4A0A1963039000576B7C /* buecherverbrennung.jpg */; };
 		043B4A0F196306CF00576B7C /* VAURandomAuthorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043B4A0E196306CF00576B7C /* VAURandomAuthorViewController.m */; };
 		043B4A10196306CF00576B7C /* VAURandomAuthorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043B4A0E196306CF00576B7C /* VAURandomAuthorViewController.m */; };
 		045DDDB7195F195700779702 /* testWiki.json in Resources */ = {isa = PBXBuildFile; fileRef = 045DDDB6195F195700779702 /* testWiki.json */; };
@@ -68,8 +68,8 @@
 /* Begin PBXFileReference section */
 		041D560B1961FF43007856D7 /* VAUAboutListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VAUAboutListViewController.h; path = ../VAUAboutListViewController.h; sourceTree = "<group>"; };
 		041D560C1961FF43007856D7 /* VAUAboutListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VAUAboutListViewController.m; path = ../VAUAboutListViewController.m; sourceTree = "<group>"; };
+		04299FD719671FBD00C4EC35 /* buecherverbrennung.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buecherverbrennung.png; sourceTree = "<group>"; };
 		043B4A091963039000576B7C /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about.html; sourceTree = "<group>"; };
-		043B4A0A1963039000576B7C /* buecherverbrennung.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = buecherverbrennung.jpg; sourceTree = "<group>"; };
 		043B4A0D196306CF00576B7C /* VAURandomAuthorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VAURandomAuthorViewController.h; path = ../VAURandomAuthorViewController.h; sourceTree = "<group>"; };
 		043B4A0E196306CF00576B7C /* VAURandomAuthorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VAURandomAuthorViewController.m; path = ../VAURandomAuthorViewController.m; sourceTree = "<group>"; };
 		045DDDB6195F195700779702 /* testWiki.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testWiki.json; sourceTree = "<group>"; };
@@ -200,9 +200,9 @@
 		048CE95B1954A614005EA60E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04299FD719671FBD00C4EC35 /* buecherverbrennung.png */,
 				047005C0196599D200DABFC0 /* impressum.html */,
 				043B4A091963039000576B7C /* about.html */,
-				043B4A0A1963039000576B7C /* buecherverbrennung.jpg */,
 				04C651F2196012AC006D89FA /* Collage_iPhone4.png */,
 				04C651DD19600D24006D89FA /* AppIcon */,
 				045DDDB6195F195700779702 /* testWiki.json */,
@@ -334,6 +334,7 @@
 				048CE96D1954A614005EA60E /* Images.xcassets in Resources */,
 				04C651EB19600D36006D89FA /* VAU_Logo_120.png in Resources */,
 				04C651E719600D36006D89FA /* VAU_Logo_40.png in Resources */,
+				04299FD819671FBD00C4EC35 /* buecherverbrennung.png in Resources */,
 				04C651E619600D36006D89FA /* VAU_Logo_29.png in Resources */,
 				048CE95F1954A614005EA60E /* InfoPlist.strings in Resources */,
 				048CE98A1954AD12005EA60E /* verbannte-buecher.json in Resources */,
@@ -346,7 +347,6 @@
 				04C651E819600D36006D89FA /* VAU_Logo_58.png in Resources */,
 				04C651E919600D36006D89FA /* VAU_Logo_60.png in Resources */,
 				04C651EA19600D36006D89FA /* VAU_Logo_80.png in Resources */,
-				043B4A0C1963039000576B7C /* buecherverbrennung.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
