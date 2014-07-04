@@ -186,6 +186,8 @@
 				048CE98D1954AD7E005EA60E /* VAUAuthorsViewController.m */,
 				04BC97F719559B19001803FC /* VAUAuthorDetailViewController.h */,
 				04BC97F819559B19001803FC /* VAUAuthorDetailViewController.m */,
+				C618F84D196493F300AEF209 /* VAUDetailTableViewCell.h */,
+				C618F84E196493F300AEF209 /* VAUDetailTableViewCell.m */,
 				045DDDB9195F3BD000779702 /* VAUMapViewController.h */,
 				045DDDBA195F3BD000779702 /* VAUMapViewController.m */,
 				C618F849196473EF00AEF209 /* LRIndexedCollationWithSearch.m */,
@@ -194,8 +196,6 @@
 				048CE95B1954A614005EA60E /* Supporting Files */,
 				C618F8461963620D00AEF209 /* VAUIndexedListItem.h */,
 				C618F8471963620D00AEF209 /* VAUIndexedListItem.m */,
-				C618F84D196493F300AEF209 /* VAUDetailTableViewCell.h */,
-				C618F84E196493F300AEF209 /* VAUDetailTableViewCell.m */,
 			);
 			path = VerbannteAutoren;
 			sourceTree = "<group>";

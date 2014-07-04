@@ -30,7 +30,8 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     if (!_isSearchActive) {
-        [_authorsTable setContentOffset:CGPointMake(0, 44)];
+        CGFloat offset = _tableOffset > 44 ? _tableOffset : 44;
+        [_authorsTable setContentOffset:CGPointMake(0, offset)];
     }
 }
 
@@ -142,7 +143,8 @@
         VAUAuthorDetailViewController* detailViewController = [segue destinationViewController];
         NSString* name = [(UITableViewCell*)sender textLabel].text;
         NSArray* works = [[(VAUAppDelegate*)[UIApplication sharedApplication].delegate rawData] objectForKey:name];
-        detailViewController.works = works;
+        _tableOffset = _authorsTable.contentOffset.y;
+        detailViewController.worksDataArray = works;
         detailViewController.navigationItem.title = [(UITableViewCell*)sender textLabel].text;
     }
 }

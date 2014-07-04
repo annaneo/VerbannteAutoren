@@ -17,9 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    _prototypecell = [self.table dequeueReusableCellWithIdentifier:@"DetailCell"];
     self.automaticallyAdjustsScrollViewInsets = NO;
     _table.delegate = self;
     _table.dataSource = self;
+    _worksString = @"";
+    [self generateWorks];
     [self fetchAddtionalData];
 }
 
@@ -35,10 +38,9 @@
 
 
 // set all forbidden works
-- (void)showWorks {
-    /*
+- (void)generateWorks {
     NSMutableString* singleWork;
-    for (NSDictionary* item in _works) {
+    for (NSDictionary* item in _worksDataArray) {
         NSString* title = [item objectForKey:@"title"];
         NSString* firstEditionPublicationPlace = [item objectForKey:@"firstEditionPublicationPlace"];
         NSString* firstEditionPublicationYear = [item objectForKey:@"firstEditionPublicationYear"];
@@ -55,12 +57,13 @@
             [singleWork appendString:[NSString stringWithFormat:@" (Verlag: %@)", firstEditionPublisher]];
         }
         //break after each publication
-        [singleWork appendString:@"\n\n"];
-        //print text
-        _worksTextView.text = [_worksTextView.text stringByAppendingString:singleWork];
+        if (![singleWork isEqualToString:[_worksDataArray lastObject]]) {
+            [singleWork appendString:@"\n\n"];
+        }
+        _worksString = [_worksString stringByAppendingString:singleWork];
     }
-     */
 }
+
 
 - (void)fetchDataFromWikipedia {
     NSString* baseUrl = @"http://de.wikipedia.org/w/api.php?";
@@ -127,11 +130,8 @@
         NSData* imageData = [[NSData alloc] initWithContentsOfURL:imageUrl];
         //TODO: does this work
         _image = [UIImage imageWithData:imageData];
-//        [_authorImageView setImage:authorImage];
-//        _authorImageView.hidden = NO;
     } else {
         _image = nil;
-//        _authorImageView.hidden = YES;
     }
 
     // getting first section
@@ -188,7 +188,9 @@
 }
 
 - (NSString*)generateWikipediaLink {
-    //TODO: no wikilink when page not existing!!!
+    if (!_biography) {
+        return nil;
+    }
     NSString* title = self.navigationItem.title;
     NSString* urlString = [NSString stringWithFormat:@"http://de.wikipedia.org/wiki/%@", title];
     return [urlString stringByReplacingOccurrencesOfString:@" " withString:@"_"];
@@ -206,18 +208,67 @@
     VAUDetailTableViewCell* cell = [tableView dequeueReusableCellWithIdentifier:@"DetailCell"];
     [cell reset];
     NSInteger row = indexPath.row;
-
-    if (row == 0) {
-        cell.title.text = @"Biographie";
-        cell.content.text = _biography;
-    }
+    [self configureCell:cell forRow:row];
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // open link if needed
+    NSLog(@"selected row: %d", indexPath.row);
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    [self configureCell:_prototypecell forRow:indexPath.row];
+    [_prototypecell layoutIfNeeded];
+    CGSize size = [_prototypecell.contentView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize];
+    return size.height;
+}
+
+- (void)configureCell:(VAUDetailTableViewCell*)cell forRow:(NSInteger)row {
+    cell.image.hidden = YES;
+    cell.title.hidden = NO;
+    cell.title.text = @"";
+    cell.content.hidden = NO;
+    cell.content.text = @"";
+    cell.image.image = nil;
+    switch (row) {
+        case 0:
+            if (_biography.length > 0) {
+                cell.title.text = @"Biographie";
+                cell.content.text = _biography;
+            }
+            break;
+        case 1:
+            cell.title.hidden = YES;
+            cell.content.hidden = YES;
+            if (_image) {
+                cell.image.hidden = NO;
+                cell.image.image = _image;
+            }
+            break;
+        case 2:
+            if (_worksString.length > 0) {
+                cell.title.text = @"Verbannte Werke";
+                cell.content.text = _worksString;
+            }
+            break;
+        case 3:
+            if (_wikiLink.length > 0) {
+                cell.title.text = @"auf Wikipedia";
+                cell.content.text = _wikiLink;
+            }
+            break;
+        case 4:
+            if (_gndLink.length > 0) {
+                cell.title.text = @"GND";
+                cell.content.text = _gndLink;
+            }
+            break;
+
+        default:
+            break;
+    }
+}
 
 #pragma mark - Helpers
 
