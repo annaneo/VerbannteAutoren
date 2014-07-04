@@ -230,33 +230,46 @@
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="280" placeholderIntrinsicHeight="17" text="Biographie" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZSh-L4-pHC">
-                                                            <rect key="frame" x="20" y="5" width="280" height="17"/>
+                                                            <rect key="frame" x="20" y="11" width="280" height="17"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" placeholderIntrinsicWidth="280" placeholderIntrinsicHeight="98" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="HPu-Ou-0si">
-                                                            <rect key="frame" x="20" y="25" width="280" height="116"/>
+                                                            <rect key="frame" x="20" y="36" width="280" height="105"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                            <color key="backgroundColor" red="0.37169164540816324" green="0.37169164540816324" blue="0.37169164540816324" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             <string key="text">Otto Abeles (* 1. Mai 1879 in Rohatetz bei Nikolsburg, Mähren; † 25. Mai 1945 in Tröbnitz, Sachsen) war ein österreichischer Journalist, Schriftsteller, Musikkritiker und Zionist.</string>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1BV-vI-wET">
+                                                            <rect key="frame" x="130" y="11" width="61" height="123"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" priority="250" constant="61" id="d4x-0o-lIX"/>
+                                                                <constraint firstAttribute="height" priority="250" constant="123" id="mmC-Ob-82K"/>
+                                                            </constraints>
+                                                        </imageView>
                                                     </subviews>
                                                     <constraints>
                                                         <constraint firstAttribute="trailing" secondItem="ZSh-L4-pHC" secondAttribute="trailing" constant="20" id="7KR-kV-c6z"/>
                                                         <constraint firstItem="ZSh-L4-pHC" firstAttribute="leading" secondItem="EzB-fO-tPU" secondAttribute="leading" constant="20" id="NTD-kd-jt4"/>
-                                                        <constraint firstItem="ZSh-L4-pHC" firstAttribute="top" secondItem="EzB-fO-tPU" secondAttribute="top" constant="5" id="RF6-E1-FT1"/>
+                                                        <constraint firstItem="ZSh-L4-pHC" firstAttribute="top" secondItem="EzB-fO-tPU" secondAttribute="top" constant="11" id="RF6-E1-FT1"/>
+                                                        <constraint firstAttribute="centerX" secondItem="1BV-vI-wET" secondAttribute="centerX" constant="-0.5" id="YVY-Vk-Iix"/>
                                                         <constraint firstItem="HPu-Ou-0si" firstAttribute="leading" secondItem="EzB-fO-tPU" secondAttribute="leading" constant="20" id="d0x-C3-DcY"/>
                                                         <constraint firstAttribute="trailing" secondItem="HPu-Ou-0si" secondAttribute="trailing" constant="20" id="eSk-wx-B6b"/>
                                                         <constraint firstAttribute="bottom" secondItem="HPu-Ou-0si" secondAttribute="bottom" id="fvB-ek-VY9"/>
-                                                        <constraint firstItem="HPu-Ou-0si" firstAttribute="top" secondItem="ZSh-L4-pHC" secondAttribute="bottom" constant="3" id="oyF-NV-BYf"/>
+                                                        <constraint firstItem="HPu-Ou-0si" firstAttribute="top" secondItem="ZSh-L4-pHC" secondAttribute="bottom" constant="8" id="oyF-NV-BYf"/>
+                                                        <constraint firstItem="1BV-vI-wET" firstAttribute="top" secondItem="EzB-fO-tPU" secondAttribute="top" priority="750" constant="11" id="voN-2m-NAO"/>
+                                                        <constraint firstAttribute="bottom" secondItem="1BV-vI-wET" secondAttribute="bottom" priority="750" constant="7" id="yJh-yx-7X0"/>
+                                                        <constraint firstAttribute="centerY" secondItem="1BV-vI-wET" secondAttribute="centerY" constant="-2" id="zbW-Ho-GrP"/>
                                                     </constraints>
                                                 </tableViewCellContentView>
                                                 <connections>
                                                     <outlet property="content" destination="HPu-Ou-0si" id="bEN-AN-PGO"/>
+                                                    <outlet property="image" destination="1BV-vI-wET" id="dtE-JT-Heh"/>
                                                     <outlet property="title" destination="ZSh-L4-pHC" id="2pq-l3-PbF"/>
                                                 </connections>
                                             </tableViewCell>

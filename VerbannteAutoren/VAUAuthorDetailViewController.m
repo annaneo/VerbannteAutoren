@@ -173,7 +173,16 @@
         content = [content substringToIndex:[content rangeOfString:@"<br"].location];
     }
     NSRange r;
-    //TODO: remove divs
+    //TODO: remove divs and tables
+    r = [content rangeOfString:@"div>" options:NSBackwardsSearch];
+    if (!NSEqualRanges(r, NSMakeRange(NSNotFound, 0))) {
+        content = [content substringFromIndex:r.location + r.length];
+    }
+
+    // remove leading \n
+    while ([content hasPrefix:@"\n"]) {
+        content = [content substringFromIndex:1];
+    }
 
     // remove html
     while ((r = [content rangeOfString:@"<[^>]+>" options:NSRegularExpressionSearch]).location != NSNotFound) {
