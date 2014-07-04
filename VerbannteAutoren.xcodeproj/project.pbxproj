@@ -53,7 +53,7 @@
 		C618F850196493F300AEF209 /* VAUDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C618F84E196493F300AEF209 /* VAUDetailTableViewCell.m */; };
 		C65C85321967067C00BB08EC /* VAUAboutListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C65C852D1967067C00BB08EC /* VAUAboutListViewController.m */; };
 		C65C85331967067C00BB08EC /* VAUImpressumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C65C852F1967067C00BB08EC /* VAUImpressumViewController.m */; };
-		C65C85341967067C00BB08EC /* VAURandomAuthorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C65C85311967067C00BB08EC /* VAURandomAuthorViewController.m */; };
+		C65C85371967183E00BB08EC /* VAURandomAuthorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C65C85361967183E00BB08EC /* VAURandomAuthorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,8 +116,8 @@
 		C65C852D1967067C00BB08EC /* VAUAboutListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAUAboutListViewController.m; sourceTree = "<group>"; };
 		C65C852E1967067C00BB08EC /* VAUImpressumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAUImpressumViewController.h; sourceTree = "<group>"; };
 		C65C852F1967067C00BB08EC /* VAUImpressumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAUImpressumViewController.m; sourceTree = "<group>"; };
-		C65C85301967067C00BB08EC /* VAURandomAuthorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAURandomAuthorViewController.h; sourceTree = "<group>"; };
-		C65C85311967067C00BB08EC /* VAURandomAuthorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAURandomAuthorViewController.m; sourceTree = "<group>"; };
+		C65C85351967183E00BB08EC /* VAURandomAuthorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAURandomAuthorViewController.h; sourceTree = "<group>"; };
+		C65C85361967183E00BB08EC /* VAURandomAuthorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAURandomAuthorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,12 +196,12 @@
 				C65C852D1967067C00BB08EC /* VAUAboutListViewController.m */,
 				C65C852E1967067C00BB08EC /* VAUImpressumViewController.h */,
 				C65C852F1967067C00BB08EC /* VAUImpressumViewController.m */,
-				C65C85301967067C00BB08EC /* VAURandomAuthorViewController.h */,
-				C65C85311967067C00BB08EC /* VAURandomAuthorViewController.m */,
 				048CE96C1954A614005EA60E /* Images.xcassets */,
 				048CE95B1954A614005EA60E /* Supporting Files */,
 				C618F8461963620D00AEF209 /* VAUIndexedListItem.h */,
 				C618F8471963620D00AEF209 /* VAUIndexedListItem.m */,
+				C65C85351967183E00BB08EC /* VAURandomAuthorViewController.h */,
+				C65C85361967183E00BB08EC /* VAURandomAuthorViewController.m */,
 			);
 			path = VerbannteAutoren;
 			sourceTree = "<group>";
@@ -379,7 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				048CE9611954A614005EA60E /* main.m in Sources */,
-				C65C85341967067C00BB08EC /* VAURandomAuthorViewController.m in Sources */,
+				C65C85371967183E00BB08EC /* VAURandomAuthorViewController.m in Sources */,
 				C65C85331967067C00BB08EC /* VAUImpressumViewController.m in Sources */,
 				C618F84B196473EF00AEF209 /* LRIndexedCollationWithSearch.m in Sources */,
 				045DDDBB195F3BD000779702 /* VAUMapViewController.m in Sources */,

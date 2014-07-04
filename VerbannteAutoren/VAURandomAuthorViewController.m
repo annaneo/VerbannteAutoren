@@ -2,19 +2,26 @@
 //  VAURandomAuthorViewController.m
 //  VerbannteAutoren
 //
-//  Created by anna on 01.07.14.
+//  Created by Julius on 04/07/14.
 //  Copyright (c) 2014 Mr Fridge Software & Digitale Akademie. All rights reserved.
 //
 
 #import "VAURandomAuthorViewController.h"
+#import "VAUAppDelegate.h"
+#include <stdlib.h>
+#include "VAUAuthorDetailViewController.h"
+#include "VAUIndexedListItem.h"
 
 @interface VAURandomAuthorViewController ()
+
+@property (nonatomic) NSArray* indexedListFull;
 
 @end
 
 @implementation VAURandomAuthorViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
@@ -22,12 +29,28 @@
     return self;
 }
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    _indexedListFull = [[NSArray arrayWithArray:[(VAUAppDelegate*)[UIApplication sharedApplication].delegate indexedList]] mutableCopy];
+    NSInteger randomInitial = arc4random_uniform([_indexedListFull count] - 1);
+    NSArray* authors = _indexedListFull[randomInitial];
+    NSInteger randomAuthor = arc4random_uniform([authors count] - 1);
+    VAUAuthorDetailViewController* topView = (VAUAuthorDetailViewController*)[self topViewController];
+    VAUIndexedListItem* authorItem = authors[randomAuthor];
+    topView.title = authorItem.fullname;
+    NSArray* works = [[(VAUAppDelegate*)[UIApplication sharedApplication].delegate rawData] objectForKey:authorItem.fullname];
+    topView.worksDataArray = works;
+
 }
 
-- (void)didReceiveMemoryWarning {
+
+- (void)viewWillAppear {
+}
+
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }

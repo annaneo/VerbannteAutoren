@@ -146,6 +146,7 @@
         _tableOffset = _authorsTable.contentOffset.y;
         detailViewController.worksDataArray = works;
         detailViewController.navigationItem.title = [(UITableViewCell*)sender textLabel].text;
+        [detailViewController.tabBarController setHidesBottomBarWhenPushed:YES];
     }
 }
 
