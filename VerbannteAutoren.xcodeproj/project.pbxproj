@@ -52,6 +52,7 @@
 		04E8576519672920000EDF2F /* Contact.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E8576119672920000EDF2F /* Contact.png */; };
 		04E8576619672920000EDF2F /* Shuffle.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E8576219672920000EDF2F /* Shuffle.png */; };
 		04E8576719672920000EDF2F /* Signpost.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E8576319672920000EDF2F /* Signpost.png */; };
+		04E8576919672E13000EDF2F /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = 04E8576819672E13000EDF2F /* main.css */; };
 		C618F8481963620D00AEF209 /* VAUIndexedListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C618F8471963620D00AEF209 /* VAUIndexedListItem.m */; };
 		C618F84B196473EF00AEF209 /* LRIndexedCollationWithSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = C618F849196473EF00AEF209 /* LRIndexedCollationWithSearch.m */; };
 		C618F84C196473EF00AEF209 /* LRIndexedCollationWithSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = C618F849196473EF00AEF209 /* LRIndexedCollationWithSearch.m */; };
@@ -118,6 +119,7 @@
 		04E8576119672920000EDF2F /* Contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Contact.png; sourceTree = "<group>"; };
 		04E8576219672920000EDF2F /* Shuffle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shuffle.png; sourceTree = "<group>"; };
 		04E8576319672920000EDF2F /* Signpost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Signpost.png; sourceTree = "<group>"; };
+		04E8576819672E13000EDF2F /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
 		C618F8461963620D00AEF209 /* VAUIndexedListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAUIndexedListItem.h; sourceTree = "<group>"; };
 		C618F8471963620D00AEF209 /* VAUIndexedListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAUIndexedListItem.m; sourceTree = "<group>"; };
 		C618F849196473EF00AEF209 /* LRIndexedCollationWithSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRIndexedCollationWithSearch.m; sourceTree = "<group>"; };
@@ -219,6 +221,7 @@
 		048CE95B1954A614005EA60E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04E8576819672E13000EDF2F /* main.css */,
 				04E857551967285A000EDF2F /* Tab Bar */,
 				04299FD719671FBD00C4EC35 /* buecherverbrennung.png */,
 				047005C0196599D200DABFC0 /* impressum.html */,
@@ -375,6 +378,7 @@
 				048CE95F1954A614005EA60E /* InfoPlist.strings in Resources */,
 				048CE98A1954AD12005EA60E /* verbannte-buecher.json in Resources */,
 				045DDDB7195F195700779702 /* testWiki.json in Resources */,
+				04E8576919672E13000EDF2F /* main.css in Resources */,
 				043B4A0B1963039000576B7C /* about.html in Resources */,
 				04CC1EF319571F60000816C1 /* data.plist in Resources */,
 				048CE9681954A614005EA60E /* Main.storyboard in Resources */,
