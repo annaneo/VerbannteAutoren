@@ -53,6 +53,10 @@
 		04CC1EF319571F60000816C1 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04CC1EF219571F60000816C1 /* data.plist */; };
 		04CC1EF419571F60000816C1 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04CC1EF219571F60000816C1 /* data.plist */; };
 		C618F8481963620D00AEF209 /* VAUIndexedListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C618F8471963620D00AEF209 /* VAUIndexedListItem.m */; };
+		C618F84B196473EF00AEF209 /* LRIndexedCollationWithSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = C618F849196473EF00AEF209 /* LRIndexedCollationWithSearch.m */; };
+		C618F84C196473EF00AEF209 /* LRIndexedCollationWithSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = C618F849196473EF00AEF209 /* LRIndexedCollationWithSearch.m */; };
+		C618F84F196493F300AEF209 /* VAUDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C618F84E196493F300AEF209 /* VAUDetailTableViewCell.m */; };
+		C618F850196493F300AEF209 /* VAUDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C618F84E196493F300AEF209 /* VAUDetailTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +117,10 @@
 		04CC1EF219571F60000816C1 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
 		C618F8461963620D00AEF209 /* VAUIndexedListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAUIndexedListItem.h; sourceTree = "<group>"; };
 		C618F8471963620D00AEF209 /* VAUIndexedListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAUIndexedListItem.m; sourceTree = "<group>"; };
+		C618F849196473EF00AEF209 /* LRIndexedCollationWithSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRIndexedCollationWithSearch.m; sourceTree = "<group>"; };
+		C618F84A196473EF00AEF209 /* LRIndexedCollationWithSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRIndexedCollationWithSearch.h; sourceTree = "<group>"; };
+		C618F84D196493F300AEF209 /* VAUDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAUDetailTableViewCell.h; sourceTree = "<group>"; };
+		C618F84E196493F300AEF209 /* VAUDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAUDetailTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,8 +195,12 @@
 				048CE98D1954AD7E005EA60E /* VAUAuthorsViewController.m */,
 				04BC97F719559B19001803FC /* VAUAuthorDetailViewController.h */,
 				04BC97F819559B19001803FC /* VAUAuthorDetailViewController.m */,
+				C618F84D196493F300AEF209 /* VAUDetailTableViewCell.h */,
+				C618F84E196493F300AEF209 /* VAUDetailTableViewCell.m */,
 				045DDDB9195F3BD000779702 /* VAUMapViewController.h */,
 				045DDDBA195F3BD000779702 /* VAUMapViewController.m */,
+				C618F849196473EF00AEF209 /* LRIndexedCollationWithSearch.m */,
+				C618F84A196473EF00AEF209 /* LRIndexedCollationWithSearch.h */,
 				048CE96C1954A614005EA60E /* Images.xcassets */,
 				048CE95B1954A614005EA60E /* Supporting Files */,
 				C618F8461963620D00AEF209 /* VAUIndexedListItem.h */,
@@ -370,6 +382,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				048CE9611954A614005EA60E /* main.m in Sources */,
+				C618F84B196473EF00AEF209 /* LRIndexedCollationWithSearch.m in Sources */,
 				047005BE196593A200DABFC0 /* VAUImpressumViewController.m in Sources */,
 				041D560D1961FF43007856D7 /* VAUAboutListViewController.m in Sources */,
 				045DDDBB195F3BD000779702 /* VAUMapViewController.m in Sources */,
@@ -378,6 +391,7 @@
 				04BC97F919559B19001803FC /* VAUAuthorDetailViewController.m in Sources */,
 				043B4A0F196306CF00576B7C /* VAURandomAuthorViewController.m in Sources */,
 				C618F8481963620D00AEF209 /* VAUIndexedListItem.m in Sources */,
+				C618F84F196493F300AEF209 /* VAUDetailTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,8 +402,10 @@
 				047005BF196593A200DABFC0 /* VAUImpressumViewController.m in Sources */,
 				048CE98F1954AD7E005EA60E /* VAUAuthorsViewController.m in Sources */,
 				043B4A10196306CF00576B7C /* VAURandomAuthorViewController.m in Sources */,
+				C618F84C196473EF00AEF209 /* LRIndexedCollationWithSearch.m in Sources */,
 				041D560E1961FF43007856D7 /* VAUAboutListViewController.m in Sources */,
 				048CE9801954A614005EA60E /* VerbannteAutorenTests.m in Sources */,
+				C618F850196493F300AEF209 /* VAUDetailTableViewCell.m in Sources */,
 				045DDDBC195F3BD000779702 /* VAUMapViewController.m in Sources */,
 				04BC97FA19559B19001803FC /* VAUAuthorDetailViewController.m in Sources */,
 			);

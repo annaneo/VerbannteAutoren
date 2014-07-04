@@ -8,10 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VAUAuthorDetailViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UITextView* worksTextView;
-@property (weak, nonatomic) IBOutlet UIImageView* authorImageView;
-@property (strong, nonatomic) NSArray* works;
+@class VAUDetailTableViewCell;
 
+@interface VAUAuthorDetailViewController : UIViewController <UITableViewDataSource, UITableViewDelegate> {
+    VAUDetailTableViewCell *_prototypecell;
+}
+
+@property (weak, nonatomic) IBOutlet UITableView *table;
+
+@property (nonatomic) NSString* biography;
+@property (nonatomic) UIImage* image;
+@property (nonatomic) NSArray* worksDataArray;
+@property (nonatomic) NSString* worksString;
+@property (nonatomic) NSString* wikiLink;
+@property (nonatomic) NSString* gndLink;
 
 @end
