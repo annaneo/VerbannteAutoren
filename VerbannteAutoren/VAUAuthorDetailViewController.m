@@ -7,6 +7,7 @@
 //
 
 #import "VAUAuthorDetailViewController.h"
+#import "VAUDetailTableViewCell.h"
 
 @interface VAUAuthorDetailViewController ()
 
@@ -16,9 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    _prototypecell = [self.table dequeueReusableCellWithIdentifier:@"DetailCell"];
     self.automaticallyAdjustsScrollViewInsets = NO;
-    [self showDetails];
-    _worksTextView.frame = [self contentSizeRectForTextView:_worksTextView];
+    _table.delegate = self;
+    _table.dataSource = self;
+    _worksString = @"";
+    [self generateWorks];
+    [self fetchAddtionalData];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -26,16 +31,16 @@
     // Dispose of any resources that can be recreated.
 }
 
-// loads all detail information
-- (void)showDetails {
-    [self showWorks];
+- (void)fetchAddtionalData {
     [self fetchDataFromWikipedia];
+    _wikiLink = [self generateWikipediaLink];
 }
 
+
 // set all forbidden works
-- (void)showWorks {
+- (void)generateWorks {
     NSMutableString* singleWork;
-    for (NSDictionary* item in _works) {
+    for (NSDictionary* item in _worksDataArray) {
         NSString* title = [item objectForKey:@"title"];
         NSString* firstEditionPublicationPlace = [item objectForKey:@"firstEditionPublicationPlace"];
         NSString* firstEditionPublicationYear = [item objectForKey:@"firstEditionPublicationYear"];
@@ -52,11 +57,13 @@
             [singleWork appendString:[NSString stringWithFormat:@" (Verlag: %@)", firstEditionPublisher]];
         }
         //break after each publication
-        [singleWork appendString:@"\n\n"];
-        //print text
-        _worksTextView.text = [_worksTextView.text stringByAppendingString:singleWork];
+        if (![singleWork isEqualToString:[_worksDataArray lastObject]]) {
+            [singleWork appendString:@"\n\n"];
+        }
+        _worksString = [_worksString stringByAppendingString:singleWork];
     }
 }
+
 
 - (void)fetchDataFromWikipedia {
     NSString* baseUrl = @"http://de.wikipedia.org/w/api.php?";
@@ -90,14 +97,8 @@
         return;
     }
     NSString* content = [contentDict objectForKey:@"*"];
+
     // getting gnd number
-
-    
-//    NSString* file = [[NSBundle mainBundle] pathForResource:@"testWiki" ofType:@"json"];
-//    NSDictionary* wikiDict = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:file options:NSDataReadingUncached error:&error] options:NSJSONReadingMutableContainers error:&error];
-
-    //NSString* content = [[[wikiDict objectForKey:@"parse"] objectForKey:@"text"] objectForKey:@"*"];
-    
     // find stuff like http://d-nb.info/gnd/118781278
     
     NSRegularExpression* gndRegex = [NSRegularExpression regularExpressionWithPattern:@"\\http://d-nb.info/gnd/([0-9]+)" options:NSRegularExpressionCaseInsensitive error:&error];
@@ -106,14 +107,11 @@
     }
     NSRange rangeOfFirstMatch = [gndRegex rangeOfFirstMatchInString:content options:0 range:NSMakeRange(0, [content length])];
     if (!NSEqualRanges(rangeOfFirstMatch, NSMakeRange(NSNotFound, 0))) {
-        NSString* substringForFirstMatch = [content substringWithRange:rangeOfFirstMatch];
-        NSLog(@"first match gnd: %@", substringForFirstMatch);
+        _gndLink = [content substringWithRange:rangeOfFirstMatch];
+        NSLog(@"first match gnd: %@", _gndLink);
     }
-    
-    
-    
+
     // getting image
-    
     //stuff like: upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Artur_Mahraun%2C_1928.JPG/220px-Artur_Mahraun%2C_1928.JPG
     NSRegularExpression* imageRegex = [NSRegularExpression regularExpressionWithPattern:@"upload.wikimedia.org/wikipedia/commons/thumb/(\\S+)jpg/(\\S+)jpg" options:NSRegularExpressionCaseInsensitive error:&error];
     if (error) {
@@ -131,22 +129,17 @@
         NSLog(@"%@", imageUrl);
         NSData* imageData = [[NSData alloc] initWithContentsOfURL:imageUrl];
         //TODO: does this work
-        UIImage* authorImage = [UIImage imageWithData:imageData];
-        [_authorImageView setImage:authorImage];
-        _authorImageView.hidden = NO;
+        _image = [UIImage imageWithData:imageData];
     } else {
-        _authorImageView.hidden = YES;
+        _image = nil;
     }
 
-
     // getting first section
-    [self fetchFirstSection];
+    _biography = [self fetchBiography];
 
-    
 }
 
-- (NSString*)fetchFirstSection {
-
+- (NSString*)fetchBiography {
     NSString* baseUrl = @"http://de.wikipedia.org/w/api.php?";
     NSString* properties = @"format=json&action=query&prop=revisions&rvsection=0&indexpageids&rvprop=content&rvparse&redirects";
     NSString* title = self.navigationItem.title;
@@ -180,10 +173,7 @@
         content = [content substringToIndex:[content rangeOfString:@"<br"].location];
     }
     NSRange r;
-    // remove divs
-
-
-
+    //TODO: remove divs
 
     // remove html
     while ((r = [content rangeOfString:@"<[^>]+>" options:NSRegularExpressionSearch]).location != NSNotFound) {
@@ -193,12 +183,92 @@
     while ((r = [content rangeOfString:@"\\[.\\]" options:NSRegularExpressionSearch]).location != NSNotFound) {
         content = [content stringByReplacingCharactersInRange:r withString:@""];
     }
-
     NSLog(@"content: %@", content);
     return content;
-
 }
 
+- (NSString*)generateWikipediaLink {
+    if (!_biography) {
+        return nil;
+    }
+    NSString* title = self.navigationItem.title;
+    NSString* urlString = [NSString stringWithFormat:@"http://de.wikipedia.org/wiki/%@", title];
+    return [urlString stringByReplacingOccurrencesOfString:@" " withString:@"_"];
+}
+
+
+#pragma mark - TableViewDelegat/TableViewSource
+
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 5;
+}
+
+- (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    VAUDetailTableViewCell* cell = [tableView dequeueReusableCellWithIdentifier:@"DetailCell"];
+    [cell reset];
+    NSInteger row = indexPath.row;
+    [self configureCell:cell forRow:row];
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    // open link if needed
+    NSLog(@"selected row: %d", indexPath.row);
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    [self configureCell:_prototypecell forRow:indexPath.row];
+    [_prototypecell layoutIfNeeded];
+    CGSize size = [_prototypecell.contentView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize];
+    return size.height;
+}
+
+- (void)configureCell:(VAUDetailTableViewCell*)cell forRow:(NSInteger)row {
+    cell.image.hidden = YES;
+    cell.title.hidden = NO;
+    cell.title.text = @"";
+    cell.content.hidden = NO;
+    cell.content.text = @"";
+    cell.image.image = nil;
+    switch (row) {
+        case 0:
+            if (_biography.length > 0) {
+                cell.title.text = @"Biographie";
+                cell.content.text = _biography;
+            }
+            break;
+        case 1:
+            cell.title.hidden = YES;
+            cell.content.hidden = YES;
+            if (_image) {
+                cell.image.hidden = NO;
+                cell.image.image = _image;
+            }
+            break;
+        case 2:
+            if (_worksString.length > 0) {
+                cell.title.text = @"Verbannte Werke";
+                cell.content.text = _worksString;
+            }
+            break;
+        case 3:
+            if (_wikiLink.length > 0) {
+                cell.title.text = @"auf Wikipedia";
+                cell.content.text = _wikiLink;
+            }
+            break;
+        case 4:
+            if (_gndLink.length > 0) {
+                cell.title.text = @"GND";
+                cell.content.text = _gndLink;
+            }
+            break;
+
+        default:
+            break;
+    }
+}
 
 #pragma mark - Helpers
 
