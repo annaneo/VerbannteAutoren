@@ -25,14 +25,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.automaticallyAdjustsScrollViewInsets = NO;
     // load WebView
-    [_contentWebView setDelegate:self];
-    NSURL *url = [NSURL URLWithString:[[NSBundle mainBundle] pathForResource:@"about" ofType:@"html"]];
-    NSURLRequest* request = [NSURLRequest requestWithURL:url cachePolicy:NSURLRequestReloadIgnoringLocalAndRemoteCacheData timeoutInterval:30];
     
-    _contentWebView.scrollView.scrollEnabled = NO;
-    _contentWebView.scrollView.bounces = NO;
-    [_contentWebView loadRequest:request];
+//    NSURL *url = [NSURL URLWithString:[[NSBundle mainBundle] pathForResource:@"about" ofType:@"html"]];
+    NSString* htmlString = [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"about" ofType:@"html"] encoding:NSUTF8StringEncoding error:nil];
+//    NSURLRequest* request = [NSURLRequest requestWithURL:url cachePolicy:NSURLRequestReloadIgnoringLocalAndRemoteCacheData timeoutInterval:30];
+    [_contentWebView loadHTMLString:htmlString baseURL:nil];
+
+//    [_contentWebView loadRequest:request];
+    
+    [_contentWebView setDelegate:self];
 }
 
 - (void)didReceiveMemoryWarning {
