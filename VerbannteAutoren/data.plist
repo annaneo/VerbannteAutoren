@@ -112,17 +112,17 @@
 			<string>Komsomol</string>
 		</dict>
 	</array>
-	<key>A. Bubnow</key>
+	<key>Andrei Sergejwitsch Bubnow</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>A.</string>
+			<string>Andrei Sergejwitsch</string>
 			<key>authorLastname</key>
 			<string>Bubnow</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Moskau</string>
 			<key>firstEditionPublicationYear</key>
-			<string>1932</string>
+			<string>1932 </string>
 			<key>firstEditionPublisher</key>
 			<string>Verlagsgen. ausländ. Arbeiter</string>
 			<key>title</key>
@@ -214,11 +214,11 @@
 			<string>Vom Februar zum Oktober. Erinnerungen an 1917</string>
 		</dict>
 	</array>
-	<key>A. J. B. Parent-Duchatelet</key>
+	<key>Alexandre Jean-Baptiste Parent-Duchatelet</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>A. J. B.</string>
+			<string>Alexandre Jean-Baptiste</string>
 			<key>authorLastname</key>
 			<string>Parent-Duchatelet</string>
 			<key>firstEditionPublicationPlace</key>
@@ -248,11 +248,11 @@
 			<string>Der Diesseitsmensch</string>
 		</dict>
 	</array>
-	<key>A. J. Mikojan</key>
+	<key>Anastas Iwanowitsch Mikojan</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>A. J.</string>
+			<string>Anastas Iwanowitsch</string>
 			<key>authorLastname</key>
 			<string>Mikojan</string>
 			<key>firstEditionPublicationPlace</key>
@@ -266,7 +266,7 @@
 		</dict>
 		<dict>
 			<key>authorFirstname</key>
-			<string>A. J.</string>
+			<string>Anastas Iwanowitsch</string>
 			<key>authorLastname</key>
 			<string>Mikojan</string>
 			<key>firstEditionPublicationPlace</key>
@@ -432,11 +432,11 @@
 			<string>Brigade auf Chosrastochot</string>
 		</dict>
 	</array>
-	<key>A. Otto-Walster</key>
+	<key>Ausgust Otto-Walster</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>A.</string>
+			<string>August</string>
 			<key>authorLastname</key>
 			<string>Otto-Walster</string>
 			<key>firstEditionPublicationPlace</key>
@@ -483,13 +483,13 @@
 			<string>Moskau heute und morgen</string>
 		</dict>
 	</array>
-	<key>A. Rudolf</key>
+	<key>Richard Lengyel</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>A.</string>
+			<string>Richard</string>
 			<key>authorLastname</key>
-			<string>Rudolf</string>
+			<string>Lengyel</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Zürich</string>
 			<key>firstEditionPublicationYear</key>
@@ -501,9 +501,9 @@
 		</dict>
 		<dict>
 			<key>authorFirstname</key>
-			<string>A.</string>
+			<string>Richard</string>
 			<key>authorLastname</key>
-			<string>Rudolf</string>
+			<string>Lengyel</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Moskau</string>
 			<key>firstEditionPublicationYear</key>
@@ -565,11 +565,11 @@
 			<string>Im Namen der Arbeiteröffentlichkeit! Das kameradschaftliche Betriebsgericht ...</string>
 		</dict>
 	</array>
-	<key>A. Schotman</key>
+	<key>Alexander Wassiljewitsch Schotman</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>A.</string>
+			<string>Alexander Wassiljewitsch</string>
 			<key>authorLastname</key>
 			<string>Schotman</string>
 			<key>firstEditionPublicationPlace</key>
@@ -746,11 +746,11 @@
 			<string>Onderwijs en nationaal-socialisme</string>
 		</dict>
 	</array>
-	<key>A. Warski</key>
+	<key>Adolf Warski</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>A.</string>
+			<string>Adolf</string>
 			<key>authorLastname</key>
 			<string>Warski</string>
 			<key>firstEditionPublicationPlace</key>
@@ -797,11 +797,11 @@
 			<string>Über die Sowjetjustiz</string>
 		</dict>
 	</array>
-	<key>A. de Kom</key>
+	<key>Anton de Kom</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>A. de</string>
+			<string>Anton de</string>
 			<key>authorLastname</key>
 			<string>Kom</string>
 			<key>firstEditionPublicationPlace</key>
@@ -8930,13 +8930,13 @@
 			<string>Lebenslauf einer Bolschewikin</string>
 		</dict>
 	</array>
-	<key>B. Ponomarew</key>
+	<key>Boris Nikolajewitsch Ponomarjow</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>B.</string>
+			<string>Boris Nikolajewitsch</string>
 			<key>authorLastname</key>
-			<string>Ponomarew</string>
+			<string>Ponomarjow</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Moskau</string>
 			<key>firstEditionPublicationYear</key>
@@ -8948,9 +8948,9 @@
 		</dict>
 		<dict>
 			<key>authorFirstname</key>
-			<string>B.</string>
+			<string>Boris Nikolajewitsch</string>
 			<key>authorLastname</key>
-			<string>Ponomarew</string>
+			<string>Ponomarjow</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Moskau</string>
 			<key>firstEditionPublicationYear</key>
@@ -11069,13 +11069,13 @@
 			<string>Sämtliche Werke</string>
 		</dict>
 	</array>
-	<key>C Redo</key>
+	<key>Walther Victor</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>C</string>
+			<string>Walther</string>
 			<key>authorLastname</key>
-			<string>Redo</string>
+			<string>Victor</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Arbon</string>
 			<key>firstEditionPublicationYear</key>
@@ -11086,11 +11086,11 @@
 			<string>Zwei Deutsche. Goethe und Hitler</string>
 		</dict>
 	</array>
-	<key>C Spindler</key>
+	<key>Karl Spindler</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>C</string>
+			<string>Karl</string>
 			<key>authorLastname</key>
 			<string>Spindler</string>
 			<key>firstEditionPublicationPlace</key>
@@ -11103,11 +11103,11 @@
 			<string>Die Nonne von Gnadenzell</string>
 		</dict>
 	</array>
-	<key>C. A. Kruckow</key>
+	<key>August Carl Kruckow</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>C. A.</string>
+			<string>August Carl</string>
 			<key>authorLastname</key>
 			<string>Kruckow</string>
 			<key>firstEditionPublicationPlace</key>
@@ -11120,11 +11120,11 @@
 			<string>Der Fernsprech-Selbstanschlussbetrieb — wie ich ihn erlebte</string>
 		</dict>
 	</array>
-	<key>C. A. Schramm</key>
+	<key>Carl August Schramm</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>C. A.</string>
+			<string>Carl August</string>
 			<key>authorLastname</key>
 			<string>Schramm</string>
 			<key>firstEditionPublicationPlace</key>
@@ -11321,11 +11321,11 @@
 			<string>Schlagworte für Inserate, Prospekte u. Plakate</string>
 		</dict>
 	</array>
-	<key>C.A. Loosli</key>
+	<key>Carl Albert Loosli</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>C.A.</string>
+			<string>Carl Albert</string>
 			<key>authorLastname</key>
 			<string>Loosli</string>
 			<key>firstEditionPublicationPlace</key>
@@ -14395,11 +14395,11 @@
 			<string>Brüder in Fesseln. Drama in 4 Aufz. </string>
 		</dict>
 	</array>
-	<key>E. Hirschberg</key>
+	<key>Ernst Hirschberg</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>E.</string>
+			<string>Ernst</string>
 			<key>authorLastname</key>
 			<string>Hirschberg</string>
 			<key>firstEditionPublicationPlace</key>
@@ -17583,7 +17583,7 @@
 			<key>firstEditionPublicationYear</key>
 			<string>1917</string>
 			<key>firstEditionPublisher</key>
-			<string>Marcus &amp; Weber</string>
+			<string>Marcus Weber</string>
 			<key>title</key>
 			<string>Die sexuelle Untreue der Frau</string>
 		</dict>
@@ -21936,13 +21936,13 @@
 			<string>Urgeschichte im Lichte der katholischen Wahrheit</string>
 		</dict>
 	</array>
-	<key>F. Karsch-Haack</key>
+	<key>Ferdinand Karsch</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>F.</string>
+			<string>Ferdinand</string>
 			<key>authorLastname</key>
-			<string>Karsch-Haack</string>
+			<string>Karsch</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Berlin</string>
 			<key>firstEditionPublicationYear</key>
@@ -21953,11 +21953,11 @@
 			<string>Erotische Grosstadtbilder als Kulturphänomene</string>
 		</dict>
 	</array>
-	<key>F. Kubka</key>
+	<key>František Kubka</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>F.</string>
+			<string>František</string>
 			<key>authorLastname</key>
 			<string>Kubka</string>
 			<key>firstEditionPublicationPlace</key>
@@ -28275,11 +28275,11 @@
 			<string>Dussja Winogradowa</string>
 		</dict>
 	</array>
-	<key>G. G. L. Alexander</key>
+	<key>Gertrud Alexander</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>G. G. L.</string>
+			<string>Gertrud</string>
 			<key>authorLastname</key>
 			<string>Alexander</string>
 			<key>firstEditionPublicationPlace</key>
@@ -28374,13 +28374,13 @@
 			<string>Wer zerstört die Familie?</string>
 		</dict>
 	</array>
-	<key>G. M. Krshishanowski</key>
+	<key>Gleb Maximilianowitsch Krschischanowski</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>G. M.</string>
+			<string>Gleb Maximilianowitsch</string>
 			<key>authorLastname</key>
-			<string>Krshishanowski</string>
+			<string>Krschischanowski</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Moskau</string>
 			<key>firstEditionPublicationYear</key>
@@ -28408,11 +28408,11 @@
 			<string>Menschen im Aufbau</string>
 		</dict>
 	</array>
-	<key>G. V. Tschitscherin</key>
+	<key>Georgi Wassiljewitsch Tschitscherin</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>G. V.</string>
+			<string>Georgi Wassiljewitsch</string>
 			<key>authorLastname</key>
 			<string>Tschitscherin</string>
 			<key>firstEditionPublicationPlace</key>
@@ -28425,13 +28425,13 @@
 			<string>Sämtliche Schriften</string>
 		</dict>
 	</array>
-	<key>G. W.  [Georgij Valentinovič] Plechanow [Plechanov]</key>
+	<key>Georgi Walentinowitsch Plechanow</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>G. W.  [Georgij Valentinovič]</string>
+			<string>Georgi Walentinowitsch</string>
 			<key>authorLastname</key>
-			<string>Plechanow [Plechanov]</string>
+			<string>Plechanow</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Moskau</string>
 			<key>firstEditionPublicationYear</key>
@@ -28441,14 +28441,11 @@
 			<key>title</key>
 			<string>Beiträge zur Geschichte des Materialismus</string>
 		</dict>
-	</array>
-	<key>G. W. [Georgij Valentinovič] Plechanow [Plechanov]</key>
-	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>G. W. [Georgij Valentinovič]</string>
+			<string>Georgi Walentinowitsch</string>
 			<key>authorLastname</key>
-			<string>Plechanow [Plechanov]</string>
+			<string>Plechanow</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Moskau</string>
 			<key>firstEditionPublicationYear</key>
@@ -28458,14 +28455,11 @@
 			<key>title</key>
 			<string>Über die Rolle der Persönlichkeit in der Geschichte</string>
 		</dict>
-	</array>
-	<key>G[eorgij] W. [Valentinovič] Plechanow [Plechanov]</key>
-	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>G[eorgij] W. [Valentinovič]</string>
+			<string>Georgi Walentinowitsch</string>
 			<key>authorLastname</key>
-			<string>Plechanow [Plechanov]</string>
+			<string>Plechanow</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Moskau</string>
 			<key>firstEditionPublicationYear</key>
@@ -32383,11 +32377,11 @@
 			<string>Grischa und Mischa, die beiden Pioniere</string>
 		</dict>
 	</array>
-	<key>H. R. Hoetink</key>
+	<key>Hendrik Richard Hoetink</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>H. R.</string>
+			<string>Hendrik Richard</string>
 			<key>authorLastname</key>
 			<string>Hoetink</string>
 			<key>firstEditionPublicationPlace</key>
@@ -32519,13 +32513,13 @@
 			<string>Der Blick in die Zukunft</string>
 		</dict>
 	</array>
-	<key>Hanna Schmidt, gesch. Kirchner, geb. Stunz</key>
+	<key>Johanna Kirchner</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>Hanna</string>
+			<string>Johanna</string>
 			<key>authorLastname</key>
-			<string>Schmidt, gesch. Kirchner, geb. Stunz</string>
+			<string>Kirchner</string>
 			<key>firstEditionPublicationPlace</key>
 			<string></string>
 			<key>firstEditionPublicationYear</key>
@@ -33293,23 +33287,6 @@
 			<string>Hans</string>
 			<key>authorLastname</key>
 			<string>Habe</string>
-			<key>firstEditionPublicationPlace</key>
-			<string>Genf</string>
-			<key>firstEditionPublicationYear</key>
-			<string>1937</string>
-			<key>firstEditionPublisher</key>
-			<string>Ed. Union S.A.</string>
-			<key>title</key>
-			<string>Drei über die Grenze. Ein Abenteuer unter deutschen Emigranten</string>
-		</dict>
-	</array>
-	<key>Hans Habe [d. i. Bekessy]</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string>Hans</string>
-			<key>authorLastname</key>
-			<string>Habe [d. i. Bekessy]</string>
 			<key>firstEditionPublicationPlace</key>
 			<string></string>
 			<key>firstEditionPublicationYear</key>
@@ -35231,23 +35208,6 @@
 			<string>L&apos;évangile de la force</string>
 		</dict>
 	</array>
-	<key>Harnisch, Wolfgang Hoffmann - s. Hoffmann -Harnisch.</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Harnisch, Wolfgang Hoffmann - s. Hoffmann -Harnisch.</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
-		</dict>
-	</array>
 	<key>Harold Nicolson</key>
 	<array>
 		<dict>
@@ -35382,23 +35342,6 @@
 			<string>Rudolph</string>
 			<key>title</key>
 			<string>Der Weg zum finanziellen Erfolg</string>
-		</dict>
-	</array>
-	<key>Harthern, Ernst [Pseud.] s. Jacobson, Ludwig Harter</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Harthern, Ernst [Pseud.] s. Jacobson, Ludwig Harter</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
 		</dict>
 	</array>
 	<key>Hartmann, K., u. H. Kämpf</key>
@@ -35673,23 +35616,6 @@
 			<key>authorFirstname</key>
 			<string>Heinrich</string>
 			<key>authorLastname</key>
-			<string>Banniza von Bazan</string>
-			<key>firstEditionPublicationPlace</key>
-			<string>Plauen</string>
-			<key>firstEditionPublicationYear</key>
-			<string>1932</string>
-			<key>firstEditionPublisher</key>
-			<string>Wolff</string>
-			<key>title</key>
-			<string>Jungen am Feuer</string>
-		</dict>
-	</array>
-	<key>Heinrich Bannlza von Bazan</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string>Heinrich</string>
-			<key>authorLastname</key>
 			<string>Bannlza von Bazan</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Plauen</string>
@@ -35699,6 +35625,20 @@
 			<string>Wolff</string>
 			<key>title</key>
 			<string>Fackeln der jungen Front</string>
+		</dict>
+		<dict>
+			<key>authorFirstname</key>
+			<string>Heinrich</string>
+			<key>authorLastname</key>
+			<string>Banniza von Bazan</string>
+			<key>firstEditionPublicationPlace</key>
+			<string>Plauen</string>
+			<key>firstEditionPublicationYear</key>
+			<string>1932</string>
+			<key>firstEditionPublisher</key>
+			<string>Wolff</string>
+			<key>title</key>
+			<string>Jungen am Feuer</string>
 		</dict>
 	</array>
 	<key>Heinrich Binder</key>
@@ -38752,13 +38692,13 @@
 			<string>Nationalsozialist oder Stahlhelmmann?</string>
 		</dict>
 	</array>
-	<key>Herbert, Dr. Rosinski [Pseud.: Miles]</key>
+	<key>Herbert Rosinski</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>Herbert, Dr.</string>
+			<string>Herbert</string>
 			<key>authorLastname</key>
-			<string>Rosinski [Pseud.: Miles]</string>
+			<string>Rosinski</string>
 			<key>firstEditionPublicationPlace</key>
 			<string></string>
 			<key>firstEditionPublicationYear</key>
@@ -40387,23 +40327,6 @@
 			<string>Sämtliche Schriften</string>
 		</dict>
 	</array>
-	<key>Herzog, Emile [wirkl. Name] s. Maurois, André</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Herzog, Emile [wirkl. Name] s. Maurois, André</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
-		</dict>
-	</array>
 	<key>Hichler, Leopold Ehrlich- s. Ehrlich-Hichler</key>
 	<array>
 		<dict>
@@ -40523,23 +40446,6 @@
 			<string>Die Schönheit der Frauen</string>
 		</dict>
 	</array>
-	<key>Hornung, Walter [Pseud.] s. Zerfass, Julius [wirkl. Name]</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Hornung, Walter [Pseud.] s. Zerfass, Julius [wirkl. Name]</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
-		</dict>
-	</array>
 	<key>Horst Gretzschel</key>
 	<array>
 		<dict>
@@ -40623,23 +40529,6 @@
 			<string>Humanitas</string>
 			<key>title</key>
 			<string>Künstler und Vagabunden. Roman</string>
-		</dict>
-	</array>
-	<key>Hoyer, Niels [Pseud.] s. Jacobson, Ludwig Harter.</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Hoyer, Niels [Pseud.] s. Jacobson, Ludwig Harter.</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
 		</dict>
 	</array>
 	<key>Hrsg. unter der Red. v. G. Friedrich u. F. Lang</key>
@@ -41363,11 +41252,11 @@
 			<string>Hauptschriften</string>
 		</dict>
 	</array>
-	<key>I. M. Gubkin</key>
+	<key>Iwan Michailowitsch Gubkin</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>I. M.</string>
+			<string>Iwan Michailowitsch</string>
 			<key>authorLastname</key>
 			<string>Gubkin</string>
 			<key>firstEditionPublicationPlace</key>
@@ -41380,11 +41269,11 @@
 			<string>Die Naturschätze der UdSSR. und ihre Auswertung</string>
 		</dict>
 	</array>
-	<key>I. Minz</key>
+	<key>Isaak Israelewitsch Minz</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>I.</string>
+			<string>Isaak Israelewitsch</string>
 			<key>authorLastname</key>
 			<string>Minz</string>
 			<key>firstEditionPublicationPlace</key>
@@ -41915,23 +41804,6 @@
 			<string>Der Bolschewismus und die russ. Okkupation der Ukraine</string>
 		</dict>
 	</array>
-	<key>Iserland, Otto [Hrsg.] s. Kirche, Die, Christi. 1940.</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Iserland, Otto [Hrsg.] s. Kirche, Die, Christi. 1940.</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
-		</dict>
-	</array>
 	<key>Ismar Elbogen</key>
 	<array>
 		<dict>
@@ -42215,11 +42087,11 @@
 			<string>Sieben Monate und sieben Tage in Franco-Spanien</string>
 		</dict>
 	</array>
-	<key>J. A. Jakowlew</key>
+	<key>Jakow Arkadjewitsch Jakowlew</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>J. A.</string>
+			<string>Jakow Arkadjewitsch</string>
 			<key>authorLastname</key>
 			<string>Jakowlew</string>
 			<key>firstEditionPublicationPlace</key>
@@ -42233,7 +42105,7 @@
 		</dict>
 		<dict>
 			<key>authorFirstname</key>
-			<string>J. A.</string>
+			<string>Jakow Arkadjewitsch</string>
 			<key>authorLastname</key>
 			<string>Jakowlew</string>
 			<key>firstEditionPublicationPlace</key>
@@ -42280,11 +42152,11 @@
 			<string>The economic decline of East Prussia</string>
 		</dict>
 	</array>
-	<key>J. Alpari</key>
+	<key>Julius Alpari</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>J.</string>
+			<string>Julius</string>
 			<key>authorLastname</key>
 			<string>Alpari</string>
 			<key>firstEditionPublicationPlace</key>
@@ -42348,11 +42220,11 @@
 			<string>Stalin, der Mann von Stahl</string>
 		</dict>
 	</array>
-	<key>J. Eisenberger</key>
+	<key>Josef Eisenberger</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>J.</string>
+			<string>Josef</string>
 			<key>authorLastname</key>
 			<string>Eisenberger</string>
 			<key>firstEditionPublicationPlace</key>
@@ -42365,11 +42237,11 @@
 			<string>Lenin aus nächster Nähe</string>
 		</dict>
 	</array>
-	<key>J. Elias Poritzky</key>
+	<key>Jakob Elias Poritzky</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>J. Elias</string>
+			<string>Jakob Elias</string>
 			<key>authorLastname</key>
 			<string>Poritzky</string>
 			<key>firstEditionPublicationPlace</key>
@@ -42416,11 +42288,11 @@
 			<string>Die Arbeitsgesetzgebung in der UdSSR</string>
 		</dict>
 	</array>
-	<key>J. Joe Heydecker</key>
+	<key>Joe Heydecker</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>J. Joe</string>
+			<string>Joe</string>
 			<key>authorLastname</key>
 			<string>Heydecker</string>
 			<key>firstEditionPublicationPlace</key>
@@ -42467,11 +42339,11 @@
 			<string>Vor kommenden Kriegen</string>
 		</dict>
 	</array>
-	<key>J. Paschukanis</key>
+	<key>Jewgeni Paschukanis</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>J.</string>
+			<string>Jewgeni</string>
 			<key>authorLastname</key>
 			<string>Paschukanis</string>
 			<key>firstEditionPublicationPlace</key>
@@ -43725,40 +43597,6 @@
 			<string>Geschichte. Die Epoche des Industriekapitalismus</string>
 		</dict>
 	</array>
-	<key>Jehle, M. Lejeune s. Lejeune-Jehle.</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Jehle, M. Lejeune s. Lejeune-Jehle.</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
-		</dict>
-	</array>
-	<key>Jenkins, Billy s. Abenteuer, Die, des Billy Jenkins. Gruppe II.</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Jenkins, Billy s. Abenteuer, Die, des Billy Jenkins. Gruppe II.</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
-		</dict>
-	</array>
 	<key>Jenny Springer</key>
 	<array>
 		<dict>
@@ -44129,23 +43967,6 @@
 			<string>Büchergilde Gutenberg</string>
 			<key>title</key>
 			<string>Krupp. Kampf um Stahl</string>
-		</dict>
-	</array>
-	<key>Joachim von Reichel [Pseud.: Kürenberg]</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string>Joachim von</string>
-			<key>authorLastname</key>
-			<string>Reichel [Pseud.: Kürenberg]</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string>sämtliche Schriften</string>
 		</dict>
 	</array>
 	<key>Joh. Carl Dreissig</key>
@@ -47999,23 +47820,6 @@
 			<key>authorLastname</key>
 			<string>Zerfass</string>
 			<key>firstEditionPublicationPlace</key>
-			<string>Berlin</string>
-			<key>firstEditionPublicationYear</key>
-			<string>1925</string>
-			<key>firstEditionPublisher</key>
-			<string>Dietz</string>
-			<key>title</key>
-			<string>Die Reise mit dem Lumpensack</string>
-		</dict>
-	</array>
-	<key>Julius Zerfass [Pseud.: Walter Hornung]</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string>Julius</string>
-			<key>authorLastname</key>
-			<string>Zerfass [Pseud.: Walter Hornung]</string>
-			<key>firstEditionPublicationPlace</key>
 			<string></string>
 			<key>firstEditionPublicationYear</key>
 			<string></string>
@@ -50797,23 +50601,6 @@
 			<key>authorLastname</key>
 			<string>Thieme</string>
 			<key>firstEditionPublicationPlace</key>
-			<string>Einsiedeln</string>
-			<key>firstEditionPublicationYear</key>
-			<string>1935</string>
-			<key>firstEditionPublisher</key>
-			<string>Benziger</string>
-			<key>title</key>
-			<string>Christliche Bildung in dieser Zeit</string>
-		</dict>
-	</array>
-	<key>Karl Thieme [Pseud.: Michael Müller]</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string>Karl</string>
-			<key>authorLastname</key>
-			<string>Thieme [Pseud.: Michael Müller]</string>
-			<key>firstEditionPublicationPlace</key>
 			<string></string>
 			<key>firstEditionPublicationYear</key>
 			<string></string>
@@ -51399,23 +51186,6 @@
 			<string>Gefilde der Lust</string>
 		</dict>
 	</array>
-	<key>Kirchner, Hanna s. Schmidt, Hanna, gesch. Kirchner.</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Kirchner, Hanna s. Schmidt, Hanna, gesch. Kirchner.</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
-		</dict>
-	</array>
 	<key>Kirsch, Rudolf</key>
 	<array>
 		<dict>
@@ -51711,23 +51481,6 @@
 			<string>Goldberg &amp; Ponsong</string>
 			<key>title</key>
 			<string>Deutsche Freiheit</string>
-		</dict>
-	</array>
-	<key>Klaus, Grenadier [Pseud.] s. Kraft, Wilhelm.</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Klaus, Grenadier [Pseud.] s. Kraft, Wilhelm.</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
 		</dict>
 	</array>
 	<key>Klaus, Grenadier [d. i. Wilhelm Kraft]</key>
@@ -52514,23 +52267,6 @@
 			<string>Vox clamantis</string>
 		</dict>
 	</array>
-	<key>Kuerenberg, Joachim von [Pseud.] s. Reichel, Joachim von.</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Kuerenberg, Joachim von [Pseud.] s. Reichel, Joachim von.</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
-		</dict>
-	</array>
 	<key>Kuno Fiedler</key>
 	<array>
 		<dict>
@@ -53089,23 +52825,6 @@
 			<string></string>
 			<key>title</key>
 			<string>Sämtliche Schriften</string>
-		</dict>
-	</array>
-	<key>Kurt Kaiser Blueth s. Kaiser-Blüth</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string>Kurt Kaiser</string>
-			<key>authorLastname</key>
-			<string>Blueth s. Kaiser-Blüth</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
 		</dict>
 	</array>
 	<key>Kurt Kaiser-Blüth</key>
@@ -53750,23 +53469,6 @@
 			<string>Fürst Widukind, der Sachsenführer</string>
 		</dict>
 	</array>
-	<key>Kürenberg, Joachim v. [d. i. Joachim v. Reichel]</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Kürenberg, Joachim v. [d. i. Joachim v. Reichel]</string>
-			<key>firstEditionPublicationPlace</key>
-			<string>Zürich</string>
-			<key>firstEditionPublicationYear</key>
-			<string>1939</string>
-			<key>firstEditionPublisher</key>
-			<string>Ausblick-Verl.</string>
-			<key>title</key>
-			<string>Waffenstarrendes Mittelmeer</string>
-		</dict>
-	</array>
 	<key>L&apos; Amie des Femmes</key>
 	<array>
 		<dict>
@@ -53835,11 +53537,11 @@
 			<string>Das theoretische System von Karl Marx</string>
 		</dict>
 	</array>
-	<key>L. Beria</key>
+	<key>Lawrenti Beria</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>L.</string>
+			<string>Lawrenti</string>
 			<key>authorLastname</key>
 			<string>Beria</string>
 			<key>firstEditionPublicationPlace</key>
@@ -53852,24 +53554,7 @@
 			<string>Zur Geschichte der bolschewistischen Organisationen in Transkaukasien</string>
 		</dict>
 	</array>
-	<key>L. Beria [Berija]</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string>L.</string>
-			<key>authorLastname</key>
-			<string>Beria [Berija]</string>
-			<key>firstEditionPublicationPlace</key>
-			<string>Moskau</string>
-			<key>firstEditionPublicationYear</key>
-			<string>1940</string>
-			<key>firstEditionPublisher</key>
-			<string>Verl. für fremdsprachige Literatur</string>
-			<key>title</key>
-			<string>Zur Geschichte der bolschewistischen Organisationen in Transkaukasien</string>
-		</dict>
-	</array>
-	<key>L. D. Lewin [Levin]</key>
+	<key>L. D. Lewin</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
@@ -54084,23 +53769,6 @@
 			<string>Die Erfahrung des Todes</string>
 		</dict>
 	</array>
-	<key>Lang, F. [Hrsg.]</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Lang, F. [Hrsg.]</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string>s. Vom Reichstagsbrand zur Entfachung des Weltkriegsbrandes</string>
-		</dict>
-	</array>
 	<key>Langenburg, Max Karl Prinz zu Hohenlohe- s. Hohenlohe-Langenburg</key>
 	<array>
 		<dict>
@@ -54252,23 +53920,6 @@
 			<string>Selbstverl.</string>
 			<key>title</key>
 			<string>Sensationeller Brief eines lettländischen Juden an Hitler</string>
-		</dict>
-	</array>
-	<key>Leisner, Gustav [wirkl. Name] s. Ellerbek, Ellegaard.</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Leisner, Gustav [wirkl. Name] s. Ellerbek, Ellegaard.</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
 		</dict>
 	</array>
 	<key>Leland Stowe</key>
@@ -54718,23 +54369,6 @@
 			<string>Autoemanzipation</string>
 		</dict>
 	</array>
-	<key>Leonard Hodgson [Bearb.]</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string>Leonard</string>
-			<key>authorLastname</key>
-			<string>Hodgson [Bearb.]</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string>s. Glaubensgespraech, Das, der Kirchen.</string>
-		</dict>
-	</array>
 	<key>Leonhard Frank</key>
 	<array>
 		<dict>
@@ -54944,23 +54578,6 @@
 			<string>Zuchthaus</string>
 		</dict>
 	</array>
-	<key>Leopold Ehrlich -Hichler</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string>Leopold</string>
-			<key>authorLastname</key>
-			<string>Ehrlich -Hichler</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string>sämtliche Schriften</string>
-		</dict>
-	</array>
 	<key>Leopold Ehrlich-Hichler</key>
 	<array>
 		<dict>
@@ -54969,13 +54586,13 @@
 			<key>authorLastname</key>
 			<string>Ehrlich-Hichler</string>
 			<key>firstEditionPublicationPlace</key>
-			<string>Wien</string>
+			<string></string>
 			<key>firstEditionPublicationYear</key>
-			<string>1938</string>
+			<string></string>
 			<key>firstEditionPublisher</key>
-			<string>Löwit</string>
+			<string></string>
 			<key>title</key>
-			<string>Geschichten aus Österreich</string>
+			<string>sämtliche Schriften</string>
 		</dict>
 	</array>
 	<key>Leopold Franz</key>
@@ -55123,23 +54740,6 @@
 			<string>Wiener Volksbuchh.</string>
 			<key>title</key>
 			<string>Die internationale sozialistische Jugendbewegung</string>
-		</dict>
-	</array>
-	<key>Leopold s. Klehr [Verf.]</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string>Leopold</string>
-			<key>authorLastname</key>
-			<string>s. Klehr [Verf.]</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string>Gesegnete Brautzeit</string>
 		</dict>
 	</array>
 	<key>Leopold von Sacher-Masoch</key>
@@ -55360,40 +54960,6 @@
 			<string>Éditions Prométhée</string>
 			<key>title</key>
 			<string>Volkskrieg gegen den japanischen Imperialismus</string>
-		</dict>
-	</array>
-	<key>Lin, Tschen s. Tschen Lin</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Lin, Tschen s. Tschen Lin</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
-		</dict>
-	</array>
-	<key>Lindi [Pseud.] s. Lindegger, Albert Werner.</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Lindi [Pseud.] s. Lindegger, Albert Werner.</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
 		</dict>
 	</array>
 	<key>Lindi [d. i. Lindegger, Albert Werner]</key>
@@ -57774,37 +57340,6 @@
 			<string>Margarete</string>
 			<key>authorLastname</key>
 			<string>Neumann</string>
-			<key>firstEditionPublicationPlace</key>
-			<string>Leipzig</string>
-			<key>firstEditionPublicationYear</key>
-			<string>1932</string>
-			<key>firstEditionPublisher</key>
-			<string>Prager</string>
-			<key>title</key>
-			<string>Ich kann nicht mehr</string>
-		</dict>
-		<dict>
-			<key>authorFirstname</key>
-			<string>Margarete</string>
-			<key>authorLastname</key>
-			<string>Neumann</string>
-			<key>firstEditionPublicationPlace</key>
-			<string>Pressburg</string>
-			<key>firstEditionPublicationYear</key>
-			<string>1936</string>
-			<key>firstEditionPublisher</key>
-			<string>Prager</string>
-			<key>title</key>
-			<string>Und dennoch</string>
-		</dict>
-	</array>
-	<key>Margarete Neumann, geb. Thalheimer</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string>Margarete</string>
-			<key>authorLastname</key>
-			<string>Neumann, geb. Thalheimer</string>
 			<key>firstEditionPublicationPlace</key>
 			<string></string>
 			<key>firstEditionPublicationYear</key>
@@ -61210,13 +60745,13 @@
 			<string>Freundinnen</string>
 		</dict>
 	</array>
-	<key>Mechthild (Fürstin) Lichnowski</key>
+	<key>Mechtilde Lichnowsky</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>Mechthild (Fürstin)</string>
+			<string>Mechthilde</string>
 			<key>authorLastname</key>
-			<string>Lichnowski</string>
+			<string>Lichnowsky</string>
 			<key>firstEditionPublicationPlace</key>
 			<string></string>
 			<key>firstEditionPublicationYear</key>
@@ -61225,23 +60760,6 @@
 			<string></string>
 			<key>title</key>
 			<string>sämtliche Schriften</string>
-		</dict>
-	</array>
-	<key>Meier-Parm, Heinrich Christian (Pseud.) s. Meier, Heinrich Christian.</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Meier-Parm, Heinrich Christian (Pseud.) s. Meier, Heinrich Christian.</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
 		</dict>
 	</array>
 	<key>Melanie Klein</key>
@@ -61499,23 +61017,6 @@
 			<key>authorFirstname</key>
 			<string>Michael</string>
 			<key>authorLastname</key>
-			<string>Müller-Claudius [d. i. Franz Ludwig Mueller)</string>
-			<key>firstEditionPublicationPlace</key>
-			<string>Berlin</string>
-			<key>firstEditionPublicationYear</key>
-			<string>1931</string>
-			<key>firstEditionPublisher</key>
-			<string>Philo-Verl. = Morgenreihe. Schrift 11.</string>
-			<key>title</key>
-			<string> Antisemitismus als Angriff auf die Seele </string>
-		</dict>
-	</array>
-	<key>Michael Müller-Claudius [d. i. Franz Ludwig Mueller]</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string>Michael</string>
-			<key>authorLastname</key>
 			<string>Müller-Claudius [d. i. Franz Ludwig Mueller]</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Berlin</string>
@@ -61525,6 +61026,20 @@
 			<string>Schwetschke</string>
 			<key>title</key>
 			<string>Deutsche Rassenangst</string>
+		</dict>
+		<dict>
+			<key>authorFirstname</key>
+			<string>Michael</string>
+			<key>authorLastname</key>
+			<string>Müller-Claudius [d. i. Franz Ludwig Mueller)</string>
+			<key>firstEditionPublicationPlace</key>
+			<string>Berlin</string>
+			<key>firstEditionPublicationYear</key>
+			<string>1931</string>
+			<key>firstEditionPublisher</key>
+			<string>Philo-Verl. = Morgenreihe. Schrift 11.</string>
+			<key>title</key>
+			<string> Antisemitismus als Angriff auf die Seele </string>
 		</dict>
 	</array>
 	<key>Michael Schaeffler</key>
@@ -61702,13 +61217,13 @@
 			<string>Was hat die Sowjetmacht den Werktätigen gebracht?</string>
 		</dict>
 	</array>
-	<key>Michail Jurévič Lermontow [Lermontov]</key>
+	<key>Michail Jurjewitsch Lermontow</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>Michail Jurévič</string>
+			<string>Michail Jurjewitsch</string>
 			<key>authorLastname</key>
-			<string>Lermontow [Lermontov]</string>
+			<string>Lermontow</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Moskau</string>
 			<key>firstEditionPublicationYear</key>
@@ -61870,23 +61385,6 @@
 			<string>Société d&apos;éditions européennes</string>
 			<key>title</key>
 			<string>Hitler gegen Christus</string>
-		</dict>
-	</array>
-	<key>Miles [Pseud.] s. Rosinski, Herbert [wirkl. Name]</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Miles [Pseud.] s. Rosinski, Herbert [wirkl. Name]</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
 		</dict>
 	</array>
 	<key>Milly Zirker</key>
@@ -62169,23 +61667,6 @@
 			<string>Lehrjahre, harte Jahre</string>
 		</dict>
 	</array>
-	<key>Mueller, Michael [Pseud.] s. Thieme, Karl [wirkl. Name].</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Mueller, Michael [Pseud.] s. Thieme, Karl [wirkl. Name].</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
-		</dict>
-	</array>
 	<key>Mura (Pseud.)</key>
 	<array>
 		<dict>
@@ -62201,23 +61682,6 @@
 			<string></string>
 			<key>title</key>
 			<string>Sämtliche Schriften</string>
-		</dict>
-	</array>
-	<key>Muron, Johannes [Pseud.] s. Keckeis, Gustav [wirkl. Name]</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Muron, Johannes [Pseud.] s. Keckeis, Gustav [wirkl. Name]</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
 		</dict>
 	</array>
 	<key>Muron, [Johannes, d. i. Gustav Keckeis]</key>
@@ -62558,23 +62022,6 @@
 			<string>Verlagsgen. ausländ. Arbeiter</string>
 			<key>title</key>
 			<string>Mit der roten Armee im fernen Osten</string>
-		</dict>
-	</array>
-	<key>Neher, Carola [Mädchenname] s. Henschke, Carola.</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Neher, Carola [Mädchenname] s. Henschke, Carola.</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
 		</dict>
 	</array>
 	<key>Nelli Wolffheim</key>
@@ -65598,6 +65045,20 @@
 			<key>authorLastname</key>
 			<string>Corvin-Wiersbitzki</string>
 			<key>firstEditionPublicationPlace</key>
+			<string>Bern</string>
+			<key>firstEditionPublicationYear</key>
+			<string>1876</string>
+			<key>firstEditionPublisher</key>
+			<string>Haller</string>
+			<key>title</key>
+			<string>Die heilige Familie</string>
+		</dict>
+		<dict>
+			<key>authorFirstname</key>
+			<string>Otto von</string>
+			<key>authorLastname</key>
+			<string>Corvin-Wiersbitzki</string>
+			<key>firstEditionPublicationPlace</key>
 			<string></string>
 			<key>firstEditionPublicationYear</key>
 			<string></string>
@@ -65619,23 +65080,6 @@
 			<string></string>
 			<key>title</key>
 			<string>Die Geissler</string>
-		</dict>
-	</array>
-	<key>Otto von Corvin-Wiersbitzky</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string>Otto von</string>
-			<key>authorLastname</key>
-			<string>Corvin-Wiersbitzky</string>
-			<key>firstEditionPublicationPlace</key>
-			<string>Bern</string>
-			<key>firstEditionPublicationYear</key>
-			<string>1876</string>
-			<key>firstEditionPublisher</key>
-			<string>Haller</string>
-			<key>title</key>
-			<string>Die heilige Familie</string>
 		</dict>
 	</array>
 	<key>Otto, Ernst, u. Max Anton</key>
@@ -67591,23 +67035,6 @@
 			<key>authorLastname</key>
 			<string>Schmid-Ammann</string>
 			<key>firstEditionPublicationPlace</key>
-			<string>Zürich</string>
-			<key>firstEditionPublicationYear</key>
-			<string>1936</string>
-			<key>firstEditionPublisher</key>
-			<string>Europa-Verl.</string>
-			<key>title</key>
-			<string>Das Rätsel Deutschland, wie es ein Schweizer sieht</string>
-		</dict>
-	</array>
-	<key>Paul Schmidt-Amman</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string>Paul</string>
-			<key>authorLastname</key>
-			<string>Schmidt-Amman</string>
-			<key>firstEditionPublicationPlace</key>
 			<string></string>
 			<key>firstEditionPublicationYear</key>
 			<string></string>
@@ -68058,11 +67485,11 @@
 			<string>Geständnisse einer hübschen Frau</string>
 		</dict>
 	</array>
-	<key>Paul u. Viktor Margueritte</key>
+	<key>Paul und Viktor Margueritte</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>Paul u. Viktor</string>
+			<string>Paul und Viktor</string>
 			<key>authorLastname</key>
 			<string>Margueritte</string>
 			<key>firstEditionPublicationPlace</key>
@@ -68074,9 +67501,6 @@
 			<key>title</key>
 			<string>Die Kommune</string>
 		</dict>
-	</array>
-	<key>Paul und Viktor Margueritte</key>
-	<array>
 		<dict>
 			<key>authorFirstname</key>
 			<string>Paul und Viktor</string>
@@ -69428,23 +68852,6 @@
 			<string>Hoym</string>
 			<key>title</key>
 			<string>Das schöpferische Theater</string>
-		</dict>
-	</array>
-	<key>Porges, Josepha Kraigher- s. Kraigher-Porges.</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Porges, Josepha Kraigher- s. Kraigher-Porges.</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
 		</dict>
 	</array>
 	<key>Pose, F., E. Matte u. E. Wittenberg</key>
@@ -71361,23 +70768,6 @@
 			<string>Der Zögling Eva</string>
 		</dict>
 	</array>
-	<key>Ritter, Anna [Mädchenname] s. Kazmierczak, Anna</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Ritter, Anna [Mädchenname] s. Kazmierczak, Anna</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
-		</dict>
-	</array>
 	<key>Ritterio Flapp</key>
 	<array>
 		<dict>
@@ -72241,23 +71631,6 @@
 			<string>Das musikalische Juden-ABC</string>
 		</dict>
 	</array>
-	<key>Roda-Roda, Alexander [Pseud.] s. Rosenfeld, Sandor Friedrich.</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Roda-Roda, Alexander [Pseud.] s. Rosenfeld, Sandor Friedrich.</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
-		</dict>
-	</array>
 	<key>Roger Salardenne</key>
 	<array>
 		<dict>
@@ -73038,13 +72411,13 @@
 			<key>authorLastname</key>
 			<string>Grossmann</string>
 			<key>firstEditionPublicationPlace</key>
-			<string>Stockholm</string>
+			<string></string>
 			<key>firstEditionPublicationYear</key>
-			<string>1919</string>
+			<string></string>
 			<key>firstEditionPublisher</key>
-			<string>Internat. Bund f. Kontingentierung d. Bevölkerung</string>
+			<string></string>
 			<key>title</key>
-			<string>Liebe ohne Folgen</string>
+			<string>sämtliche Schriften</string>
 		</dict>
 	</array>
 	<key>Rudolf Hilferding</key>
@@ -73762,23 +73135,6 @@
 			<string>Die Jungen von 1848</string>
 		</dict>
 	</array>
-	<key>Rudolf [Sozialist. Schriftsteller] Grossmann</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string>Rudolf [Sozialist. Schriftsteller]</string>
-			<key>authorLastname</key>
-			<string>Grossmann</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string>Sämtliche Schriften</string>
-		</dict>
-	</array>
 	<key>Rudolf de Haas</key>
 	<array>
 		<dict>
@@ -74139,23 +73495,6 @@
 			<string>Verlagsgen. ausländ. Arbeiter</string>
 			<key>title</key>
 			<string>Wir lassen uns nicht unterkriegen</string>
-		</dict>
-	</array>
-	<key>Saks, Andreas [dt. Namensform] s. Zaks, Andrej.</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Saks, Andreas [dt. Namensform] s. Zaks, Andrej.</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
 		</dict>
 	</array>
 	<key>Salo Baron</key>
@@ -74687,23 +74026,6 @@
 			<string>Proletarische Kulturhäuser</string>
 		</dict>
 	</array>
-	<key>Schwarzbach, Martin Beheim- s. Beheim-Schwarzbach.</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Schwarzbach, Martin Beheim- s. Beheim-Schwarzbach.</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
-		</dict>
-	</array>
 	<key>Sebastian Segerer</key>
 	<array>
 		<dict>
@@ -74770,23 +74092,6 @@
 			<string>Sieben-Stäbe-Verl.</string>
 			<key>title</key>
 			<string>Um uns die Stadt</string>
-		</dict>
-	</array>
-	<key>Selikson-Bobrowskaja s. Zelikson-Bobrovskaja</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Selikson-Bobrowskaja s. Zelikson-Bobrovskaja</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
 		</dict>
 	</array>
 	<key>Selma Werner</key>
@@ -75794,23 +75099,6 @@
 			<string>Empor zur Vernunft</string>
 		</dict>
 	</array>
-	<key>So heilt man unheilbar scheinende Krankheiten. Schlenz</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string>So heilt man unheilbar scheinende Krankheiten.</string>
-			<key>authorLastname</key>
-			<string>Schlenz</string>
-			<key>firstEditionPublicationPlace</key>
-			<string>Innsbruck, Leipzig</string>
-			<key>firstEditionPublicationYear</key>
-			<string>1938</string>
-			<key>firstEditionPublisher</key>
-			<string>Rauch in Komm.</string>
-			<key>title</key>
-			<string>Maria</string>
-		</dict>
-	</array>
 	<key>Sofie Lazarsfeld</key>
 	<array>
 		<dict>
@@ -75894,23 +75182,6 @@
 			<string>Wyd. Liga Morska i Kolonialna</string>
 			<key>title</key>
 			<string>Abecadlo gdanskie</string>
-		</dict>
-	</array>
-	<key>Staatsanwalt höre</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Staatsanwalt höre</string>
-			<key>firstEditionPublicationPlace</key>
-			<string>Berlin</string>
-			<key>firstEditionPublicationYear</key>
-			<string> 1927</string>
-			<key>firstEditionPublisher</key>
-			<string>Mopr-Verl.</string>
-			<key>title</key>
-			<string>Heraus mit Margies</string>
 		</dict>
 	</array>
 	<key>Staegemann, Georg</key>
@@ -76340,40 +75611,6 @@
 			<string>Zwölf Streiter der Revolution</string>
 		</dict>
 	</array>
-	<key>Stunz, Hanna [Mädchenname] s. Schmidt, Hanna</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Stunz, Hanna [Mädchenname] s. Schmidt, Hanna</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
-		</dict>
-	</array>
-	<key>Suenken, Paula [Mädchenname] s. Jacobsen, Paula</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Suenken, Paula [Mädchenname] s. Jacobsen, Paula</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
-		</dict>
-	</array>
 	<key>Sun Yat Sen</key>
 	<array>
 		<dict>
@@ -76743,23 +75980,6 @@
 			<string>Viktoria-Verl.</string>
 			<key>title</key>
 			<string>Der Talmud im Feuer der Jahrhunderte</string>
-		</dict>
-	</array>
-	<key>Thalheimer, Margarete [Mädchenname] s. Neumann, Margarete</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Thalheimer, Margarete [Mädchenname] s. Neumann, Margarete</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
 		</dict>
 	</array>
 	<key>Tharsicius Paffrath</key>
@@ -77836,23 +77056,6 @@
 			<string>sämtliche Schriften</string>
 		</dict>
 	</array>
-	<key>Torring, Rolf s. Abenteuer, Rolf Torrings. Gruppe II.</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Torring, Rolf s. Abenteuer, Rolf Torrings. Gruppe II.</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
-		</dict>
-	</array>
 	<key>Traugott Vogel</key>
 	<array>
 		<dict>
@@ -77904,13 +77107,13 @@
 			<string>Literaturgeschichtliches Lesebuch. Für die VIII. Klasse der Mittelschule</string>
 		</dict>
 	</array>
-	<key>Tschaplina (Čaplina), H. (E.) K., u. E. G. Riesel</key>
+	<key>H. E. K Čaplina u. E. G. Riesel</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string></string>
+			<string>H. E. K.</string>
 			<key>authorLastname</key>
-			<string>Tschaplina (Čaplina), H. (E.) K., u. E. G. Riesel</string>
+			<string>Čaplina u. E. G. Riesel</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Moskau</string>
 			<key>firstEditionPublicationYear</key>
@@ -77919,23 +77122,6 @@
 			<string>Staatsverl. f. Lehrbücher</string>
 			<key>title</key>
 			<string>Erzählungen und Gedichte. Für d. 8. u. 9. Kl. d. Mittelschule</string>
-		</dict>
-	</array>
-	<key>Tschaplina, H. K. [dt. Namensform] s. Čaplina, E. K.</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Tschaplina, H. K. [dt. Namensform] s. Čaplina, E. K.</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
 		</dict>
 	</array>
 	<key>Tully Gehren</key>
@@ -87402,23 +86588,6 @@
 			<string>Wodans Wiederkunft</string>
 		</dict>
 	</array>
-	<key>Usteri, Carl Loosli- s. Loosli-Usteri.</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Usteri, Carl Loosli- s. Loosli-Usteri.</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
-		</dict>
-	</array>
 	<key>Uto Melzer</key>
 	<array>
 		<dict>
@@ -87874,23 +87043,6 @@
 			<string>This is my life</string>
 		</dict>
 	</array>
-	<key>Vetter, Louis [Pseud.] s. Feddersen, Hans.</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Vetter, Louis [Pseud.] s. Feddersen, Hans.</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
-		</dict>
-	</array>
 	<key>Vetter, Louis [d. i. Hans Feddersen]</key>
 	<array>
 		<dict>
@@ -88021,13 +87173,13 @@
 			<string>Sämtliche Schriften</string>
 		</dict>
 	</array>
-	<key>Victoria (Trude) Wolf</key>
+	<key>Victoria Wolff</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>Victoria (Trude)</string>
+			<string>Victoria</string>
 			<key>authorLastname</key>
-			<string>Wolf</string>
+			<string>Wolff</string>
 			<key>firstEditionPublicationPlace</key>
 			<string></string>
 			<key>firstEditionPublicationYear</key>
@@ -88036,37 +87188,6 @@
 			<string></string>
 			<key>title</key>
 			<string>sämtliche Schriften</string>
-		</dict>
-	</array>
-	<key>Victoria Wolf</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string>Victoria</string>
-			<key>authorLastname</key>
-			<string>Wolf</string>
-			<key>firstEditionPublicationPlace</key>
-			<string>Zürich</string>
-			<key>firstEditionPublicationYear</key>
-			<string>1937</string>
-			<key>firstEditionPublisher</key>
-			<string>Humanitas-Verl.</string>
-			<key>title</key>
-			<string>Drei Tage</string>
-		</dict>
-		<dict>
-			<key>authorFirstname</key>
-			<string>Victoria</string>
-			<key>authorLastname</key>
-			<string>Wolf</string>
-			<key>firstEditionPublicationPlace</key>
-			<string>Amsterdam</string>
-			<key>firstEditionPublicationYear</key>
-			<string>1935</string>
-			<key>firstEditionPublisher</key>
-			<string>Querido-Verl.</string>
-			<key>title</key>
-			<string>Gast in der Heimat</string>
 		</dict>
 	</array>
 	<key>Victorien de Saussay</key>
@@ -88822,11 +87943,11 @@
 			<string>Die Sowjetmacht</string>
 		</dict>
 	</array>
-	<key>W. Kirschon</key>
+	<key>Wladimir Michailowitsch Kirschon</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>W.</string>
+			<string>Wladimir Michailowitsch</string>
 			<key>authorLastname</key>
 			<string>Kirschon</string>
 			<key>firstEditionPublicationPlace</key>
@@ -88873,11 +87994,11 @@
 			<string>Im Lande der Galgen</string>
 		</dict>
 	</array>
-	<key>W. M. Molotow</key>
+	<key>Wjatscheslaw Michailowitsch Molotow</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>W. M.</string>
+			<string>Wjatscheslaw Michailowitsch</string>
 			<key>authorLastname</key>
 			<string>Molotow</string>
 			<key>firstEditionPublicationPlace</key>
@@ -88975,11 +88096,11 @@
 			<string>Techniker und Ingenieure in der UdSSR</string>
 		</dict>
 	</array>
-	<key>W. Weressajew</key>
+	<key>Wikenti Wikentjewitsch Weressajew</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>W.</string>
+			<string>Wikenti Wikentjewitsch</string>
 			<key>authorLastname</key>
 			<string>Weressajew</string>
 			<key>firstEditionPublicationPlace</key>
@@ -89009,13 +88130,13 @@
 			<string>Sämtliche Schriften</string>
 		</dict>
 	</array>
-	<key>W. [V.] G. Krivitsky [Krivickij]</key>
+	<key>Walter Krivitsky</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>W. [V.] G.</string>
+			<string>Walter</string>
 			<key>authorLastname</key>
-			<string>Krivitsky [Krivickij]</string>
+			<string>Krivitsky</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Amsterdam</string>
 			<key>firstEditionPublicationYear</key>
@@ -89026,13 +88147,13 @@
 			<string>Ich war in Stalins Dienst!</string>
 		</dict>
 	</array>
-	<key>W. [V.] Mirowitsch [Mirovič]</key>
+	<key>V. Mirovič</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>W. [V.]</string>
+			<string>V.</string>
 			<key>authorLastname</key>
-			<string>Mirowitsch [Mirovič]</string>
+			<string>Mirovič</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Luzern </string>
 			<key>firstEditionPublicationYear</key>
@@ -89043,13 +88164,13 @@
 			<string> Schneeflocken. 9 Märchen u. Erzählgn.</string>
 		</dict>
 	</array>
-	<key>W. [V.] Wolshenin [Volženin]</key>
+	<key>V. Volženin</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>W. [V.]</string>
+			<string>V.</string>
 			<key>authorLastname</key>
-			<string>Wolshenin [Volženin]</string>
+			<string>Volženin</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Engels</string>
 			<key>firstEditionPublicationYear</key>
@@ -89058,23 +88179,6 @@
 			<string>Deutscher Staatsverlag </string>
 			<key>title</key>
 			<string>Der Einfaltspinsel</string>
-		</dict>
-	</array>
-	<key>W. [Vjačeslav Michailovič] Molotow [Molotov]</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string>W. [Vjačeslav Michailovič]</string>
-			<key>authorLastname</key>
-			<string>Molotow [Molotov]</string>
-			<key>firstEditionPublicationPlace</key>
-			<string>Moskau</string>
-			<key>firstEditionPublicationYear</key>
-			<string>1939</string>
-			<key>firstEditionPublisher</key>
-			<string>Verl. f. fremdsprachige Literatur</string>
-			<key>title</key>
-			<string>Der dritte Fünfjahrplan der Entwicklung der Volkswirtschaft der UdSSR</string>
 		</dict>
 	</array>
 	<key>Waclaw Gasiorowski</key>
@@ -89228,23 +88332,6 @@
 			<string>Parzeller </string>
 			<key>title</key>
 			<string>Wie werde — bleibe ich gesund?</string>
-		</dict>
-	</array>
-	<key>Wallen, B. v. [Pseud.] s. Braun, Julius</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Wallen, B. v. [Pseud.] s. Braun, Julius</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
 		</dict>
 	</array>
 	<key>Wally Zepler</key>
@@ -90825,23 +89912,6 @@
 			<string>Bürger Kedrow wird zum Zeitgenossen</string>
 		</dict>
 	</array>
-	<key>Weber, H., u. C. Wel</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Weber, H., u. C. Wel</string>
-			<key>firstEditionPublicationPlace</key>
-			<string>Hannover</string>
-			<key>firstEditionPublicationYear</key>
-			<string> 1930</string>
-			<key>firstEditionPublisher</key>
-			<string>Witte</string>
-			<key>title</key>
-			<string>Der Weg zur Liga freier reiner Menschen</string>
-		</dict>
-	</array>
 	<key>Weissbuch über die Erschiessungen am 30. Juni 1934. Moskau</key>
 	<array>
 		<dict>
@@ -90874,23 +89944,6 @@
 			<string>»Jung-Österreich«</string>
 			<key>title</key>
 			<string>Kamerad Dollfuss</string>
-		</dict>
-	</array>
-	<key>Weka (Pseud.) s. Proeger, Willy. Wel, C.</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Weka (Pseud.) s. Proeger, Willy. Wel, C.</string>
-			<key>firstEditionPublicationPlace</key>
-			<string>Hannover</string>
-			<key>firstEditionPublicationYear</key>
-			<string> 1929</string>
-			<key>firstEditionPublisher</key>
-			<string>Witte</string>
-			<key>title</key>
-			<string>Das verbotene Buch</string>
 		</dict>
 	</array>
 	<key>Wellinghusen</key>
@@ -91427,13 +90480,13 @@
 			<string>Wächter der Sittlichkeit?</string>
 		</dict>
 	</array>
-	<key>Wibich, W[ilhelm, d. i. Heinrich Schwarz]</key>
+	<key>W[ilhelm, d. i. Heinrich Schwarz] Wibich</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string></string>
+			<string>W[ilhelm, d. i. Heinrich Schwarz]</string>
 			<key>authorLastname</key>
-			<string>Wibich, W[ilhelm, d. i. Heinrich Schwarz]</string>
+			<string>Wibich</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Gebr. Hug</string>
 			<key>firstEditionPublicationYear</key>
@@ -91442,23 +90495,6 @@
 			<string>Zürich u. Leipzig</string>
 			<key>title</key>
 			<string>Praktische Einführung in Richard Wagners Tetralogie »Der Ring des Nibelungen«,  zugleich Versuch einer zeitgemässen Auslegung. T. 1. 2.</string>
-		</dict>
-	</array>
-	<key>Wibich, Wilhelm [Pseud.] s. Schwarz, Heinrich.</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Wibich, Wilhelm [Pseud.] s. Schwarz, Heinrich.</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
 		</dict>
 	</array>
 	<key>Wickham Steed</key>
@@ -93157,11 +92193,11 @@
 			<string>sämtliche Schriften</string>
 		</dict>
 	</array>
-	<key>Willi (Wilhelm Friedrich) Frischauer</key>
+	<key>Willi Frischauer</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>Willi (Wilhelm Friedrich)</string>
+			<string>Willi</string>
 			<key>authorLastname</key>
 			<string>Frischauer</string>
 			<key>firstEditionPublicationPlace</key>
@@ -93220,23 +92256,6 @@
 			<string>Orell Füssli</string>
 			<key>title</key>
 			<string>Deutsche Dichtung des 20. Jahrhunderts</string>
-		</dict>
-	</array>
-	<key>Willi Frischauer</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string>Willi</string>
-			<key>authorLastname</key>
-			<string>Frischauer</string>
-			<key>firstEditionPublicationPlace</key>
-			<string>London</string>
-			<key>firstEditionPublicationYear</key>
-			<string>1938</string>
-			<key>firstEditionPublisher</key>
-			<string>Collins</string>
-			<key>title</key>
-			<string>Twilight in Vienna</string>
 		</dict>
 	</array>
 	<key>Willi Mielenz</key>
@@ -93669,6 +92688,20 @@
 			<key>authorLastname</key>
 			<string>Proeger</string>
 			<key>firstEditionPublicationPlace</key>
+			<string>Hannover</string>
+			<key>firstEditionPublicationYear</key>
+			<string> 1929</string>
+			<key>firstEditionPublisher</key>
+			<string>Witte</string>
+			<key>title</key>
+			<string>Das verbotene Buch</string>
+		</dict>
+		<dict>
+			<key>authorFirstname</key>
+			<string>Willy</string>
+			<key>authorLastname</key>
+			<string>Proeger</string>
+			<key>firstEditionPublicationPlace</key>
 			<string>Berlin</string>
 			<key>firstEditionPublicationYear</key>
 			<string>1930</string>
@@ -93811,11 +92844,11 @@
 			<string>Röhm u. Genossen</string>
 		</dict>
 	</array>
-	<key>Winston S. Churchill</key>
+	<key>Winston Churchill</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>Winston S.</string>
+			<string>Winston</string>
 			<key>authorLastname</key>
 			<string>Churchill</string>
 			<key>firstEditionPublicationPlace</key>
@@ -93826,23 +92859,6 @@
 			<string>A. de Lange</string>
 			<key>title</key>
 			<string>Grosse Zeitgenossen</string>
-		</dict>
-	</array>
-	<key>Wischnewski, Wsewolod s. Višnevskij, Vsevolod</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Wischnewski, Wsewolod s. Višnevskij, Vsevolod</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
 		</dict>
 	</array>
 	<key>Wladimir (Vladimir) Lidin</key>
@@ -94153,13 +93169,13 @@
 			<string>Sämtliche Schriften</string>
 		</dict>
 	</array>
-	<key>Wladimir [Vladimir] Astrow [Astrov]</key>
+	<key>Wladimir Astrow</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string>Wladimir [Vladimir]</string>
+			<string>Wladimir</string>
 			<key>authorLastname</key>
-			<string>Astrow [Astrov]</string>
+			<string>Astrow</string>
 			<key>firstEditionPublicationPlace</key>
 			<string>Zürich</string>
 			<key>firstEditionPublicationYear</key>
@@ -94354,13 +93370,13 @@
 			<string>Walter Amboss</string>
 		</dict>
 	</array>
-	<key>Wolker, Ludwig s. Tilman, Klemens</key>
+	<key>Ludwig Wolker</key>
 	<array>
 		<dict>
 			<key>authorFirstname</key>
-			<string></string>
+			<string>Ludwig</string>
 			<key>authorLastname</key>
-			<string>Wolker, Ludwig s. Tilman, Klemens</string>
+			<string>Wolker</string>
 			<key>firstEditionPublicationPlace</key>
 			<string></string>
 			<key>firstEditionPublicationYear</key>
@@ -94371,42 +93387,22 @@
 			<string>Christofer</string>
 		</dict>
 	</array>
-	<key>Wolshenin, W. [dt. Namensform] s. Volženin, V.</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Wolshenin, W. [dt. Namensform] s. Volženin, V.</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
-		</dict>
-	</array>
-	<key>Wosnessenski, N. A. [dt. Namensform] s. Voznesenskij</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Wosnessenski, N. A. [dt. Namensform] s. Voznesenskij</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
-		</dict>
-	</array>
 	<key>Wsewolod Wischnewski</key>
 	<array>
+		<dict>
+			<key>authorFirstname</key>
+			<string>Wsewolod</string>
+			<key>authorLastname</key>
+			<string>Wischnewski</string>
+			<key>firstEditionPublicationPlace</key>
+			<string>Kiew</string>
+			<key>firstEditionPublicationYear</key>
+			<string>1939</string>
+			<key>firstEditionPublisher</key>
+			<string>Staatsverl. d. nationalen Minderheiten d. USSR</string>
+			<key>title</key>
+			<string>Held der Sowjetunion Iwan Dmitriewitsch Papanin</string>
+		</dict>
 		<dict>
 			<key>authorFirstname</key>
 			<string>Wsewolod</string>
@@ -94420,23 +93416,6 @@
 			<string>Verlagsgen. ausländ. Arbeiter</string>
 			<key>title</key>
 			<string>Optimistische Tragödie</string>
-		</dict>
-	</array>
-	<key>Wsewolod [Vsevolod] Wischnewski [Višnevskij]</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string>Wsewolod [Vsevolod]</string>
-			<key>authorLastname</key>
-			<string>Wischnewski [Višnevskij]</string>
-			<key>firstEditionPublicationPlace</key>
-			<string>Kiew</string>
-			<key>firstEditionPublicationYear</key>
-			<string>1939</string>
-			<key>firstEditionPublisher</key>
-			<string>Staatsverl. d. nationalen Minderheiten d. USSR</string>
-			<key>title</key>
-			<string>Held der Sowjetunion Iwan Dmitriewitsch Papanin</string>
 		</dict>
 	</array>
 	<key>Wsjowolod Iwanow</key>
@@ -94456,23 +93435,6 @@
 			<string>Sämtliche Schriften</string>
 		</dict>
 	</array>
-	<key>Wtorow, A. [dt. Namensform] s. Vtorov, A.</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Wtorow, A. [dt. Namensform] s. Vtorov, A.</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
-		</dict>
-	</array>
 	<key>Wulffen, Erich, u. Felix Abraham</key>
 	<array>
 		<dict>
@@ -94488,23 +93450,6 @@
 			<string>Verl. f. Kulturforschung</string>
 			<key>title</key>
 			<string>Fritz Ulbrichs lebender Marmor</string>
-		</dict>
-	</array>
-	<key>Wyschiniski, A. s. Vyšinskij, Andrej Januarievič.</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Wyschiniski, A. s. Vyšinskij, Andrej Januarievič.</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
 		</dict>
 	</array>
 	<key>Xaver Rupfer</key>
@@ -94657,23 +93602,6 @@
 			<string>Eltern, wie sie sein sollen</string>
 		</dict>
 	</array>
-	<key>Zuckerkandl, Berta Szeps- s. Szeps-Zuckerkandl.</key>
-	<array>
-		<dict>
-			<key>authorFirstname</key>
-			<string></string>
-			<key>authorLastname</key>
-			<string>Zuckerkandl, Berta Szeps- s. Szeps-Zuckerkandl.</string>
-			<key>firstEditionPublicationPlace</key>
-			<string></string>
-			<key>firstEditionPublicationYear</key>
-			<string></string>
-			<key>firstEditionPublisher</key>
-			<string></string>
-			<key>title</key>
-			<string></string>
-		</dict>
-	</array>
 	<key>Zygmunt Wojciechowski</key>
 	<array>
 		<dict>
@@ -94723,6 +93651,20 @@
 			<string>Witte</string>
 			<key>title</key>
 			<string>Menschen, die nach Liebe hungern</string>
+		</dict>
+		<dict>
+			<key>authorFirstname</key>
+			<string>H.</string>
+			<key>authorLastname</key>
+			<string>Weber u. C. Wel</string>
+			<key>firstEditionPublicationPlace</key>
+			<string>Hannover</string>
+			<key>firstEditionPublicationYear</key>
+			<string> 1930</string>
+			<key>firstEditionPublisher</key>
+			<string>Witte</string>
+			<key>title</key>
+			<string>Der Weg zur Liga freier reiner Menschen</string>
 		</dict>
 	</array>
 	<key>Ákos Balázs</key>
