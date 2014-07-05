@@ -236,8 +236,19 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    // open link if needed
-    NSLog(@"selected row: %ld", (long)indexPath.row);
+    switch (indexPath.row) {
+        case 3:
+            if (_wikiLink.length > 0) {
+                [[UIApplication sharedApplication] openURL:[NSURL URLWithString:_wikiLink]];
+            }
+            break;
+        case 4:
+            if (_gndLink.length > 0) {
+                [[UIApplication sharedApplication] openURL:[NSURL URLWithString:_gndLink]];
+            }
+        default:
+            break;
+    }
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
