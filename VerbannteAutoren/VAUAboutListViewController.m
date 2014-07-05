@@ -28,14 +28,29 @@
     self.automaticallyAdjustsScrollViewInsets = NO;
     // load WebView
     
-//    NSURL *url = [NSURL URLWithString:[[NSBundle mainBundle] pathForResource:@"about" ofType:@"html"]];
-    NSString* htmlString = [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"about" ofType:@"html"] encoding:NSUTF8StringEncoding error:nil];
+//    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"about" ofType:@"html"]];
 //    NSURLRequest* request = [NSURLRequest requestWithURL:url cachePolicy:NSURLRequestReloadIgnoringLocalAndRemoteCacheData timeoutInterval:30];
-    [_contentWebView loadHTMLString:htmlString baseURL:nil];
-
 //    [_contentWebView loadRequest:request];
-    
+
+
+    NSString* filePath = [[NSBundle mainBundle] pathForResource:@"about" ofType:@"html"];
+    NSString* htmlString = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
+
+    NSURL *baseURL = [NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]];
+
+    [_contentWebView loadHTMLString:htmlString baseURL:baseURL];
+
     [_contentWebView setDelegate:self];
+}
+
+
+-(BOOL) webView:(UIWebView *)inWeb shouldStartLoadWithRequest:(NSURLRequest *)inRequest navigationType:(UIWebViewNavigationType)inType {
+    if ( inType == UIWebViewNavigationTypeLinkClicked ) {
+        [[UIApplication sharedApplication] openURL:[inRequest URL]];
+        return NO;
+    }
+
+    return YES;
 }
 
 - (void)didReceiveMemoryWarning {

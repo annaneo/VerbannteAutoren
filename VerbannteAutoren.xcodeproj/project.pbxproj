@@ -227,10 +227,10 @@
 			isa = PBXGroup;
 			children = (
 				04E8576819672E13000EDF2F /* main.css */,
+				043B4A091963039000576B7C /* about.html */,
+				047005C0196599D200DABFC0 /* impressum.html */,
 				04E857551967285A000EDF2F /* Tab Bar */,
 				04299FD719671FBD00C4EC35 /* buecherverbrennung.png */,
-				047005C0196599D200DABFC0 /* impressum.html */,
-				043B4A091963039000576B7C /* about.html */,
 				04C651F2196012AC006D89FA /* Collage_iPhone4.png */,
 				04C651DD19600D24006D89FA /* AppIcon */,
 				045DDDB6195F195700779702 /* testWiki.json */,
