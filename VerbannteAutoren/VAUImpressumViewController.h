@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VAUImpressumViewController : UIViewController
+@interface VAUImpressumViewController : UIViewController <UIWebViewDelegate>
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
 
 @end

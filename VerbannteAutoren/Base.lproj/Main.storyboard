@@ -80,10 +80,10 @@
             </objects>
             <point key="canvasLocation" x="1718" y="1654"/>
         </scene>
-        <!--View Controller - Informationen zur App-->
+        <!--Impressum View Controller - Informationen zur App-->
         <scene sceneID="DIH-w4-s8P">
             <objects>
-                <viewController id="wdD-eg-TZe" sceneMemberID="viewController">
+                <viewController id="wdD-eg-TZe" customClass="VAUImpressumViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="83x-Y9-utt"/>
                         <viewControllerLayoutGuide type="bottom" id="At1-DL-TYe"/>
@@ -101,6 +101,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Informationen zur App" id="w6E-ar-HI2"/>
+                    <connections>
+                        <outlet property="webView" destination="3JD-Ti-Hy1" id="JEP-Cw-gEJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MpK-5b-0eL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
