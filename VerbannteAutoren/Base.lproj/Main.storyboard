@@ -261,10 +261,10 @@
             </objects>
             <point key="canvasLocation" x="2153" y="-157"/>
         </scene>
-        <!--Author Detail View Controller - Autor-->
+        <!--Random Author View Controller - Autor-->
         <scene sceneID="jlp-pi-A7D">
             <objects>
-                <viewController title="Autor" automaticallyAdjustsScrollViewInsets="NO" id="UBP-s8-m0D" customClass="VAUAuthorDetailViewController" sceneMemberID="viewController">
+                <viewController title="Autor" automaticallyAdjustsScrollViewInsets="NO" id="UBP-s8-m0D" customClass="VAURandomAuthorViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iRc-ri-mlw"/>
                         <viewControllerLayoutGuide type="bottom" id="M5p-Ey-K15"/>
@@ -273,60 +273,65 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="141" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="hrd-dQ-y3v">
-                                <rect key="frame" x="0.0" y="66" width="320" height="364"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MUw-P6-h1M">
+                                <rect key="frame" x="0.0" y="32" width="320" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="141" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Cm9-86-X1n">
+                                <rect key="frame" x="0.0" y="61" width="320" height="368"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DetailCell" rowHeight="141" id="a6Q-qa-jlJ" customClass="VAUDetailTableViewCell">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RandomCell" rowHeight="141" id="0qz-vX-HWu" customClass="VAURandomTableViewCell">
                                         <rect key="frame" x="0.0" y="22" width="320" height="141"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="a6Q-qa-jlJ" id="VTl-ca-DSC">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0qz-vX-HWu" id="IUK-TF-6Hc">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="141"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="280" placeholderIntrinsicHeight="17" text="Biographie" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glh-ON-gwa">
-                                                    <rect key="frame" x="20" y="11" width="280" height="17"/>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4zc-cJ-Wa8">
+                                                    <rect key="frame" x="20" y="11" width="280" height="22"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" placeholderIntrinsicWidth="280" placeholderIntrinsicHeight="98" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="kiS-OU-cVh">
-                                                    <rect key="frame" x="20" y="36" width="280" height="105"/>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="QBo-Pb-lYG">
+                                                    <rect key="frame" x="20" y="41" width="280" height="100"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <string key="text">Otto Abeles (* 1. Mai 1879 in Rohatetz bei Nikolsburg, Mähren; † 25. Mai 1945 in Tröbnitz, Sachsen) war ein österreichischer Journalist, Schriftsteller, Musikkritiker und Zionist.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="19u-0V-ehe">
-                                                    <rect key="frame" x="130" y="11" width="61" height="123"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QYk-3n-boQ">
+                                                    <rect key="frame" x="118" y="11" width="84" height="122"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" priority="250" constant="123" id="F0d-sR-UIo"/>
-                                                        <constraint firstAttribute="width" priority="250" constant="61" id="g9V-eq-8ne"/>
+                                                        <constraint firstAttribute="height" priority="250" constant="109" id="7Zw-TX-YcU"/>
+                                                        <constraint firstAttribute="width" priority="250" constant="84" id="UZg-F1-j3O"/>
                                                     </constraints>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="kiS-OU-cVh" secondAttribute="trailing" constant="20" id="078-fZ-Gw8"/>
-                                                <constraint firstAttribute="trailing" secondItem="glh-ON-gwa" secondAttribute="trailing" constant="20" id="1Gk-Wi-a62"/>
-                                                <constraint firstAttribute="bottom" secondItem="kiS-OU-cVh" secondAttribute="bottom" id="9XC-Yk-oDf"/>
-                                                <constraint firstAttribute="centerX" secondItem="19u-0V-ehe" secondAttribute="centerX" constant="-0.5" id="B8u-B8-ulB"/>
-                                                <constraint firstAttribute="bottom" secondItem="19u-0V-ehe" secondAttribute="bottom" priority="750" constant="7" id="R2D-qE-IHm"/>
-                                                <constraint firstItem="glh-ON-gwa" firstAttribute="top" secondItem="VTl-ca-DSC" secondAttribute="top" constant="11" id="RKb-eI-gou"/>
-                                                <constraint firstItem="19u-0V-ehe" firstAttribute="top" secondItem="VTl-ca-DSC" secondAttribute="top" priority="750" constant="11" id="Zbd-11-4bS"/>
-                                                <constraint firstItem="kiS-OU-cVh" firstAttribute="top" secondItem="glh-ON-gwa" secondAttribute="bottom" constant="8" id="hzx-Iw-vLw"/>
-                                                <constraint firstItem="kiS-OU-cVh" firstAttribute="leading" secondItem="VTl-ca-DSC" secondAttribute="leading" constant="20" id="i6u-Fr-33E"/>
-                                                <constraint firstItem="glh-ON-gwa" firstAttribute="leading" secondItem="VTl-ca-DSC" secondAttribute="leading" constant="20" id="kU4-Aa-TX1"/>
-                                                <constraint firstAttribute="centerY" secondItem="19u-0V-ehe" secondAttribute="centerY" constant="-2" id="pRF-ks-Wck"/>
+                                                <constraint firstAttribute="trailing" secondItem="QBo-Pb-lYG" secondAttribute="trailing" constant="20" id="7au-et-uKz"/>
+                                                <constraint firstAttribute="trailing" secondItem="4zc-cJ-Wa8" secondAttribute="trailing" constant="20" id="99e-mv-OwY"/>
+                                                <constraint firstItem="4zc-cJ-Wa8" firstAttribute="top" secondItem="IUK-TF-6Hc" secondAttribute="top" constant="11" id="Qhp-0o-oby"/>
+                                                <constraint firstAttribute="bottom" secondItem="QYk-3n-boQ" secondAttribute="bottom" priority="750" constant="7" id="R7m-0s-oHd"/>
+                                                <constraint firstItem="QBo-Pb-lYG" firstAttribute="top" secondItem="4zc-cJ-Wa8" secondAttribute="bottom" constant="8" id="Uj0-lb-oxz"/>
+                                                <constraint firstItem="QYk-3n-boQ" firstAttribute="top" secondItem="IUK-TF-6Hc" secondAttribute="top" priority="750" constant="11" id="aV6-kQ-5JU"/>
+                                                <constraint firstAttribute="centerX" secondItem="QYk-3n-boQ" secondAttribute="centerX" id="fez-Hb-Hga"/>
+                                                <constraint firstAttribute="centerY" secondItem="QYk-3n-boQ" secondAttribute="centerY" constant="-2" id="i8l-42-4xj"/>
+                                                <constraint firstItem="4zc-cJ-Wa8" firstAttribute="leading" secondItem="IUK-TF-6Hc" secondAttribute="leading" constant="20" id="lRZ-6D-QnP"/>
+                                                <constraint firstItem="QBo-Pb-lYG" firstAttribute="leading" secondItem="IUK-TF-6Hc" secondAttribute="leading" constant="20" id="qIu-Vw-fnb"/>
+                                                <constraint firstAttribute="bottom" secondItem="QBo-Pb-lYG" secondAttribute="bottom" id="zE7-mS-wTf"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="content" destination="kiS-OU-cVh" id="TmO-aV-7ZB"/>
-                                            <outlet property="image" destination="19u-0V-ehe" id="976-Wx-Bog"/>
-                                            <outlet property="title" destination="glh-ON-gwa" id="1rO-64-nU9"/>
+                                            <outlet property="content" destination="QBo-Pb-lYG" id="Svz-9M-Vog"/>
+                                            <outlet property="image" destination="QYk-3n-boQ" id="wDp-ro-Kxd"/>
+                                            <outlet property="title" destination="4zc-cJ-Wa8" id="CE9-XS-Anu"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -334,7 +339,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Autor" id="4vz-fz-SHc"/>
+                    <navigationItem key="navigationItem" id="4vz-fz-SHc"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="table" destination="Cm9-86-X1n" id="61h-31-Wrx"/>
+                        <outlet property="titleLabel" destination="MUw-P6-h1M" id="ija-3v-4oo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L5U-Ky-0zO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -400,10 +410,10 @@
             </objects>
             <point key="canvasLocation" x="1192" y="1654"/>
         </scene>
-        <!--Random Author View Controller - Zufälliger Autor-->
+        <!--Navigation Controller - Zufälliger Autor-->
         <scene sceneID="8Rv-H6-g1K">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="EgV-xD-RF7" customClass="VAURandomAuthorViewController" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="EgV-xD-RF7" sceneMemberID="viewController">
                     <extendedEdge key="edgesForExtendedLayout" top="YES"/>
                     <tabBarItem key="tabBarItem" title="Zufälliger Autor" image="Shuffle.png" id="U6m-Ls-oJI"/>
                     <toolbarItems/>

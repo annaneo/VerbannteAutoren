@@ -8,6 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VAURandomAuthorViewController : UINavigationController
+@class VAURandomTableViewCell;
+
+@interface VAURandomAuthorViewController : UIViewController <UITableViewDataSource, UITableViewDelegate> {
+    VAURandomTableViewCell *_prototypecell;
+}
+
+@property (weak, nonatomic) IBOutlet UITableView *table;
+@property (weak, nonatomic) IBOutlet UILabel* titleLabel;
+
+@property (nonatomic) NSString* biography;
+@property (nonatomic) UIImage* image;
+@property (nonatomic) NSArray* worksDataArray;
+@property (nonatomic) NSString* worksString;
+@property (nonatomic) NSString* wikiLink;
+@property (nonatomic) NSString* gndLink;
 
 @end

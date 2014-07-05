@@ -60,6 +60,7 @@
 		C65C85321967067C00BB08EC /* VAUAboutListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C65C852D1967067C00BB08EC /* VAUAboutListViewController.m */; };
 		C65C85331967067C00BB08EC /* VAUImpressumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C65C852F1967067C00BB08EC /* VAUImpressumViewController.m */; };
 		C65C85371967183E00BB08EC /* VAURandomAuthorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C65C85361967183E00BB08EC /* VAURandomAuthorViewController.m */; };
+		C6832A041967323500765949 /* VAURandomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C6832A031967323500765949 /* VAURandomTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +131,8 @@
 		C65C852F1967067C00BB08EC /* VAUImpressumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAUImpressumViewController.m; sourceTree = "<group>"; };
 		C65C85351967183E00BB08EC /* VAURandomAuthorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAURandomAuthorViewController.h; sourceTree = "<group>"; };
 		C65C85361967183E00BB08EC /* VAURandomAuthorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAURandomAuthorViewController.m; sourceTree = "<group>"; };
+		C6832A021967323500765949 /* VAURandomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAURandomTableViewCell.h; sourceTree = "<group>"; };
+		C6832A031967323500765949 /* VAURandomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAURandomTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +215,8 @@
 				C618F8471963620D00AEF209 /* VAUIndexedListItem.m */,
 				C65C85351967183E00BB08EC /* VAURandomAuthorViewController.h */,
 				C65C85361967183E00BB08EC /* VAURandomAuthorViewController.m */,
+				C6832A021967323500765949 /* VAURandomTableViewCell.h */,
+				C6832A031967323500765949 /* VAURandomTableViewCell.m */,
 			);
 			path = VerbannteAutoren;
 			sourceTree = "<group>";
@@ -418,6 +423,7 @@
 				C618F84B196473EF00AEF209 /* LRIndexedCollationWithSearch.m in Sources */,
 				048CE98E1954AD7E005EA60E /* VAUAuthorsViewController.m in Sources */,
 				C65C85321967067C00BB08EC /* VAUAboutListViewController.m in Sources */,
+				C6832A041967323500765949 /* VAURandomTableViewCell.m in Sources */,
 				048CE9651954A614005EA60E /* VAUAppDelegate.m in Sources */,
 				04BC97F919559B19001803FC /* VAUAuthorDetailViewController.m in Sources */,
 				C618F8481963620D00AEF209 /* VAUIndexedListItem.m in Sources */,

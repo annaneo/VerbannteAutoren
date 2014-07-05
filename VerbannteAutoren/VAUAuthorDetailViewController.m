@@ -279,16 +279,6 @@
     }
 }
 
-#pragma mark - Helpers
-
-- (CGRect)contentSizeRectForTextView:(UITextView *)textView {
-    [textView.layoutManager ensureLayoutForTextContainer:textView.textContainer];
-    CGRect textBounds = [textView.layoutManager usedRectForTextContainer:textView.textContainer];
-    CGFloat width = (CGFloat)ceil(textBounds.size.width + textView.textContainerInset.left + textView.textContainerInset.right);
-    CGFloat height = (CGFloat)ceil(textBounds.size.height + textView.textContainerInset.top + textView.textContainerInset.bottom);
-    return CGRectMake(0, 0, width, height);
-}
-
 
 /*
 #pragma mark - Navigation
