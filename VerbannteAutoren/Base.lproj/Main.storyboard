@@ -21,7 +21,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1lL-hw-XPg">
-                                <rect key="frame" x="130" y="408" width="60" height="30"/>
+                                <rect key="frame" x="119" y="405" width="82" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Zur Liste">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -29,11 +30,11 @@
                                     <segue destination="RbK-eB-Dgw" kind="modal" identifier="ShowAuthorsSegue" id="S9E-Mt-mjW"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="wordWrap" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="260" translatesAutoresizingMaskIntoConstraints="NO" id="6p0-OF-yQK">
-                                <rect key="frame" x="30" y="133" width="260" height="236"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="260" translatesAutoresizingMaskIntoConstraints="NO" id="6p0-OF-yQK">
+                                <rect key="frame" x="30" y="151" width="260" height="178"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Die “Liste der schädlichen und unerwünschten Schrifttums” enthält die von den Nationalsozialisten zwischen 1938 bis 1941 zusammengestellten Autoren und ihre Werke, die im Dritten Reich verboten wurden.</string>
+                                <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="calibratedWhite"/>
+                                <string key="text">Die “Liste der schädlichen und  unerwünschten Schrifttums” enthält die von den Nationalsozialisten zwischen 1938 bis 1941 zusammengestellten Autoren und ihre Werke, die im Dritten Reich verboten wurden.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -80,10 +81,10 @@
             </objects>
             <point key="canvasLocation" x="1718" y="1654"/>
         </scene>
-        <!--View Controller - Informationen zur App-->
+        <!--Impressum View Controller - Informationen zur App-->
         <scene sceneID="DIH-w4-s8P">
             <objects>
-                <viewController id="wdD-eg-TZe" sceneMemberID="viewController">
+                <viewController id="wdD-eg-TZe" customClass="VAUImpressumViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="83x-Y9-utt"/>
                         <viewControllerLayoutGuide type="bottom" id="At1-DL-TYe"/>
@@ -101,6 +102,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Informationen zur App" id="w6E-ar-HI2"/>
+                    <connections>
+                        <outlet property="webView" destination="3JD-Ti-Hy1" id="JEP-Cw-gEJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MpK-5b-0eL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

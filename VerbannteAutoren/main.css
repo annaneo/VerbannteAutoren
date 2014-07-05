@@ -1,13 +1,21 @@
-.div {
-    font-size: 14pt;
+div {
+    font-size: 14px;
+    font-family: Helvetica Neue;
 }
 
-.div a {
+div a {
 	color: #007FFF;
     text-decoration: underline;
 	text-decoration-color: #007FFF;
 }
 
 h2 {
-	font-size: 18pt;
+	font-size: 14pt;
+    font-family: Helvetica Neue;
+
+}
+
+.buecher {
+    width:300px;
+    height:207px;
 }
