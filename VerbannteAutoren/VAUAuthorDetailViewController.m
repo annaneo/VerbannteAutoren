@@ -197,7 +197,7 @@
 }
 
 - (NSString*)generateWikipediaLink {
-    if (!_biography) {
+    if (!_biography || _biography.length == 0) {
         return nil;
     }
     NSString* title = self.navigationItem.title;
@@ -251,6 +251,8 @@
     cell.content.hidden = NO;
     cell.content.text = @"";
     cell.image.image = nil;
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    cell.content.textColor = [UIColor blackColor];
     switch (row) {
         case 0:
             if (_biography.length > 0) {
@@ -274,14 +276,16 @@
             break;
         case 3:
             if (_wikiLink.length > 0) {
-                cell.title.text = @"auf Wikipedia";
+                cell.title.text = @"Wikipedia";
                 cell.content.text = _wikiLink;
+                cell.content.textColor = [UIColor blueColor];
             }
             break;
         case 4:
             if (_gndLink.length > 0) {
                 cell.title.text = @"GND";
                 cell.content.text = _gndLink;
+                cell.content.textColor = [UIColor blueColor];
             }
             break;
 
