@@ -1,0 +1,13 @@
+.div {
+    font-size: 14pt;
+}
+
+.div a {
+	color: #007FFF;
+    text-decoration: underline;
+	text-decoration-color: #007FFF;
+}
+
+.h2 {
+	font-size: 18pt;
+}
