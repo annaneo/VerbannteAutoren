@@ -25,19 +25,49 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.automaticallyAdjustsScrollViewInsets = NO;
     _prototypecell = [self.table dequeueReusableCellWithIdentifier:@"RandomCell"];
+    _biography = @"";
+    _image = nil;
+    _worksString = @"";
+    _wikiLink = @"";
+    _gndLink = @"";
     _indexedListFull = [[NSArray arrayWithArray:[(VAUAppDelegate*)[UIApplication sharedApplication].delegate indexedList]] mutableCopy];
+    [self generateRandomAuthor];
+
+    [self generateWorks];
+    [self fetchAddtionalData];
+    _table.delegate = self;
+    _table.dataSource = self;
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    _biography = @"";
+    _image = nil;
+    _worksString = @"";
+    _wikiLink = @"";
+    _gndLink = @"";
+
+    [self generateRandomAuthor];
+
+    [self generateWorks];
+    [self fetchAddtionalData];
+    [_table reloadData];
+
+}
+
+- (void)generateRandomAuthor {
     NSInteger randomInitial = arc4random_uniform((u_int32_t)[_indexedListFull count] - 1);
     NSArray* authors = _indexedListFull[randomInitial];
+    while (authors.count == 0) {
+        randomInitial = arc4random_uniform((u_int32_t)[_indexedListFull count] - 1);
+        authors = _indexedListFull[randomInitial];
+    }
     NSInteger randomAuthor = arc4random_uniform((u_int32_t)[authors count] - 1);
     VAUIndexedListItem* authorItem = authors[randomAuthor];
     _worksDataArray = [[(VAUAppDelegate*)[UIApplication sharedApplication].delegate rawData] objectForKey:authorItem.fullname];
     _titleLabel.text = authorItem.fullname;
-    NSLog(@"Random Autor: %@", authorItem.fullname);
-    _table.delegate = self;
-    _table.dataSource = self;
-    [self generateWorks];
-    [self fetchAddtionalData];
+    NSLog(@"Random Autor: %@", _titleLabel.text);
 }
 
 - (void)didReceiveMemoryWarning {
@@ -82,7 +112,7 @@
 - (void)fetchDataFromWikipedia {
     NSString* baseUrl = @"http://de.wikipedia.org/w/api.php?";
     NSString* properties = @"format=json&action=query&prop=revisions&indexpageids&rvprop=content&rvparse&redirects";
-    NSString* title = self.navigationItem.title;
+    NSString* title = _titleLabel.text;
     NSError *error = NULL;
 
     NSString* urlString = [NSString stringWithFormat:@"%@%@&titles=%@", baseUrl, properties, title];
@@ -156,7 +186,7 @@
 - (NSString*)fetchBiography {
     NSString* baseUrl = @"http://de.wikipedia.org/w/api.php?";
     NSString* properties = @"format=json&action=query&prop=revisions&rvsection=0&indexpageids&rvprop=content&rvparse&redirects";
-    NSString* title = self.navigationItem.title;
+    NSString* title = _titleLabel.text;
     NSError *error = NULL;
 
     NSString* urlString = [NSString stringWithFormat:@"%@%@&titles=%@", baseUrl, properties, title];
@@ -214,7 +244,7 @@
     if (!_biography) {
         return nil;
     }
-    NSString* title = self.navigationItem.title;
+    NSString* title = _titleLabel.text;
     NSString* urlString = [NSString stringWithFormat:@"http://de.wikipedia.org/wiki/%@", title];
     return [urlString stringByReplacingOccurrencesOfString:@" " withString:@"_"];
 }
@@ -246,6 +276,7 @@
             if (_gndLink.length > 0) {
                 [[UIApplication sharedApplication] openURL:[NSURL URLWithString:_gndLink]];
             }
+            break;
         default:
             break;
     }
@@ -308,7 +339,8 @@
 /*
 #pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
+// In a storyboard-based application, you will often want to do a little preparation before 
+
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     // Get the new view controller using [segue destinationViewController].
