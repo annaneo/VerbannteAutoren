@@ -80,11 +80,11 @@
 		045DDDB6195F195700779702 /* testWiki.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testWiki.json; sourceTree = "<group>"; };
 		045DDDBD195F3C5300779702 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		047005C0196599D200DABFC0 /* impressum.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = impressum.html; sourceTree = "<group>"; };
-		048CE9511954A614005EA60E /* VerbannteAutoren.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerbannteAutoren.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		048CE9511954A614005EA60E /* Verbotene Autoren.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Verbotene Autoren.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		048CE9541954A614005EA60E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		048CE9561954A614005EA60E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		048CE9581954A614005EA60E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		048CE95C1954A614005EA60E /* VerbannteAutoren-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VerbannteAutoren-Info.plist"; sourceTree = "<group>"; };
+		048CE95C1954A614005EA60E /* Verbotene Autoren-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Verbotene Autoren-Info.plist"; sourceTree = "<group>"; };
 		048CE95E1954A614005EA60E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		048CE9601954A614005EA60E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		048CE9621954A614005EA60E /* VerbannteAutoren-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VerbannteAutoren-Prefix.pch"; sourceTree = "<group>"; };
@@ -92,9 +92,9 @@
 		048CE9641954A614005EA60E /* VAUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VAUAppDelegate.m; sourceTree = "<group>"; };
 		048CE9671954A614005EA60E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		048CE96C1954A614005EA60E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		048CE9721954A614005EA60E /* VerbannteAutorenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerbannteAutorenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		048CE9721954A614005EA60E /* Verbotene AutorenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Verbotene AutorenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		048CE9731954A614005EA60E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		048CE97B1954A614005EA60E /* VerbannteAutorenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VerbannteAutorenTests-Info.plist"; sourceTree = "<group>"; };
+		048CE97B1954A614005EA60E /* Verbotene AutorenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Verbotene AutorenTests-Info.plist"; sourceTree = "<group>"; };
 		048CE97D1954A614005EA60E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		048CE97F1954A614005EA60E /* VerbannteAutorenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerbannteAutorenTests.m; sourceTree = "<group>"; };
 		048CE9891954AD12005EA60E /* verbannte-buecher.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "verbannte-buecher.json"; sourceTree = "<group>"; };
@@ -175,8 +175,8 @@
 		048CE9521954A614005EA60E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				048CE9511954A614005EA60E /* VerbannteAutoren.app */,
-				048CE9721954A614005EA60E /* VerbannteAutorenTests.xctest */,
+				048CE9511954A614005EA60E /* Verbotene Autoren.app */,
+				048CE9721954A614005EA60E /* Verbotene AutorenTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -235,7 +235,7 @@
 				04C651DD19600D24006D89FA /* AppIcon */,
 				045DDDB6195F195700779702 /* testWiki.json */,
 				04CC1EF219571F60000816C1 /* data.plist */,
-				048CE95C1954A614005EA60E /* VerbannteAutoren-Info.plist */,
+				048CE95C1954A614005EA60E /* Verbotene Autoren-Info.plist */,
 				048CE9891954AD12005EA60E /* verbannte-buecher.json */,
 				048CE95D1954A614005EA60E /* InfoPlist.strings */,
 				048CE9601954A614005EA60E /* main.m */,
@@ -256,7 +256,7 @@
 		048CE97A1954A614005EA60E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				048CE97B1954A614005EA60E /* VerbannteAutorenTests-Info.plist */,
+				048CE97B1954A614005EA60E /* Verbotene AutorenTests-Info.plist */,
 				048CE97C1954A614005EA60E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -295,9 +295,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		048CE9501954A614005EA60E /* VerbannteAutoren */ = {
+		048CE9501954A614005EA60E /* Verbotene Autoren */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 048CE9831954A614005EA60E /* Build configuration list for PBXNativeTarget "VerbannteAutoren" */;
+			buildConfigurationList = 048CE9831954A614005EA60E /* Build configuration list for PBXNativeTarget "Verbotene Autoren" */;
 			buildPhases = (
 				048CE94D1954A614005EA60E /* Sources */,
 				048CE94E1954A614005EA60E /* Frameworks */,
@@ -307,14 +307,14 @@
 			);
 			dependencies = (
 			);
-			name = VerbannteAutoren;
+			name = "Verbotene Autoren";
 			productName = VerbannteAutoren;
-			productReference = 048CE9511954A614005EA60E /* VerbannteAutoren.app */;
+			productReference = 048CE9511954A614005EA60E /* Verbotene Autoren.app */;
 			productType = "com.apple.product-type.application";
 		};
-		048CE9711954A614005EA60E /* VerbannteAutorenTests */ = {
+		048CE9711954A614005EA60E /* Verbotene AutorenTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 048CE9861954A614005EA60E /* Build configuration list for PBXNativeTarget "VerbannteAutorenTests" */;
+			buildConfigurationList = 048CE9861954A614005EA60E /* Build configuration list for PBXNativeTarget "Verbotene AutorenTests" */;
 			buildPhases = (
 				048CE96E1954A614005EA60E /* Sources */,
 				048CE96F1954A614005EA60E /* Frameworks */,
@@ -325,9 +325,9 @@
 			dependencies = (
 				048CE9781954A614005EA60E /* PBXTargetDependency */,
 			);
-			name = VerbannteAutorenTests;
+			name = "Verbotene AutorenTests";
 			productName = VerbannteAutorenTests;
-			productReference = 048CE9721954A614005EA60E /* VerbannteAutorenTests.xctest */;
+			productReference = 048CE9721954A614005EA60E /* Verbotene AutorenTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -342,13 +342,18 @@
 				TargetAttributes = {
 					048CE9501954A614005EA60E = {
 						DevelopmentTeam = 3UAW763979;
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					048CE9711954A614005EA60E = {
 						TestTargetID = 048CE9501954A614005EA60E;
 					};
 				};
 			};
-			buildConfigurationList = 048CE94C1954A614005EA60E /* Build configuration list for PBXProject "VerbannteAutoren" */;
+			buildConfigurationList = 048CE94C1954A614005EA60E /* Build configuration list for PBXProject "Verbotene Autoren" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -361,8 +366,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				048CE9501954A614005EA60E /* VerbannteAutoren */,
-				048CE9711954A614005EA60E /* VerbannteAutorenTests */,
+				048CE9501954A614005EA60E /* Verbotene Autoren */,
+				048CE9711954A614005EA60E /* Verbotene AutorenTests */,
 			);
 		};
 /* End PBXProject section */
@@ -452,7 +457,7 @@
 /* Begin PBXTargetDependency section */
 		048CE9781954A614005EA60E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 048CE9501954A614005EA60E /* VerbannteAutoren */;
+			target = 048CE9501954A614005EA60E /* Verbotene Autoren */;
 			targetProxy = 048CE9771954A614005EA60E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -539,7 +544,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Reimers Gabriel, Peinelt Julius & Neovesky Anna  (3UAW763979)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Reimers Gabriel, Peinelt Julius & Neovesky Anna  (3UAW763979)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -560,12 +566,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Anna Neovesky (3X76BY2B28)";
+				CODE_SIGN_IDENTITY = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VerbannteAutoren/VerbannteAutoren-Prefix.pch";
-				INFOPLIST_FILE = "VerbannteAutoren/VerbannteAutoren-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4D67E3C9-81EF-4A6D-A102-44EA2D808B1E";
+				GCC_PREFIX_HEADER = "VerbannteAutoren/Verbotene Autoren-Prefix.pch";
+				INFOPLIST_FILE = "VerbannteAutoren/Verbotene Autoren-Info.plist";
+				PRODUCT_NAME = "Verbotene Autoren";
+				PROVISIONING_PROFILE = "E066D4D9-7AD1-45C3-8A30-A19664D9CE11";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -575,12 +581,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Anna Neovesky (3X76BY2B28)";
+				CODE_SIGN_IDENTITY = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VerbannteAutoren/VerbannteAutoren-Prefix.pch";
-				INFOPLIST_FILE = "VerbannteAutoren/VerbannteAutoren-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4D67E3C9-81EF-4A6D-A102-44EA2D808B1E";
+				GCC_PREFIX_HEADER = "VerbannteAutoren/Verbotene Autoren-Prefix.pch";
+				INFOPLIST_FILE = "VerbannteAutoren/Verbotene Autoren-Info.plist";
+				PRODUCT_NAME = "Verbotene Autoren";
+				PROVISIONING_PROFILE = "E066D4D9-7AD1-45C3-8A30-A19664D9CE11";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -600,8 +606,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "VerbannteAutorenTests/VerbannteAutorenTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "VerbannteAutorenTests/Verbotene AutorenTests-Info.plist";
+				PRODUCT_NAME = "Verbotene AutorenTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -618,8 +624,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VerbannteAutoren/VerbannteAutoren-Prefix.pch";
-				INFOPLIST_FILE = "VerbannteAutorenTests/VerbannteAutorenTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "VerbannteAutorenTests/Verbotene AutorenTests-Info.plist";
+				PRODUCT_NAME = "Verbotene AutorenTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -628,7 +634,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		048CE94C1954A614005EA60E /* Build configuration list for PBXProject "VerbannteAutoren" */ = {
+		048CE94C1954A614005EA60E /* Build configuration list for PBXProject "Verbotene Autoren" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				048CE9811954A614005EA60E /* Debug */,
@@ -637,7 +643,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		048CE9831954A614005EA60E /* Build configuration list for PBXNativeTarget "VerbannteAutoren" */ = {
+		048CE9831954A614005EA60E /* Build configuration list for PBXNativeTarget "Verbotene Autoren" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				048CE9841954A614005EA60E /* Debug */,
@@ -646,7 +652,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		048CE9861954A614005EA60E /* Build configuration list for PBXNativeTarget "VerbannteAutorenTests" */ = {
+		048CE9861954A614005EA60E /* Build configuration list for PBXNativeTarget "Verbotene AutorenTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				048CE9871954A614005EA60E /* Debug */,

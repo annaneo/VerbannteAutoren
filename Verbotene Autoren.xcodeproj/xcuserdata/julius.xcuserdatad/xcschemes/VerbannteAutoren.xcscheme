@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "048CE9501954A614005EA60E"
-               BuildableName = "VerbannteAutoren.app"
-               BlueprintName = "VerbannteAutoren"
-               ReferencedContainer = "container:VerbannteAutoren.xcodeproj">
+               BuildableName = "Verbotene Autoren.app"
+               BlueprintName = "Verbotene Autoren"
+               ReferencedContainer = "container:Verbotene Autoren.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "048CE9711954A614005EA60E"
-               BuildableName = "VerbannteAutorenTests.xctest"
-               BlueprintName = "VerbannteAutorenTests"
-               ReferencedContainer = "container:VerbannteAutoren.xcodeproj">
+               BuildableName = "Verbotene AutorenTests.xctest"
+               BlueprintName = "Verbotene AutorenTests"
+               ReferencedContainer = "container:Verbotene Autoren.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "048CE9501954A614005EA60E"
-            BuildableName = "VerbannteAutoren.app"
-            BlueprintName = "VerbannteAutoren"
-            ReferencedContainer = "container:VerbannteAutoren.xcodeproj">
+            BuildableName = "Verbotene Autoren.app"
+            BlueprintName = "Verbotene Autoren"
+            ReferencedContainer = "container:Verbotene Autoren.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "048CE9501954A614005EA60E"
-            BuildableName = "VerbannteAutoren.app"
-            BlueprintName = "VerbannteAutoren"
-            ReferencedContainer = "container:VerbannteAutoren.xcodeproj">
+            BuildableName = "Verbotene Autoren.app"
+            BlueprintName = "Verbotene Autoren"
+            ReferencedContainer = "container:Verbotene Autoren.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "048CE9501954A614005EA60E"
-            BuildableName = "VerbannteAutoren.app"
-            BlueprintName = "VerbannteAutoren"
-            ReferencedContainer = "container:VerbannteAutoren.xcodeproj">
+            BuildableName = "Verbotene Autoren.app"
+            BlueprintName = "Verbotene Autoren"
+            ReferencedContainer = "container:Verbotene Autoren.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

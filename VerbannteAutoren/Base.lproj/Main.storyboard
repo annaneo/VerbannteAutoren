@@ -221,10 +221,10 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ob1-g9-RSv">
-                                <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                                 <subviews>
-                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="141" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="rIk-yE-Hhs">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="141" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="rIk-yE-Hhs">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="367"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <prototypes>
@@ -282,14 +282,23 @@
                                         </prototypes>
                                     </tableView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="rIk-yE-Hhs" firstAttribute="height" secondItem="ob1-g9-RSv" secondAttribute="height" id="7dE-9I-7Zy"/>
+                                    <constraint firstAttribute="trailing" secondItem="rIk-yE-Hhs" secondAttribute="trailing" id="Vt6-Zm-lcs"/>
+                                    <constraint firstItem="rIk-yE-Hhs" firstAttribute="width" secondItem="ob1-g9-RSv" secondAttribute="width" id="afK-kc-29O"/>
+                                    <constraint firstItem="rIk-yE-Hhs" firstAttribute="top" secondItem="ob1-g9-RSv" secondAttribute="top" id="f4g-Ho-6Ws"/>
+                                    <constraint firstAttribute="bottom" secondItem="rIk-yE-Hhs" secondAttribute="bottom" id="fhW-d1-47v"/>
+                                    <constraint firstItem="rIk-yE-Hhs" firstAttribute="leading" secondItem="ob1-g9-RSv" secondAttribute="leading" id="vob-h5-mUu"/>
+                                    <constraint firstItem="rIk-yE-Hhs" firstAttribute="height" secondItem="ob1-g9-RSv" secondAttribute="height" id="wdA-RZ-O8Q"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="ob1-g9-RSv" secondAttribute="trailing" id="1y3-gm-edp"/>
                             <constraint firstItem="ob1-g9-RSv" firstAttribute="leading" secondItem="3gv-Ab-gkk" secondAttribute="leading" id="3hY-pk-Rf8"/>
-                            <constraint firstItem="sHB-xx-ce5" firstAttribute="top" secondItem="ob1-g9-RSv" secondAttribute="bottom" constant="-49" id="FzJ-8U-PJX"/>
                             <constraint firstItem="ob1-g9-RSv" firstAttribute="top" secondItem="WLT-Kb-Oex" secondAttribute="bottom" id="Xe2-VJ-L2V"/>
+                            <constraint firstItem="sHB-xx-ce5" firstAttribute="top" secondItem="ob1-g9-RSv" secondAttribute="bottom" id="r9w-p8-Tde"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Autor" id="gt9-9N-9si"/>
