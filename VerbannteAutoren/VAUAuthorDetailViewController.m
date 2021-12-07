@@ -225,12 +225,12 @@
     switch (indexPath.row) {
         case 3:
             if (_wikiLink.length > 0) {
-                [[UIApplication sharedApplication] openURL:[NSURL URLWithString:_wikiLink]];
+                [[UIApplication sharedApplication] openURL: [NSURL URLWithString:_wikiLink] options:@{} completionHandler:nil];
             }
             break;
         case 4:
             if (_gndLink.length > 0) {
-                [[UIApplication sharedApplication] openURL:[NSURL URLWithString:_gndLink]];
+                [[UIApplication sharedApplication] openURL: [NSURL URLWithString:_gndLink] options:@{} completionHandler:nil];
             }
         default:
             break;
