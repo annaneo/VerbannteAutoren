@@ -25,7 +25,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.automaticallyAdjustsScrollViewInsets = NO;
     _prototypecell = [self.table dequeueReusableCellWithIdentifier:@"RandomCell"];
     _biography = @"";
     _image = nil;

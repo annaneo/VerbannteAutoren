@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WebKit/WebKit.h"
 
-@interface VAUImpressumViewController : UIViewController <UIWebViewDelegate>
-@property (weak, nonatomic) IBOutlet UIWebView *webView;
+@interface VAUImpressumViewController : UIViewController <WKNavigationDelegate>
+@property (weak, nonatomic) IBOutlet WKWebView *webView;
 
 @end

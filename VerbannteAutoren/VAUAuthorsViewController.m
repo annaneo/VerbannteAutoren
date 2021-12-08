@@ -17,7 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     _isSearchActive = NO;
-    self.automaticallyAdjustsScrollViewInsets = NO;
     //_authorNames = [NSMutableArray arrayWithArray:[(VAUAppDelegate*)[UIApplication sharedApplication].delegate authorNames]];
     _indexedList = [[NSMutableArray arrayWithArray:[(VAUAppDelegate*)[UIApplication sharedApplication].delegate indexedList]] mutableCopy];
     _indexedListFull = [[NSMutableArray arrayWithArray:[(VAUAppDelegate*)[UIApplication sharedApplication].delegate indexedList]] mutableCopy];

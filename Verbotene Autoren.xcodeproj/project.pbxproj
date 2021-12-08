@@ -53,6 +53,7 @@
 		04E8576619672920000EDF2F /* Shuffle.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E8576219672920000EDF2F /* Shuffle.png */; };
 		04E8576719672920000EDF2F /* Signpost.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E8576319672920000EDF2F /* Signpost.png */; };
 		04E8576919672E13000EDF2F /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = 04E8576819672E13000EDF2F /* main.css */; };
+		0E0077C1276145C2006C8CE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E0077C0276145C2006C8CE1 /* LaunchScreen.storyboard */; };
 		0EA3A1FE27613312007FBB22 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EA3A1FD27613312007FBB22 /* WebKit.framework */; };
 		C618F8481963620D00AEF209 /* VAUIndexedListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C618F8471963620D00AEF209 /* VAUIndexedListItem.m */; };
 		C618F84B196473EF00AEF209 /* LRIndexedCollationWithSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = C618F849196473EF00AEF209 /* LRIndexedCollationWithSearch.m */; };
@@ -122,6 +123,7 @@
 		04E8576219672920000EDF2F /* Shuffle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shuffle.png; sourceTree = "<group>"; };
 		04E8576319672920000EDF2F /* Signpost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Signpost.png; sourceTree = "<group>"; };
 		04E8576819672E13000EDF2F /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
+		0E0077C0276145C2006C8CE1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EA3A1FD27613312007FBB22 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		C618F8461963620D00AEF209 /* VAUIndexedListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAUIndexedListItem.h; sourceTree = "<group>"; };
 		C618F8471963620D00AEF209 /* VAUIndexedListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAUIndexedListItem.m; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 				048CE9641954A614005EA60E /* VAUAppDelegate.m */,
 				048CE9661954A614005EA60E /* Main.storyboard */,
 				048CE98C1954AD7E005EA60E /* VAUAuthorsViewController.h */,
+				0E0077C0276145C2006C8CE1 /* LaunchScreen.storyboard */,
 				048CE98D1954AD7E005EA60E /* VAUAuthorsViewController.m */,
 				04BC97F719559B19001803FC /* VAUAuthorDetailViewController.h */,
 				04BC97F819559B19001803FC /* VAUAuthorDetailViewController.m */,
@@ -406,6 +409,7 @@
 				04E8576619672920000EDF2F /* Shuffle.png in Resources */,
 				04E8575B196728A3000EDF2F /* Albums@2x.png in Resources */,
 				04E8575919672880000EDF2F /* Contact@2x.png in Resources */,
+				0E0077C1276145C2006C8CE1 /* LaunchScreen.storyboard in Resources */,
 				04E8576719672920000EDF2F /* Signpost.png in Resources */,
 				04E8575D196728BF000EDF2F /* Shuffle@2x.png in Resources */,
 			);

@@ -17,7 +17,7 @@
     _authorNames = [NSMutableArray arrayWithCapacity:1];
     _indexedList = [NSMutableArray arrayWithCapacity:1];
     [self loadData];
-    self.window.tintColor = [UIColor colorWithRed:0.7921568627451 green:0.24705882352941 blue:0 alpha:1]; //or whatever color you want
+    self.window.tintColor = [UIColor colorWithRed:0.79 green:0.25 blue:0 alpha:1]; //or whatever color you want
     return YES;
 }
 							

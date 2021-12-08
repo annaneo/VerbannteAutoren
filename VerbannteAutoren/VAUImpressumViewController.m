@@ -24,31 +24,27 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.automaticallyAdjustsScrollViewInsets = NO;
     // load WebView
     
+    NSURL* fileURL = [[NSBundle mainBundle] URLForResource: @"impressum" withExtension:@"html"];
+    NSURLRequest* urlRequest = [NSURLRequest requestWithURL:fileURL];
+    [_webView loadRequest:urlRequest];
+
+    [_webView setNavigationDelegate:self];
     
-    
-    NSString* filePath = [[NSBundle mainBundle] pathForResource:@"impressum" ofType:@"html"];
-    NSString* htmlString = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
-    
-    NSURL *baseURL = [NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]];
-    
-    [_webView loadHTMLString:htmlString baseURL:baseURL];
-    
-    [_webView setDelegate:self];
 }
 
 
--(BOOL) webView:(UIWebView *)inWeb shouldStartLoadWithRequest:(NSURLRequest *)inRequest navigationType:(UIWebViewNavigationType)inType {
-    if ( inType == UIWebViewNavigationTypeLinkClicked ) {
-        [[UIApplication sharedApplication] openURL: [inRequest URL] options:@{} completionHandler:nil];
-
-        return NO;
+- (void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler {
+    if ( [navigationAction navigationType] == WKNavigationTypeLinkActivated) {
+        [[UIApplication sharedApplication] openURL: [[navigationAction request] URL] options:@{} completionHandler:nil];
+        decisionHandler(WKNavigationActionPolicyCancel);
+    } else {
+        decisionHandler(WKNavigationActionPolicyAllow);
     }
-    
-    return YES;
 }
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
