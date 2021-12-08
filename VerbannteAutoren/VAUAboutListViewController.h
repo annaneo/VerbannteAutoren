@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WebKit/WebKit.h"
 
-@interface VAUAboutListViewController : UIViewController <UIWebViewDelegate>
+@interface VAUAboutListViewController : UIViewController <WKNavigationDelegate>
 
 @end

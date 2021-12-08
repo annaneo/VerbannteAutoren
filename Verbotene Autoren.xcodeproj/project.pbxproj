@@ -53,6 +53,7 @@
 		04E8576619672920000EDF2F /* Shuffle.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E8576219672920000EDF2F /* Shuffle.png */; };
 		04E8576719672920000EDF2F /* Signpost.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E8576319672920000EDF2F /* Signpost.png */; };
 		04E8576919672E13000EDF2F /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = 04E8576819672E13000EDF2F /* main.css */; };
+		0EA3A1FE27613312007FBB22 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EA3A1FD27613312007FBB22 /* WebKit.framework */; };
 		C618F8481963620D00AEF209 /* VAUIndexedListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C618F8471963620D00AEF209 /* VAUIndexedListItem.m */; };
 		C618F84B196473EF00AEF209 /* LRIndexedCollationWithSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = C618F849196473EF00AEF209 /* LRIndexedCollationWithSearch.m */; };
 		C618F84C196473EF00AEF209 /* LRIndexedCollationWithSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = C618F849196473EF00AEF209 /* LRIndexedCollationWithSearch.m */; };
@@ -121,6 +122,7 @@
 		04E8576219672920000EDF2F /* Shuffle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shuffle.png; sourceTree = "<group>"; };
 		04E8576319672920000EDF2F /* Signpost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Signpost.png; sourceTree = "<group>"; };
 		04E8576819672E13000EDF2F /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
+		0EA3A1FD27613312007FBB22 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		C618F8461963620D00AEF209 /* VAUIndexedListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAUIndexedListItem.h; sourceTree = "<group>"; };
 		C618F8471963620D00AEF209 /* VAUIndexedListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAUIndexedListItem.m; sourceTree = "<group>"; };
 		C618F849196473EF00AEF209 /* LRIndexedCollationWithSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRIndexedCollationWithSearch.m; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EA3A1FE27613312007FBB22 /* WebKit.framework in Frameworks */,
 				045DDDBE195F3C5300779702 /* MapKit.framework in Frameworks */,
 				048CE9571954A614005EA60E /* CoreGraphics.framework in Frameworks */,
 				048CE9591954A614005EA60E /* UIKit.framework in Frameworks */,
@@ -184,6 +187,7 @@
 		048CE9531954A614005EA60E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0EA3A1FD27613312007FBB22 /* WebKit.framework */,
 				045DDDBD195F3C5300779702 /* MapKit.framework */,
 				048CE9541954A614005EA60E /* Foundation.framework */,
 				048CE9561954A614005EA60E /* CoreGraphics.framework */,

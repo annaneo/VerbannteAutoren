@@ -7,9 +7,10 @@
 //
 
 #import "VAUAboutListViewController.h"
+#import "WebKit/WebKit.h"
 
 @interface VAUAboutListViewController ()
-@property (weak, nonatomic) IBOutlet UIWebView* contentWebView;
+@property (weak, nonatomic) IBOutlet WKWebView* contentWebView;
 
 @end
 
@@ -33,25 +34,21 @@
 //    [_contentWebView loadRequest:request];
 
 
-    NSString* filePath = [[NSBundle mainBundle] pathForResource:@"about" ofType:@"html"];
-    NSString* htmlString = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
+    NSURL* fileURL = [[NSBundle mainBundle] URLForResource: @"about" withExtension:@"html"];
+    NSURLRequest* urlRequest = [NSURLRequest requestWithURL:fileURL];
+    [_contentWebView loadRequest:urlRequest];
 
-    NSURL *baseURL = [NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]];
-
-    [_contentWebView loadHTMLString:htmlString baseURL:baseURL];
-
-    [_contentWebView setDelegate:self];
+    [_contentWebView setNavigationDelegate:self];
 }
 
 
--(BOOL) webView:(UIWebView *)inWeb shouldStartLoadWithRequest:(NSURLRequest *)inRequest navigationType:(UIWebViewNavigationType)inType {
-    if ( inType == UIWebViewNavigationTypeLinkClicked ) {
-        [[UIApplication sharedApplication] openURL: [inRequest URL] options:@{} completionHandler:nil];
-
-        return NO;
+- (void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler {
+    if ( [navigationAction navigationType] == WKNavigationTypeLinkActivated) {
+        [[UIApplication sharedApplication] openURL: [[navigationAction request] URL] options:@{} completionHandler:nil];
+        decisionHandler(WKNavigationActionPolicyCancel);
+    } else {
+        decisionHandler(WKNavigationActionPolicyAllow);
     }
-
-    return YES;
 }
 
 - (void)didReceiveMemoryWarning {
