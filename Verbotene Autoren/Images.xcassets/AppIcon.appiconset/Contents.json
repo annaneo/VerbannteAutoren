@@ -1,11 +1,13 @@
 {
   "images" : [
     {
+      "filename" : "VAU_Logo_40.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "20x20"
     },
     {
+      "filename" : "VAU_Logo_60.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "20x20"
@@ -17,6 +19,7 @@
       "size" : "29x29"
     },
     {
+      "filename" : "VAU_Logo_87.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "29x29"
@@ -28,6 +31,7 @@
       "size" : "40x40"
     },
     {
+      "filename" : "VAU_Logo_120-1.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "40x40"
@@ -39,11 +43,13 @@
       "size" : "60x60"
     },
     {
+      "filename" : "VAU_Logo_180.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"
     },
     {
+      "filename" : "iTunesArtwork@2x.png",
       "idiom" : "ios-marketing",
       "scale" : "1x",
       "size" : "1024x1024"
