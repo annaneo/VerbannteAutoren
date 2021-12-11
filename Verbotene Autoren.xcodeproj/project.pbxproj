@@ -33,14 +33,6 @@
 		048CE98F1954AD7E005EA60E /* VAUAuthorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CE98D1954AD7E005EA60E /* VAUAuthorsViewController.m */; };
 		04BC97F919559B19001803FC /* VAUAuthorDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BC97F819559B19001803FC /* VAUAuthorDetailViewController.m */; };
 		04BC97FA19559B19001803FC /* VAUAuthorDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BC97F819559B19001803FC /* VAUAuthorDetailViewController.m */; };
-		04C651E619600D36006D89FA /* VAU_Logo_29.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C651DE19600D36006D89FA /* VAU_Logo_29.png */; };
-		04C651E719600D36006D89FA /* VAU_Logo_40.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C651DF19600D36006D89FA /* VAU_Logo_40.png */; };
-		04C651E819600D36006D89FA /* VAU_Logo_58.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C651E019600D36006D89FA /* VAU_Logo_58.png */; };
-		04C651E919600D36006D89FA /* VAU_Logo_60.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C651E119600D36006D89FA /* VAU_Logo_60.png */; };
-		04C651EA19600D36006D89FA /* VAU_Logo_80.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C651E219600D36006D89FA /* VAU_Logo_80.png */; };
-		04C651EB19600D36006D89FA /* VAU_Logo_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C651E319600D36006D89FA /* VAU_Logo_120.png */; };
-		04C651EC19600D36006D89FA /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C651E419600D36006D89FA /* iTunesArtwork.png */; };
-		04C651ED19600D36006D89FA /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C651E519600D36006D89FA /* iTunesArtwork@2x.png */; };
 		04C651F3196012AC006D89FA /* Collage_iPhone4.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C651F2196012AC006D89FA /* Collage_iPhone4.png */; };
 		04CC1EF319571F60000816C1 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04CC1EF219571F60000816C1 /* data.plist */; };
 		04CC1EF419571F60000816C1 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04CC1EF219571F60000816C1 /* data.plist */; };
@@ -54,8 +46,6 @@
 		04E8576719672920000EDF2F /* Signpost.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E8576319672920000EDF2F /* Signpost.png */; };
 		04E8576919672E13000EDF2F /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = 04E8576819672E13000EDF2F /* main.css */; };
 		0E0077C1276145C2006C8CE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E0077C0276145C2006C8CE1 /* LaunchScreen.storyboard */; };
-		0E3B47372765148C00EEB597 /* VAU_Logo_180.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3B47352765148C00EEB597 /* VAU_Logo_180.png */; };
-		0E3B47382765148C00EEB597 /* VAU_Logo_87.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3B47362765148C00EEB597 /* VAU_Logo_87.png */; };
 		0EA3A1FE27613312007FBB22 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EA3A1FD27613312007FBB22 /* WebKit.framework */; };
 		C618F8481963620D00AEF209 /* VAUIndexedListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C618F8471963620D00AEF209 /* VAUIndexedListItem.m */; };
 		C618F84B196473EF00AEF209 /* LRIndexedCollationWithSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = C618F849196473EF00AEF209 /* LRIndexedCollationWithSearch.m */; };
@@ -105,14 +95,6 @@
 		048CE98D1954AD7E005EA60E /* VAUAuthorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAUAuthorsViewController.m; sourceTree = "<group>"; };
 		04BC97F719559B19001803FC /* VAUAuthorDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAUAuthorDetailViewController.h; sourceTree = "<group>"; };
 		04BC97F819559B19001803FC /* VAUAuthorDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAUAuthorDetailViewController.m; sourceTree = "<group>"; };
-		04C651DE19600D36006D89FA /* VAU_Logo_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VAU_Logo_29.png; sourceTree = "<group>"; };
-		04C651DF19600D36006D89FA /* VAU_Logo_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VAU_Logo_40.png; sourceTree = "<group>"; };
-		04C651E019600D36006D89FA /* VAU_Logo_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VAU_Logo_58.png; sourceTree = "<group>"; };
-		04C651E119600D36006D89FA /* VAU_Logo_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VAU_Logo_60.png; sourceTree = "<group>"; };
-		04C651E219600D36006D89FA /* VAU_Logo_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VAU_Logo_80.png; sourceTree = "<group>"; };
-		04C651E319600D36006D89FA /* VAU_Logo_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VAU_Logo_120.png; sourceTree = "<group>"; };
-		04C651E419600D36006D89FA /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
-		04C651E519600D36006D89FA /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 		04C651F2196012AC006D89FA /* Collage_iPhone4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Collage_iPhone4.png; sourceTree = "<group>"; };
 		04CC1EF219571F60000816C1 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
 		04E8575819672880000EDF2F /* Contact@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Contact@2x.png"; sourceTree = "<group>"; };
@@ -126,8 +108,6 @@
 		04E8576819672E13000EDF2F /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
 		0E0077C0276145C2006C8CE1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E3B47342765133800EEB597 /* Verbotene Autoren-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Verbotene Autoren-Prefix.pch"; sourceTree = "<group>"; };
-		0E3B47352765148C00EEB597 /* VAU_Logo_180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VAU_Logo_180.png; sourceTree = "<group>"; };
-		0E3B47362765148C00EEB597 /* VAU_Logo_87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VAU_Logo_87.png; sourceTree = "<group>"; };
 		0EA3A1FD27613312007FBB22 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		C618F8461963620D00AEF209 /* VAUIndexedListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAUIndexedListItem.h; sourceTree = "<group>"; };
 		C618F8471963620D00AEF209 /* VAUIndexedListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAUIndexedListItem.m; sourceTree = "<group>"; };
@@ -243,7 +223,6 @@
 				04E857551967285A000EDF2F /* Tab Bar */,
 				04299FD719671FBD00C4EC35 /* buecherverbrennung.png */,
 				04C651F2196012AC006D89FA /* Collage_iPhone4.png */,
-				04C651DD19600D24006D89FA /* AppIcon */,
 				045DDDB6195F195700779702 /* testWiki.json */,
 				04CC1EF219571F60000816C1 /* data.plist */,
 				048CE95C1954A614005EA60E /* Verbotene Autoren-Info.plist */,
@@ -271,23 +250,6 @@
 				048CE97C1954A614005EA60E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		04C651DD19600D24006D89FA /* AppIcon */ = {
-			isa = PBXGroup;
-			children = (
-				04C651DE19600D36006D89FA /* VAU_Logo_29.png */,
-				04C651DF19600D36006D89FA /* VAU_Logo_40.png */,
-				04C651E019600D36006D89FA /* VAU_Logo_58.png */,
-				04C651E119600D36006D89FA /* VAU_Logo_60.png */,
-				04C651E219600D36006D89FA /* VAU_Logo_80.png */,
-				04C651E319600D36006D89FA /* VAU_Logo_120.png */,
-				0E3B47362765148C00EEB597 /* VAU_Logo_87.png */,
-				0E3B47352765148C00EEB597 /* VAU_Logo_180.png */,
-				04C651E419600D36006D89FA /* iTunesArtwork.png */,
-				04C651E519600D36006D89FA /* iTunesArtwork@2x.png */,
-			);
-			name = AppIcon;
 			sourceTree = "<group>";
 		};
 		04E857551967285A000EDF2F /* Tab Bar */ = {
@@ -391,15 +353,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				047005C1196599D200DABFC0 /* impressum.html in Resources */,
-				04C651EC19600D36006D89FA /* iTunesArtwork.png in Resources */,
-				0E3B47372765148C00EEB597 /* VAU_Logo_180.png in Resources */,
 				048CE96D1954A614005EA60E /* Images.xcassets in Resources */,
-				04C651EB19600D36006D89FA /* VAU_Logo_120.png in Resources */,
-				04C651E719600D36006D89FA /* VAU_Logo_40.png in Resources */,
 				04299FD819671FBD00C4EC35 /* buecherverbrennung.png in Resources */,
 				04E8576419672920000EDF2F /* Albums.png in Resources */,
-				0E3B47382765148C00EEB597 /* VAU_Logo_87.png in Resources */,
-				04C651E619600D36006D89FA /* VAU_Logo_29.png in Resources */,
 				048CE95F1954A614005EA60E /* InfoPlist.strings in Resources */,
 				048CE98A1954AD12005EA60E /* verbannte-buecher.json in Resources */,
 				045DDDB7195F195700779702 /* testWiki.json in Resources */,
@@ -408,12 +364,8 @@
 				04CC1EF319571F60000816C1 /* data.plist in Resources */,
 				048CE9681954A614005EA60E /* Main.storyboard in Resources */,
 				04C651F3196012AC006D89FA /* Collage_iPhone4.png in Resources */,
-				04C651ED19600D36006D89FA /* iTunesArtwork@2x.png in Resources */,
-				04C651E819600D36006D89FA /* VAU_Logo_58.png in Resources */,
-				04C651E919600D36006D89FA /* VAU_Logo_60.png in Resources */,
 				04E8576519672920000EDF2F /* Contact.png in Resources */,
 				04E8575F196728D2000EDF2F /* Signpost@2x.png in Resources */,
-				04C651EA19600D36006D89FA /* VAU_Logo_80.png in Resources */,
 				04E8576619672920000EDF2F /* Shuffle.png in Resources */,
 				04E8575B196728A3000EDF2F /* Albums@2x.png in Resources */,
 				04E8575919672880000EDF2F /* Contact@2x.png in Resources */,
@@ -612,7 +564,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 20000;
@@ -632,7 +583,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 20000;
