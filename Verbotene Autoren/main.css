@@ -1,0 +1,36 @@
+:root {
+  color-scheme: light dark;
+}
+
+
+div {
+    font-size: 20pt;
+    font-family: Helvetica Neue;
+    margin-left: 20pt;
+    margin-right: 20pt;
+}
+
+div a {
+	color: #007FFF;
+    text-decoration: underline;
+	text-decoration-color: #007FFF;
+}
+
+h2 {
+	font-size: 20pt;
+    font-family: Helvetica Neue;
+    font-weight: bold;
+    margin: 40pt 20pt 10pt 20pt;
+
+}
+
+.buecher {
+    width: 100%;
+    margin: 20pt auto 20pt auto;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    background-color: #000000;
+    color: #ffffff;
+}
