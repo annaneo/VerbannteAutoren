@@ -18,7 +18,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     _prototypecell = [self.table dequeueReusableCellWithIdentifier:@"DetailCell"];
-    self.automaticallyAdjustsScrollViewInsets = NO;
     _table.delegate = self;
     _table.dataSource = self;
     _worksString = @"";
@@ -66,7 +65,7 @@
 
 
 - (void)fetchDataFromWikipedia {
-    NSString* baseUrl = @"http://de.wikipedia.org/w/api.php?";
+    NSString* baseUrl = @"https://de.wikipedia.org/w/api.php?";
     NSString* properties = @"format=json&action=query&prop=revisions&indexpageids&rvprop=content&rvparse&redirects";
     NSString* title = self.navigationItem.title;
     NSError *error = NULL;
@@ -101,7 +100,7 @@
     // getting gnd number
     // find stuff like http://d-nb.info/gnd/118781278
     
-    NSRegularExpression* gndRegex = [NSRegularExpression regularExpressionWithPattern:@"\\http://d-nb.info/gnd/([0-9]+)" options:NSRegularExpressionCaseInsensitive error:&error];
+    NSRegularExpression* gndRegex = [NSRegularExpression regularExpressionWithPattern:@"\\http(s)?://d-nb.info/gnd/([0-9]+)" options:NSRegularExpressionCaseInsensitive error:&error];
     if (error) {
         NSLog(@"GND Error: %@", [[error userInfo] objectForKey:@"NSInvalidValue"]);
     }
@@ -121,8 +120,8 @@
     if (!NSEqualRanges(rangeOfFirstMatch, NSMakeRange(NSNotFound, 0))) {
         NSString* substringForFirstMatch = [content substringWithRange:rangeOfFirstMatch];
         NSLog(@"first match image: %@", substringForFirstMatch);
-        if (![substringForFirstMatch hasPrefix:@"http://"]) {
-            substringForFirstMatch = [NSString stringWithFormat:@"http://%@", substringForFirstMatch];
+        if (![substringForFirstMatch hasPrefix:@"https://"]) {
+            substringForFirstMatch = [NSString stringWithFormat:@"https://%@", substringForFirstMatch];
         }
 
         NSURL* imageUrl = [NSURL URLWithString:substringForFirstMatch];
@@ -140,7 +139,7 @@
 }
 
 - (NSString*)fetchBiography {
-    NSString* baseUrl = @"http://de.wikipedia.org/w/api.php?";
+    NSString* baseUrl = @"https://de.wikipedia.org/w/api.php?";
     NSString* properties = @"format=json&action=query&prop=revisions&rvsection=0&indexpageids&rvprop=content&rvparse&redirects";
     NSString* title = self.navigationItem.title;
     NSError *error = NULL;
@@ -201,7 +200,7 @@
         return nil;
     }
     NSString* title = self.navigationItem.title;
-    NSString* urlString = [NSString stringWithFormat:@"http://de.wikipedia.org/wiki/%@", title];
+    NSString* urlString = [NSString stringWithFormat:@"https://de.wikipedia.org/wiki/%@", title];
     return [urlString stringByReplacingOccurrencesOfString:@" " withString:@"_"];
 }
 
@@ -252,7 +251,7 @@
     cell.content.text = @"";
     cell.image.image = nil;
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    cell.content.textColor = [UIColor blackColor];
+    cell.content.textColor = [UIColor labelColor];
     switch (row) {
         case 0:
             if (_biography.length > 0) {
@@ -278,14 +277,14 @@
             if (_wikiLink.length > 0) {
                 cell.title.text = @"Wikipedia";
                 cell.content.text = _wikiLink;
-                cell.content.textColor = [UIColor blueColor];
+                cell.content.textColor = [UIColor systemBlueColor];
             }
             break;
         case 4:
             if (_gndLink.length > 0) {
                 cell.title.text = @"GND";
                 cell.content.text = _gndLink;
-                cell.content.textColor = [UIColor blueColor];
+                cell.content.textColor = [UIColor systemBlueColor];
             }
             break;
 

@@ -20,12 +20,12 @@
                                 <rect key="frame" x="0.0" y="44" width="375" height="734"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KeX-G9-bJ2">
-                                <rect key="frame" x="146.66666666666666" y="703" width="82" height="30"/>
+                                <rect key="frame" x="147" y="703" width="81" height="30"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="82" id="Pli-Yw-Trd"/>
                                     <constraint firstAttribute="height" constant="30" id="ZhR-eB-O0W"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                 <state key="normal" title="Zur Liste">
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -77,7 +77,7 @@
                         <subviews>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KaN-mp-GNY">
                                 <rect key="frame" x="0.0" y="56" width="375" height="673"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
                                     <wkPreferences key="preferences"/>
@@ -85,7 +85,7 @@
                             </wkWebView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="F0R-Ai-xuv"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="KaN-mp-GNY" firstAttribute="top" secondItem="F0R-Ai-xuv" secondAttribute="top" id="GNQ-HB-cM5"/>
                             <constraint firstItem="KaN-mp-GNY" firstAttribute="leading" secondItem="F0R-Ai-xuv" secondAttribute="leading" id="dec-Bo-D2D"/>
@@ -100,7 +100,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z29-bh-a7J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2528.985507246377" y="381.69642857142856"/>
+            <point key="canvasLocation" x="2528.8000000000002" y="381.2807881773399"/>
         </scene>
         <!--Informationen zur App-->
         <scene sceneID="DIH-w4-s8P">
@@ -112,7 +112,7 @@
                         <subviews>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sXP-dG-jmT">
                                 <rect key="frame" x="0.0" y="56" width="375" height="673"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
                                     <wkPreferences key="preferences"/>
@@ -120,7 +120,7 @@
                             </wkWebView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="YGW-gp-6bA"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="sXP-dG-jmT" firstAttribute="top" secondItem="YGW-gp-6bA" secondAttribute="top" id="CHd-BM-HZo"/>
                             <constraint firstItem="sXP-dG-jmT" firstAttribute="leading" secondItem="YGW-gp-6bA" secondAttribute="leading" id="R3P-VX-3VM"/>
@@ -164,7 +164,7 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="interactive" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="YXl-tz-FqK">
                                 <rect key="frame" x="0.0" y="57" width="375" height="672"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <searchBar key="tableHeaderView" contentMode="redraw" id="HS1-Gz-PdD">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="51"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
@@ -190,7 +190,7 @@
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cyi-Ox-6yY"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="YXl-tz-FqK" firstAttribute="leading" secondItem="cyi-Ox-6yY" secondAttribute="leading" id="UZ9-0d-WUX"/>
                             <constraint firstItem="cyi-Ox-6yY" firstAttribute="trailing" secondItem="YXl-tz-FqK" secondAttribute="trailing" id="W2P-8q-6Qv"/>
@@ -221,14 +221,14 @@
                                 <rect key="frame" x="0.0" y="56" width="375" height="702"/>
                                 <subviews>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="141" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="rIk-yE-Hhs">
-                                        <rect key="frame" x="0.0" y="0.0" width="336" height="618"/>
-                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="702"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <prototypes>
                                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DetailCell" rowHeight="141" id="TRo-Jg-xO2" customClass="VAUDetailTableViewCell">
-                                                <rect key="frame" x="0.0" y="44.666666030883789" width="336" height="141"/>
+                                                <rect key="frame" x="0.0" y="44.666666030883789" width="375" height="141"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TRo-Jg-xO2" id="EzB-fO-tPU">
-                                                    <rect key="frame" x="0.0" y="0.0" width="336" height="141"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="141"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="280" placeholderIntrinsicHeight="17" text="Biographie" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZSh-L4-pHC">
@@ -238,10 +238,8 @@
                                                         </label>
                                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" placeholderIntrinsicWidth="280" placeholderIntrinsicHeight="98" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="HPu-Ou-0si">
                                                             <rect key="frame" x="20" y="36" width="335" height="105"/>
-                                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <string key="text">Otto Abeles (* 1. Mai 1879 in Rohatetz bei Nikolsburg, Mähren; † 25. Mai 1945 in Tröbnitz, Sachsen) war ein österreichischer Journalist, Schriftsteller, Musikkritiker und Zionist.</string>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                            <color key="textColor" systemColor="darkTextColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1BV-vI-wET">
@@ -287,7 +285,7 @@
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="03K-1m-egE"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="03K-1m-egE" firstAttribute="trailing" secondItem="ob1-g9-RSv" secondAttribute="trailing" id="1y3-gm-edp"/>
                             <constraint firstItem="ob1-g9-RSv" firstAttribute="leading" secondItem="03K-1m-egE" secondAttribute="leading" id="3hY-pk-Rf8"/>
@@ -319,18 +317,17 @@
                                     <constraint firstAttribute="height" constant="21" id="w6F-y4-2yj"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" systemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="141" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Cm9-86-X1n">
-                                <rect key="frame" x="0.0" y="41" width="336" height="602"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="0.0" y="41" width="375" height="686"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RandomCell" rowHeight="141" id="0qz-vX-HWu" customClass="VAURandomTableViewCell">
-                                        <rect key="frame" x="0.0" y="44.666666030883789" width="336" height="141"/>
+                                        <rect key="frame" x="0.0" y="44.666666030883789" width="375" height="141"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0qz-vX-HWu" id="IUK-TF-6Hc">
-                                            <rect key="frame" x="0.0" y="0.0" width="336" height="141"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="141"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4zc-cJ-Wa8">
@@ -342,6 +339,7 @@
                                                     <rect key="frame" x="20" y="41" width="335" height="100"/>
                                                     <string key="text">Otto Abeles (* 1. Mai 1879 in Rohatetz bei Nikolsburg, Mähren; † 25. Mai 1945 in Tröbnitz, Sachsen) war ein österreichischer Journalist, Schriftsteller, Musikkritiker und Zionist.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QYk-3n-boQ">
@@ -376,7 +374,7 @@
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="U9u-ft-NyZ"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Cm9-86-X1n" firstAttribute="leading" secondItem="U9u-ft-NyZ" secondAttribute="leading" id="8jN-yd-Z5D"/>
                             <constraint firstItem="U9u-ft-NyZ" firstAttribute="trailing" secondItem="Cm9-86-X1n" secondAttribute="trailing" id="DbF-ze-ZKc"/>

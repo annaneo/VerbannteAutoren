@@ -1,6 +1,7 @@
-body {
-   
+:root {
+  color-scheme: light dark;
 }
+
 
 div {
     font-size: 20pt;
@@ -26,4 +27,10 @@ h2 {
 .buecher {
     width: 100%;
     margin: 20pt auto 20pt auto;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    background-color: #000000;
+    color: #ffffff;
 }
